@@ -5,6 +5,8 @@ Painel e pipeline de análise do TCC **"A dimensão multidimensional da valoriza
 - **Autor:** Edvaldo Pinto Maninho Júnior – Tecnologia em Sistemas para Internet, Instituto Federal de Brasília (IFB)
 - **Orientador:** Prof. Gustavo Henrique Dornelas de Deus
 
+**Painel online:** https://valorizacao-docente.streamlit.app
+
 ## O que é
 
 Os dados públicos do [Portal Integra](https://integra.ifrs.edu.br) (currículos Lattes e indicadores Qualis) de **34.282 docentes efetivos de 33 instituições** da Rede Federal foram usados para:
