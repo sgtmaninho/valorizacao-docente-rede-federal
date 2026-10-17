@@ -1,0 +1,18 @@
+__pycache__/
+.venv/
+.DS_Store
+# dados brutos e intermediários (grandes; regenerados por extractor.py / transformer.py / analise_*.py)
+data/raw/
+data/raw_series/
+data/processed/
+data/analise/*.csv
+data/analise/*.json
+data/analise/doc/
+data/analise/series/painel_docente_ano.csv
+data/analise/series/janelas_indices.csv
+data/analise/ranking/ranking_score_perfil.csv
+data/analise/ranking/score_perfil_docentes.csv
+data/analise/ranking/fig/
+data/dashboard/telas/
+*.log
+_tmp/

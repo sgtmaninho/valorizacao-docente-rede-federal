@@ -1,0 +1,6 @@
+﻿perfil,peso_F1,peso_F2,peso_F3,peso_F4,centroide_F1,centroide_F2,centroide_F3,centroide_F4,regra,pilares_dominantes
+Baixo registro,0.25,0.25,0.25,0.25,-0.915,-0.878,-0.85,-0.364,sem pilar dominante: pesos iguais,—
+Extensionista-difusor,0.2118,0.6882,0.05,0.05,0.271,1.067,0.131,-0.149,80% pilares dominantes (proporcional ao centróide) + 20% igual entre os 4,"Produção científica, Difusão e extensão"
+Gestor-formador,0.05,0.05,0.85,0.05,-0.035,0.221,0.938,-0.066,80% pilares dominantes (proporcional ao centróide) + 20% igual entre os 4,Gestão e ensino
+Pesquisador acadêmico,0.85,0.05,0.05,0.05,0.717,-0.075,-0.101,-0.114,80% pilares dominantes (proporcional ao centróide) + 20% igual entre os 4,Produção científica
+Pesquisador-formador,0.2314,0.1786,0.1859,0.4041,1.532,1.086,1.148,2.99,80% pilares dominantes (proporcional ao centróide) + 20% igual entre os 4,"Produção científica, Difusão e extensão, Gestão e ensino, Pós-graduação e inovação"

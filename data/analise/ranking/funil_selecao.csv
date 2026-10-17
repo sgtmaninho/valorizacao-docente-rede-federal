@@ -1,0 +1,9 @@
+﻿etapa,n,fonte
+"Instituições da Rede Federal (IFs, CEFETs e UTFPR)",41,Lei 11.892/2008
+Instituições com endereço de portal Integra testado,40,config.py
+Portais que responderam com dados de pessoas,35,cobertura_extracao.csv
+Instituições incluídas (cobertura ≥ 50% e ≥ 100 servidores),33,critério de inclusão
+Servidores listados nos portais das incluídas,67416,API pessoa/data
+Servidores extraídos,67416,data/raw
+Docentes (cargo de professor),39799,cargo/tipo
+Docentes efetivos (amostra analítica),34282,situação funcional

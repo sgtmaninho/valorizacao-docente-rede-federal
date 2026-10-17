@@ -1,0 +1,34 @@
+﻿sigla,instituicao,uf,regiao,servidores_portal,docentes_efetivos,campi,pct_doutores,artigos_total,qualis_A_total,artigos_por_docente,pct_sem_producao,pct_lattes_mais_2anos,pct_baixo_registro,registros_producao,posicao_volume_dados
+IFSP,Instituto Federal de São Paulo,SP,Sudeste,5049,2744.0,37.0,53.24,15586.0,5484.0,5.68,24.56,16.62,43.22,57396.0,1
+IFPR,Instituto Federal do Paraná,PR,Sul,2539,1536.0,27.0,57.62,13694.0,4913.0,8.92,5.53,21.88,21.74,50239.0,2
+IFRS,Instituto Federal do Rio Grande do Sul,RS,Sul,2417,1243.0,20.0,69.67,11700.0,4746.0,9.41,4.1,9.49,14.72,49913.0,3
+IFGOIANO,Instituto Federal Goiano,GO,Centro-Oeste,1567,806.0,14.0,69.98,16542.0,6295.0,20.52,4.84,17.25,16.38,49853.0,4
+IFCE,Instituto Federal do Ceará,CE,Nordeste,4407,1460.0,33.0,51.92,12615.0,4730.0,8.64,13.49,40.68,35.62,43065.0,5
+IFMA,Instituto Federal do Maranhão,MA,Nordeste,3242,1839.0,32.0,39.1,11956.0,4052.0,6.5,15.93,23.87,39.48,42995.0,6
+IFSC,Instituto Federal de Santa Catarina,SC,Sul,2796,1520.0,23.0,62.43,12262.0,4673.0,8.07,6.64,23.95,27.24,41820.0,7
+IFFAR,Instituto Federal Farroupilha,RS,Sul,1684,788.0,12.0,65.61,8410.0,3253.0,10.67,3.17,26.02,10.41,37369.0,8
+IFPB,Instituto Federal da Paraíba,PB,Nordeste,2408,1361.0,17.0,52.02,9634.0,2853.0,7.08,8.45,39.75,35.19,37282.0,9
+IFPA,Instituto Federal do Pará,PA,Norte,2471,1454.0,19.0,41.54,12177.0,3728.0,8.37,10.32,17.54,33.08,36460.0,10
+IFRN,Instituto Federal do Rio Grande do Norte,RN,Nordeste,2644,1518.0,23.0,41.63,8651.0,3094.0,5.7,12.45,99.67,43.61,35332.0,11
+IFRJ,Instituto Federal do Rio de Janeiro,RJ,Sudeste,1795,1060.0,16.0,67.74,10684.0,4800.0,10.08,9.25,23.3,23.58,34389.0,12
+IFBA,Instituto Federal da Bahia,BA,Nordeste,3434,1782.0,2.0,44.78,9418.0,3205.0,5.29,15.38,31.76,37.37,33644.0,13
+IFG,Instituto Federal de Goiás,GO,Centro-Oeste,2074,1146.0,16.0,63.09,8908.0,3347.0,7.77,7.94,19.98,22.69,31972.0,14
+IFMG,Instituto Federal de Minas Gerais,MG,Sudeste,2023,1064.0,20.0,60.62,9150.0,3174.0,8.6,8.18,22.18,25.66,28399.0,15
+IFC,Instituto Federal Catarinense,SC,Sul,2244,698.0,16.0,65.62,7621.0,2890.0,10.92,8.45,20.06,21.06,27951.0,16
+IFPE,Instituto Federal de Pernambuco,PE,Nordeste,2021,1189.0,17.0,46.01,7614.0,2427.0,6.4,17.33,35.41,43.82,27062.0,17
+IFRO,Instituto Federal de Rondônia,RO,Norte,2536,943.0,11.0,40.3,8630.0,2547.0,9.15,10.92,18.98,33.09,25999.0,18
+IFSULDEMINAS,Instituto Federal do Sul de Minas Gerais,MG,Sudeste,1213,653.0,10.0,69.37,7293.0,2137.0,11.17,8.73,22.66,20.52,25076.0,19
+IFTM,Instituto Federal do Triângulo Mineiro,MG,Sudeste,1320,638.0,9.0,60.82,6365.0,2016.0,9.98,6.74,19.91,18.65,24610.0,20
+IFAL,Instituto Federal de Alagoas,AL,Nordeste,1969,1028.0,17.0,48.64,7090.0,2413.0,6.9,13.42,29.77,34.24,23050.0,21
+IFSUDESTEMG,Instituto Federal do Sudeste de Minas Gerais,MG,Sudeste,1601,625.0,11.0,58.72,6519.0,2117.0,10.43,7.52,24.32,20.96,21944.0,22
+IFNMG,Instituto Federal do Norte de Minas Gerais,MG,Sudeste,1456,727.0,12.0,47.18,6403.0,2087.0,8.81,11.83,30.81,27.79,21571.0,23
+IFF,Instituto Federal Fluminense,RJ,Sudeste,1697,993.0,14.0,48.14,6589.0,2221.0,6.64,16.82,32.23,45.12,20311.0,24
+IFAM,Instituto Federal do Amazonas,AM,Norte,2082,981.0,18.0,32.52,7044.0,2500.0,7.18,16.21,23.45,44.65,19261.0,25
+IFTO,Instituto Federal do Tocantins,TO,Norte,1257,687.0,11.0,46.87,6193.0,2043.0,9.01,9.32,24.6,32.17,18599.0,26
+IFSERTAOPE,Instituto Federal do Sertão Pernambucano,PE,Nordeste,1260,640.0,8.0,42.66,5216.0,1882.0,8.15,17.97,22.97,38.44,17570.0,27
+IFS,Instituto Federal de Sergipe,SE,Nordeste,1520,700.0,9.0,50.71,4873.0,1659.0,6.96,9.71,15.43,32.29,17144.0,28
+IFB,Instituto Federal de Brasília,DF,Centro-Oeste,1262,717.0,10.0,54.11,4535.0,1893.0,6.32,13.95,23.85,34.03,15406.0,29
+IFMS,Instituto Federal de Mato Grosso do Sul,MS,Centro-Oeste,1147,603.0,11.0,44.78,4239.0,1269.0,7.03,10.78,0.0,33.83,15226.0,30
+IFAC,Instituto Federal do Acre,AC,Norte,805,479.0,6.0,32.99,3291.0,949.0,6.87,18.16,16.28,44.26,9279.0,31
+IFAP,Instituto Federal do Amapá,AP,Norte,810,361.0,6.0,33.52,2747.0,731.0,7.61,15.79,13.3,36.01,7986.0,32
+IFRR,Instituto Federal de Roraima,RR,Norte,666,299.0,6.0,33.11,1824.0,491.0,6.1,16.72,24.75,39.8,6256.0,33

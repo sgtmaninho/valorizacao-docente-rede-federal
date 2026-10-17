@@ -1,0 +1,320 @@
+{
+  "amostra": {
+    "docentes": 34282,
+    "instituicoes": 33,
+    "campi": 531,
+    "ufs": 24,
+    "pct_interior": 76.8
+  },
+  "totais_producao": {
+    "artigos": 275473,
+    "artigos_qualis_A": 96619,
+    "artigos_qualis_B": 63762,
+    "livros": 26254,
+    "capitulos": 73860,
+    "software_patentes": 8186,
+    "orient_mestrado": 19116,
+    "orient_doutorado": 1816
+  },
+  "insight_1_desigualdade_regional": {
+    "texto": "A diferença entre regiões em artigos Qualis A cai quando a composição de titulação é igualada: a desigualdade regional é, em boa parte, desigualdade de acesso ao doutorado.",
+    "amplitude_bruta": 1.628,
+    "amplitude_padronizada": 0.828,
+    "reducao_pct": 49.1,
+    "regioes": [
+      {
+        "regiao": "Centro-Oeste",
+        "docentes": 3272,
+        "pct_doutores": 59.444,
+        "qualisA_bruto": 3.913,
+        "qualisA_padronizado_titulacao": 3.364,
+        "IM_medio": 18.473
+      },
+      {
+        "regiao": "Sul",
+        "docentes": 5785,
+        "pct_doutores": 63.526,
+        "qualisA_bruto": 3.539,
+        "qualisA_padronizado_titulacao": 2.975,
+        "IM_medio": 18.654
+      },
+      {
+        "regiao": "Sudeste",
+        "docentes": 8504,
+        "pct_doutores": 57.067,
+        "qualisA_bruto": 2.826,
+        "qualisA_padronizado_titulacao": 2.536,
+        "IM_medio": 16.094
+      },
+      {
+        "regiao": "Norte",
+        "docentes": 5204,
+        "pct_doutores": 38.49,
+        "qualisA_bruto": 2.496,
+        "qualisA_padronizado_titulacao": 3.25,
+        "IM_medio": 14.086
+      },
+      {
+        "regiao": "Nordeste",
+        "docentes": 11517,
+        "pct_doutores": 45.932,
+        "qualisA_bruto": 2.285,
+        "qualisA_padronizado_titulacao": 2.704,
+        "IM_medio": 15.305
+      }
+    ],
+    "capital_x_interior": {
+      "doutor": 1.0,
+      "art_qualis_A": 0.95,
+      "artigos_total": 0.85,
+      "orient_mestrado": 1.83,
+      "extensao": 0.89,
+      "gestao": 0.91,
+      "IM": 1.05,
+      "IPA_T": 0.97
+    },
+    "mann_whitney_IM_p": 0.18477550211731908
+  },
+  "insight_2_carreira_longa": {
+    "texto": "Tempo de carreira não se converte em mais produção Qualis A: a relação é fraca e, controlando titulação, negativa (IRR do log dos anos de carreira < 1 na regressão).",
+    "spearman_anos_carreira_qualisA": -0.099,
+    "IRR_log_anos_carreira": 0.516,
+    "faixas": [
+      {
+        "faixa_carreira": "até 10",
+        "docentes": 1265,
+        "qualisA_medio": 2.185,
+        "qualisA_mediana": 1.0,
+        "pct_doutor": 21.7,
+        "gestao": 1.157,
+        "IM": 9.174,
+        "SP": 45.016
+      },
+      {
+        "faixa_carreira": "11–20",
+        "docentes": 15532,
+        "qualisA_medio": 3.069,
+        "qualisA_mediana": 1.0,
+        "pct_doutor": 50.7,
+        "gestao": 3.517,
+        "IM": 15.236,
+        "SP": 58.681
+      },
+      {
+        "faixa_carreira": "21–30",
+        "docentes": 11848,
+        "qualisA_medio": 2.936,
+        "qualisA_mediana": 1.0,
+        "pct_doutor": 57.699999999999996,
+        "gestao": 5.117,
+        "IM": 18.563,
+        "SP": 62.976
+      },
+      {
+        "faixa_carreira": "> 30",
+        "docentes": 4789,
+        "qualisA_medio": 2.23,
+        "qualisA_mediana": 0.0,
+        "pct_doutor": 55.60000000000001,
+        "gestao": 5.293,
+        "IM": 17.345,
+        "SP": 56.408
+      }
+    ]
+  },
+  "insight_3_um_terco_baixo_registro": {
+    "texto": "Cerca de um terço dos docentes efetivos está no perfil de baixo registro: pouca ou nenhuma atividade lançada no Lattes, o que é sub-registro, não necessariamente baixa atuação.",
+    "pct_baixo_registro": 32.2,
+    "pct_sem_producao": 12.1,
+    "pct_lattes_mais_2anos": 27.1,
+    "pct_baixo_registro_lattes_desatualizado": 45.5
+  },
+  "areas": {
+    "menor_qualisA": "Linguistica Letras E Artes",
+    "maior_qualisA": "Ciencias Agrarias",
+    "menor_obs_esp": "Engenharias",
+    "maior_obs_esp": "Ciencias Agrarias",
+    "grupos_areas": 3,
+    "silhouette_areas": 0.425
+  },
+  "clusters": {
+    "k_comparacao": [
+      {
+        "k": 4,
+        "silhouette": 0.234,
+        "inercia": 76589.0,
+        "tamanhos_pct": "36.8 / 29.5 / 26.5 / 7.2",
+        "ARI_vs_k5": 0.676
+      },
+      {
+        "k": 5,
+        "silhouette": 0.252,
+        "inercia": 64607.1,
+        "tamanhos_pct": "32.2 / 22.5 / 21.7 / 17.4 / 6.1",
+        "ARI_vs_k5": 1.0
+      },
+      {
+        "k": 6,
+        "silhouette": 0.236,
+        "inercia": 59893.6,
+        "tamanhos_pct": "30.9 / 17.8 / 16.4 / 14.8 / 14.3 / 5.7",
+        "ARI_vs_k5": 0.74
+      }
+    ],
+    "associacao": [
+      {
+        "variavel": "titulacao",
+        "V_de_Cramer": 0.294
+      },
+      {
+        "variavel": "grande_area",
+        "V_de_Cramer": 0.231
+      },
+      {
+        "variavel": "sigla",
+        "V_de_Cramer": 0.137
+      },
+      {
+        "variavel": "regiao",
+        "V_de_Cramer": 0.088
+      },
+      {
+        "variavel": "localizacao",
+        "V_de_Cramer": 0.075
+      }
+    ]
+  },
+  "score_perfil": {
+    "pesos": [
+      {
+        "perfil": "Baixo registro",
+        "peso_F1": 0.25,
+        "peso_F2": 0.25,
+        "peso_F3": 0.25,
+        "peso_F4": 0.25,
+        "centroide_F1": -0.915,
+        "centroide_F2": -0.878,
+        "centroide_F3": -0.85,
+        "centroide_F4": -0.364,
+        "regra": "sem pilar dominante: pesos iguais",
+        "pilares_dominantes": "—"
+      },
+      {
+        "perfil": "Extensionista-difusor",
+        "peso_F1": 0.2118,
+        "peso_F2": 0.6882,
+        "peso_F3": 0.05,
+        "peso_F4": 0.05,
+        "centroide_F1": 0.271,
+        "centroide_F2": 1.067,
+        "centroide_F3": 0.131,
+        "centroide_F4": -0.149,
+        "regra": "80% pilares dominantes (proporcional ao centróide) + 20% igual entre os 4",
+        "pilares_dominantes": "Produção científica, Difusão e extensão"
+      },
+      {
+        "perfil": "Gestor-formador",
+        "peso_F1": 0.05,
+        "peso_F2": 0.05,
+        "peso_F3": 0.85,
+        "peso_F4": 0.05,
+        "centroide_F1": -0.035,
+        "centroide_F2": 0.221,
+        "centroide_F3": 0.938,
+        "centroide_F4": -0.066,
+        "regra": "80% pilares dominantes (proporcional ao centróide) + 20% igual entre os 4",
+        "pilares_dominantes": "Gestão e ensino"
+      },
+      {
+        "perfil": "Pesquisador acadêmico",
+        "peso_F1": 0.85,
+        "peso_F2": 0.05,
+        "peso_F3": 0.05,
+        "peso_F4": 0.05,
+        "centroide_F1": 0.717,
+        "centroide_F2": -0.075,
+        "centroide_F3": -0.101,
+        "centroide_F4": -0.114,
+        "regra": "80% pilares dominantes (proporcional ao centróide) + 20% igual entre os 4",
+        "pilares_dominantes": "Produção científica"
+      },
+      {
+        "perfil": "Pesquisador-formador",
+        "peso_F1": 0.2314,
+        "peso_F2": 0.1786,
+        "peso_F3": 0.1859,
+        "peso_F4": 0.4041,
+        "centroide_F1": 1.532,
+        "centroide_F2": 1.086,
+        "centroide_F3": 1.148,
+        "centroide_F4": 2.99,
+        "regra": "80% pilares dominantes (proporcional ao centróide) + 20% igual entre os 4",
+        "pilares_dominantes": "Produção científica, Difusão e extensão, Gestão e ensino, Pós-graduação e inovação"
+      }
+    ],
+    "concordancia": {
+      "SP x IPA-T": {
+        "spearman": 0.9218638325000731,
+        "top10_coincide_pct": 71.17852975495916,
+        "mesmo_decil_pct": 40.62773467125606,
+        "muda_2_ou_mais_decis_pct": 19.182078058456334,
+        "desloc_mediano": 2205.25,
+        "desloc_p90": 6583.9000000000015,
+        "pct_move_mais_10pct_do_ranking": 33.59488944635669
+      },
+      "SP x IPA-R": {
+        "spearman": 0.937282110634833,
+        "top10_coincide_pct": 72.0828471411902,
+        "mesmo_decil_pct": 45.87538650020419,
+        "muda_2_ou_mais_decis_pct": 14.115279155241817,
+        "desloc_mediano": 1798.25,
+        "desloc_p90": 5752.9000000000015,
+        "pct_move_mais_10pct_do_ranking": 26.36952336503121
+      },
+      "SP x IM": {
+        "spearman": 0.9302688621530288,
+        "top10_coincide_pct": 68.58226371061843,
+        "mesmo_decil_pct": 43.56513622309083,
+        "muda_2_ou_mais_decis_pct": 17.07309958578846,
+        "desloc_mediano": 1974.5,
+        "desloc_p90": 6323.950000000001,
+        "pct_move_mais_10pct_do_ranking": 30.202438597514732
+      },
+      "SP x PC1": {
+        "spearman": 0.9639260988746111,
+        "top10_coincide_pct": 78.87981330221703,
+        "mesmo_decil_pct": 54.49798728195554,
+        "muda_2_ou_mais_decis_pct": 7.549151158042121,
+        "desloc_mediano": 1300.0,
+        "desloc_p90": 4357.9000000000015,
+        "pct_move_mais_10pct_do_ranking": 16.778484335803046
+      }
+    },
+    "top10_composicao": {
+      "IPA-T": {
+        "Extensionista-difusor": 27.2,
+        "Gestor-formador": 15.7,
+        "Pesquisador acadêmico": 18.2,
+        "Pesquisador-formador": 38.9
+      },
+      "IPA-R": {
+        "Extensionista-difusor": 34.1,
+        "Gestor-formador": 11.6,
+        "Pesquisador acadêmico": 15.0,
+        "Pesquisador-formador": 39.4
+      },
+      "IM": {
+        "Extensionista-difusor": 24.5,
+        "Gestor-formador": 17.4,
+        "Pesquisador acadêmico": 6.4,
+        "Pesquisador-formador": 51.8
+      },
+      "Score por Perfil": {
+        "Extensionista-difusor": 22.3,
+        "Gestor-formador": 28.9,
+        "Pesquisador acadêmico": 19.6,
+        "Pesquisador-formador": 29.2
+      }
+    }
+  }
+}
