@@ -145,5 +145,20 @@ def main():
     fig.tight_layout(); fig.savefig(OUT / "fig_series_regiao_janelas.png"); plt.close(fig)
 
 
+def fig_si():
+    a = pd.read_csv(AN / "ranking" / "ranking_institucional_si.csv", encoding="utf-8-sig").sort_values("SI")
+    cores_f = {1: AZUL, 2: "#5d97df", 3: "#8fb6e8", 4: LARANJA, 5: "#f19a6e", 6: CINZA}
+    fig, ax = plt.subplots(figsize=(7.2, 6.4))
+    y = np.arange(len(a))
+    ax.barh(y, a["SI"], color=[cores_f.get(f, CINZA) for f in a["faixa"]], height=0.7)
+    ax.errorbar(a["SI"], y, xerr=[a["SI"] - a["IC_inf"], a["IC_sup"] - a["SI"]], fmt="none", ecolor="black", elinewidth=0.7, capsize=2)
+    ax.set_yticks(y); ax.set_yticklabels([f"{s_}  (faixa {f})" for s_, f in zip(a["sigla"], a["faixa"])], fontsize=7)
+    ax.set_xlabel("Score Institucional (0–100)"); ax.set_xlim(30, 62)
+    fig.tight_layout(); fig.savefig(OUT / "fig_si_instituicoes.png"); plt.close(fig)
+
+
 if __name__ == "__main__":
+    import sys
+    if "--si" in sys.argv:
+        fig_si(); raise SystemExit
     main()
