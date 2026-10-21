@@ -302,7 +302,8 @@ def main():
         Zp = np.log1p(a[vs].fillna(0).astype(float)); Zp = (Zp - Zp.mean()) / Zp.std()
         a[f"E_{f}"] = Zp.mean(axis=1)
         a[f"E_{f}"] = (a[f"E_{f}"] - a[f"E_{f}"].mean()) / a[f"E_{f}"].std()
-        a[f"P_{f}"] = (100 * a[f"E_{f}"].rank(pct=True)).round(2)    # pilar 0–100 (percentil)
+        # pilar 0–100 = % de docentes da Rede com escore estritamente menor; quem não tem registro fica com 0
+        a[f"P_{f}"] = (100 * (a[f"E_{f}"].rank(method="min") - 1) / (len(a) - 1)).round(2)
     cent = a.groupby("perfil")[[f"E_{f}" for f in PILARES]].mean()
     cent.columns = list(PILARES)
     pesos = []

@@ -23,7 +23,22 @@ pip install -r requirements.txt
 streamlit run dashboard.py
 ```
 
-Abas: Ranking, Comparar professores, Perfis (Clusters), Classificação por Área, Publicações, Insights, Funil e Cobertura, Séries temporais, Instituições e Campi, Dados Detalhados e Sobre.
+O painel tem dois segmentos no menu superior; os filtros da barra lateral valem para os dois.
+
+**🏛️ Instituição** – ranking institucional (região, instituição ou campus) pelo **Score Institucional (SI)**, com
+intervalo de confiança de 95% e faixas de empate estatístico; comparação de 2 a 4 instituições; regiões e
+localização (capital × interior); funil e cobertura; séries temporais; dados agregados; sobre.
+
+**👩‍🏫 Docente** – ranking de docentes pelo **Score por Perfil (SP)** e pelos índices de comparação, com ficha do
+docente; comparação de professores; perfis (K-Means); áreas; publicações; quem ganha e quem perde; dados; sobre.
+
+### Fórmulas
+
+- Pilar do docente *i* na dimensão *k*: `P_ik = 100 × (nº de docentes com escala k menor) / (N − 1)`.
+- **Score por Perfil:** `SP_i = Σ_k w_pk · P_ik`, com 80% do peso nos pilares dominantes do perfil *p*
+  (centróide > 0,25 dp, proporcional ao centróide) e 20% igual entre os quatro pilares.
+- **Score Institucional:** `SI_j = média_i∈j ( Σ_k w_k · P_ik )`, pesos padrão de 25% por pilar;
+  `IC95% = SI_j ± 1,96 · dp/√n_j`. Implementação em `ranking_institucional.py`.
 
 ## Pipeline completo (regenera os dados)
 

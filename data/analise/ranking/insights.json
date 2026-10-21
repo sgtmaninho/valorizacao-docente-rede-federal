@@ -88,7 +88,7 @@
         "pct_doutor": 21.7,
         "gestao": 1.157,
         "IM": 9.174,
-        "SP": 45.016
+        "SP": 40.512
       },
       {
         "faixa_carreira": "11–20",
@@ -98,7 +98,7 @@
         "pct_doutor": 50.7,
         "gestao": 3.517,
         "IM": 15.236,
-        "SP": 58.681
+        "SP": 55.938
       },
       {
         "faixa_carreira": "21–30",
@@ -108,7 +108,7 @@
         "pct_doutor": 57.699999999999996,
         "gestao": 5.117,
         "IM": 18.563,
-        "SP": 62.976
+        "SP": 60.536
       },
       {
         "faixa_carreira": "> 30",
@@ -118,7 +118,7 @@
         "pct_doutor": 55.60000000000001,
         "gestao": 5.293,
         "IM": 17.345,
-        "SP": 56.408
+        "SP": 53.043
       }
     ]
   },
@@ -254,40 +254,40 @@
     ],
     "concordancia": {
       "SP x IPA-T": {
-        "spearman": 0.9218638325000731,
-        "top10_coincide_pct": 71.17852975495916,
-        "mesmo_decil_pct": 40.62773467125606,
-        "muda_2_ou_mais_decis_pct": 19.182078058456334,
-        "desloc_mediano": 2205.25,
-        "desloc_p90": 6583.9000000000015,
-        "pct_move_mais_10pct_do_ranking": 33.59488944635669
+        "spearman": 0.9209981833480482,
+        "top10_coincide_pct": 71.14935822637106,
+        "mesmo_decil_pct": 40.46438364156117,
+        "muda_2_ou_mais_decis_pct": 19.482527273787994,
+        "desloc_mediano": 2216.5,
+        "desloc_p90": 6591.950000000001,
+        "pct_move_mais_10pct_do_ranking": 34.076191587421974
       },
       "SP x IPA-R": {
-        "spearman": 0.937282110634833,
-        "top10_coincide_pct": 72.0828471411902,
-        "mesmo_decil_pct": 45.87538650020419,
-        "muda_2_ou_mais_decis_pct": 14.115279155241817,
-        "desloc_mediano": 1798.25,
-        "desloc_p90": 5752.9000000000015,
-        "pct_move_mais_10pct_do_ranking": 26.36952336503121
+        "spearman": 0.9357960268513824,
+        "top10_coincide_pct": 71.96616102683781,
+        "mesmo_decil_pct": 45.60119012893063,
+        "muda_2_ou_mais_decis_pct": 14.555743538883378,
+        "desloc_mediano": 1821.0,
+        "desloc_p90": 5821.9000000000015,
+        "pct_move_mais_10pct_do_ranking": 27.2329502362756
       },
       "SP x IM": {
-        "spearman": 0.9302688621530288,
-        "top10_coincide_pct": 68.58226371061843,
-        "mesmo_decil_pct": 43.56513622309083,
-        "muda_2_ou_mais_decis_pct": 17.07309958578846,
-        "desloc_mediano": 1974.5,
-        "desloc_p90": 6323.950000000001,
-        "pct_move_mais_10pct_do_ranking": 30.202438597514732
+        "spearman": 0.9332178302021819,
+        "top10_coincide_pct": 70.07001166861143,
+        "mesmo_decil_pct": 44.209789393851004,
+        "muda_2_ou_mais_decis_pct": 16.317601073449623,
+        "desloc_mediano": 1926.0,
+        "desloc_p90": 6185.450000000001,
+        "pct_move_mais_10pct_do_ranking": 29.295256986173502
       },
       "SP x PC1": {
-        "spearman": 0.9639260988746111,
-        "top10_coincide_pct": 78.87981330221703,
-        "mesmo_decil_pct": 54.49798728195554,
-        "muda_2_ou_mais_decis_pct": 7.549151158042121,
-        "desloc_mediano": 1300.0,
-        "desloc_p90": 4357.9000000000015,
-        "pct_move_mais_10pct_do_ranking": 16.778484335803046
+        "spearman": 0.9636126400543923,
+        "top10_coincide_pct": 79.4049008168028,
+        "mesmo_decil_pct": 54.45131555918557,
+        "muda_2_ou_mais_decis_pct": 7.832098477335045,
+        "desloc_mediano": 1317.0,
+        "desloc_p90": 4422.5,
+        "pct_move_mais_10pct_do_ranking": 17.458141298640687
       }
     },
     "top10_composicao": {
@@ -310,10 +310,10 @@
         "Pesquisador-formador": 51.8
       },
       "Score por Perfil": {
-        "Extensionista-difusor": 22.3,
-        "Gestor-formador": 28.9,
-        "Pesquisador acadêmico": 19.6,
-        "Pesquisador-formador": 29.2
+        "Extensionista-difusor": 22.0,
+        "Gestor-formador": 27.8,
+        "Pesquisador acadêmico": 19.7,
+        "Pesquisador-formador": 30.5
       }
     }
   }
