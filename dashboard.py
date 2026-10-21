@@ -33,7 +33,7 @@ COR_PERFIL = {"Pesquisador-formador": ROXO, "Pesquisador acadêmico": AZUL, "Ges
               "Extensionista-difusor": LARANJA, "Baixo registro": CINZA}
 INDICES = {"SP": "Score por Perfil", "IPA_T": "IPA-T (tabela UTFPR adaptada)", "IPA_R": "IPA-R (tabelas RSC IFMG/IFPE)",
            "IM": "IM (índice multidimensional)", "indice_PC1": "PC1 (pesos dos dados)"}
-IND_INST = {"SI": "Score Institucional (SI)", "SP_medio": "Score por Perfil médio", "IPA_T_medio": "IPA-T médio",
+IND_INST = {"SI": "Score Institucional (SI)", "valor_agregado": "Valor agregado (SI − esperado)", "SP_medio": "Score por Perfil médio", "IPA_T_medio": "IPA-T médio",
             "IPA_R_medio": "IPA-R médio", "IM_medio": "IM médio"}
 ROT_ITEM = {"nivel_titulacao": "Titulação", "art_qualis_A": "Artigos Qualis A", "art_qualis_B": "Artigos Qualis B",
             "art_qualis_C_sem": "Artigos C/sem Qualis", "livros": "Livros", "capitulos": "Capítulos",
@@ -177,7 +177,7 @@ else:
 
 # ================================================================== INSTITUIÇÃO
 def segmento_instituicao():
-    abas = st.tabs(["🏆 Ranking institucional", "🔀 Comparar instituições", "🗺️ Regiões e localização",
+    abas = st.tabs(["🏆 Ranking institucional", "💡 Insights institucionais", "🔀 Comparar instituições", "🗺️ Regiões e localização",
                     "🔻 Funil e cobertura", "📈 Séries temporais", "📋 Dados agregados", "ℹ️ Sobre (Instituição)"])
 
     # ---------- ranking institucional
@@ -214,7 +214,7 @@ def segmento_instituicao():
         fig.update_layout(height=max(380, 22 * n_show), margin=dict(l=10, r=10, t=40, b=10),
                           title=f"{IND_INST.get(idx, idx)} — {nivel.lower()}" + (" (barras: IC 95%)" if idx == "SI" else ""))
         st.plotly_chart(fig, **W)
-        cols = (["posição", "unidade", "docentes", "faixa", "SI", "IC_inf", "IC_sup"] + [f"PI_{k}" for k in PILARES] +
+        cols = (["posição", "unidade", "docentes", "faixa", "SI", "IC_inf", "IC_sup", "SI_esperado", "valor_agregado", "pos_valor_agregado"] + [f"PI_{k}" for k in PILARES] +
                 ["pilar_forte", "perfil_predominante", "SP_medio", "IPA_T_medio", "IM_medio", "pos_SI", "pos_SP_medio",
                  "pos_IPA_T_medio", "pos_IM_medio", "pct_doutores", "qualisA_por_docente", "orient_mestrado_por_docente",
                  "extensao_por_docente", "gestao_por_docente"])
@@ -229,6 +229,12 @@ de $s_i$ entre os seus docentes. Com pesos iguais, o SI é também a média dos 
 **Intervalo e faixa.** O IC 95% é $SI \\pm 1{{,}}96\\,EP$, com $EP = dp(s_i)/\\sqrt{{n}}$. Unidades na mesma **faixa** têm
 intervalos que se sobrepõem ao do líder da faixa: a diferença entre elas não é estatisticamente clara, e a ordem dentro da faixa
 deve ser lida com cautela.
+
+**Valor agregado.** Para cada docente calcula-se o escore médio dos docentes com a mesma titulação e a mesma grande área
+(o "esperado"); o valor agregado é o SI observado menos a média desses esperados. Positivo: a unidade rende acima do que a
+formação e a área dos seus docentes fariam esperar.
+
+**Coleta incompleta.** Docentes cujo currículo não pôde ser lido na coleta ficam fora do ranking institucional (hoje, 475 do IFSP).
 
 **Por que média e não soma.** A média mede a intensidade da atuação por docente e não favorece instituições grandes.
 Os totais estão na aba *Dados agregados*.
@@ -247,8 +253,80 @@ Os totais estão na aba *Dados agregados*.
             st.plotly_chart(fig, **W)
             st.caption("Acima da diagonal: a instituição sobe ao trocar a tabela de pesos fixos pelo SI multidimensional.")
 
-    # ---------- comparar instituições
+    # ---------- insights institucionais
     with abas[1]:
+        st.subheader("💡 Insights institucionais")
+        ai = RI.agregar(d, "Instituição")
+        if ai.empty:
+            st.warning("Sem dados para os filtros atuais.")
+        else:
+            dc = d[d["coleta_cv"].astype(bool)] if "coleta_cv" in d else d
+            # 1 valor agregado
+            st.markdown("#### 1 · Quem faz mais com o que tem: valor agregado")
+            va = ai.sort_values("valor_agregado")
+            fig = go.Figure(go.Bar(x=va["valor_agregado"], y=va["sigla"], orientation="h",
+                                   marker_color=[AZUL if v >= 0 else LARANJA for v in va["valor_agregado"]]))
+            fig.add_vline(x=0, line_color="black", line_width=1)
+            fig.update_layout(height=max(380, 20 * len(va)), margin=dict(l=10, r=10, t=30, b=10),
+                              xaxis_title="SI observado − SI esperado pela titulação e área")
+            c1, c2 = st.columns([1.1, 1])
+            c1.plotly_chart(fig, **W)
+            from scipy import stats as _st
+            rho = _st.spearmanr(ai["SI"], ai["pct_doutores"])[0] if len(ai) > 2 else float("nan")
+            fig2 = px.scatter(ai, x="pct_doutores", y="SI", text="sigla", size="docentes", trendline="ols" if len(ai) > 2 else None,
+                              labels={"pct_doutores": "% de doutores", "SI": "Score Institucional"}, height=520,
+                              title=f"SI × % de doutores (ρ = {rho:.2f})")
+            fig2.update_traces(textposition="top center", marker_color=AZUL, selector=dict(mode="markers+text"))
+            c2.plotly_chart(fig2, **W)
+            top_va, bot_va = ai.nlargest(3, "valor_agregado"), ai.nsmallest(3, "valor_agregado")
+            st.markdown(f"A titulação explica boa parte do ranking (ρ = {rho:.2f} entre SI e % de doutores). Descontando titulação e área, "
+                        f"quem mais rende acima do esperado: **{', '.join(f'{r.sigla} (+{r.valor_agregado:.1f})' for r in top_va.itertuples())}**; "
+                        f"abaixo do esperado: **{', '.join(f'{r.sigla} ({r.valor_agregado:.1f})' for r in bot_va.itertuples())}**.")
+            # 2 concentração
+            st.markdown("#### 2 · Dependência de poucos pesquisadores")
+            cc = RI.concentracao(dc).sort_values("pct_art_qualis_A_top5")
+            fig = px.bar(cc, x="pct_art_qualis_A_top5", y="sigla", orientation="h", height=max(380, 20 * len(cc)),
+                         labels={"pct_art_qualis_A_top5": "% dos artigos Qualis A feitos pelos 5% mais produtivos"},
+                         color="pct_art_qualis_A_top5", color_continuous_scale=[[0, AZUL], [1, LARANJA]])
+            fig.update_layout(coloraxis_showscale=False, margin=dict(l=10, r=10, t=30, b=10))
+            st.plotly_chart(fig, **W)
+            st.markdown(f"Quanto mais à direita, mais a produção qualificada depende de poucos docentes: se eles saírem, a instituição cai. "
+                        f"Menos concentradas: {', '.join(cc.head(3)['sigla'])}; mais concentradas: {', '.join(cc.tail(3)['sigla'][::-1])}.")
+            # 3 doutores invisíveis
+            st.markdown("#### 3 · Doutores invisíveis")
+            dt = dc[dc["nivel_titulacao"] >= 4]
+            inv = dt.groupby("sigla").agg(doutores=("SP", "size"),
+                                          no_baixo_registro=("perfil", lambda s: (s == "Baixo registro").sum()),
+                                          sem_qualisA=("art_qualis_A", lambda s: (s == 0).sum())).reset_index()
+            inv["% no baixo registro"] = (100 * inv["no_baixo_registro"] / inv["doutores"]).round(1)
+            inv["% sem Qualis A"] = (100 * inv["sem_qualisA"] / inv["doutores"]).round(1)
+            c1, c2, c3 = st.columns(3)
+            c1.metric("Doutores no filtro", fmt_int(len(dt)))
+            c2.metric("No perfil de baixo registro", f"{fmt_int((dt['perfil'] == 'Baixo registro').sum())} ({100 * (dt['perfil'] == 'Baixo registro').mean():.1f}%)")
+            c3.metric("Sem nenhum artigo Qualis A", f"{100 * (dt['art_qualis_A'] == 0).mean():.1f}%")
+            st.dataframe(inv.sort_values("% no baixo registro", ascending=False), hide_index=True, **W)
+            # 4 início de carreira
+            st.markdown("#### 4 · Início de carreira")
+            fx = pd.cut(dc["anos_carreira"], [0, 10, 20, 30, 80], labels=["até 10 anos", "11–20", "21–30", "> 30"])
+            pc = (100 * pd.crosstab(fx, dc["perfil"], normalize="index")).reindex(columns=RI.PERFIS).reset_index().melt(
+                id_vars="anos_carreira", var_name="perfil", value_name="%")
+            st.plotly_chart(px.bar(pc, x="anos_carreira", y="%", color="perfil", color_discrete_map=COR_PERFIL, height=360,
+                                   labels={"anos_carreira": "anos desde a graduação"}, title="Perfil por tempo de carreira"), **W)
+            st.markdown("Metade dos docentes com até 10 anos de carreira está no perfil de baixo registro: sinal para políticas de entrada "
+                        "(mentoria, incentivo ao registro e à pesquisa) e não apenas de premiação de quem já produz.")
+            # 5 qualidade do registro
+            st.markdown("#### 5 · Qualidade do registro e da coleta")
+            ql = d.groupby("sigla").agg(docentes=("SP", "size"),
+                                        coleta_incompleta=("coleta_cv", lambda s: int((~s.astype(bool)).sum())) if "coleta_cv" in d else ("SP", lambda s: 0),
+                                        pct_lattes_mais_2anos=("anos_sem_atualizar_lattes", lambda s: round(100 * (s > 2).mean(), 1)),
+                                        pct_baixo_registro=("perfil", lambda s: round(100 * (s == "Baixo registro").mean(), 1))).reset_index()
+            st.dataframe(ql.sort_values("pct_baixo_registro", ascending=False), hide_index=True, **W)
+            st.warning("Cuidados: 475 docentes do IFSP não tiveram o currículo lido na coleta (ficam fora do ranking institucional "
+                       "até a nova coleta). A data de atualização do Lattes parece incorreta no portal do IFRN (99,7% \"desatualizados\") "
+                       "e ausente no do IFMS; por isso essa coluna não deve ser comparada entre instituições.")
+
+    # ---------- comparar instituições
+    with abas[2]:
         st.subheader("🔀 Comparar instituições")
         nivel_c = st.radio("Comparar", ["Instituição", "Campus", "Região"], horizontal=True, key="niv_cmp")
         ac = RI.agregar(d, nivel_c, None, 20 if nivel_c == "Campus" else 1)
@@ -287,7 +365,7 @@ Os totais estão na aba *Dados agregados*.
                      "Se os intervalos (IC_inf a IC_sup) de duas unidades se sobrepõem, a diferença no SI não é estatisticamente clara.")
 
     # ---------- regiões e localização
-    with abas[2]:
+    with abas[3]:
         st.subheader("🗺️ Regiões e localização")
         ar = RI.agregar(d, "Região")
         c1, c2 = st.columns(2)
@@ -315,7 +393,7 @@ Os totais estão na aba *Dados agregados*.
                  "Reitorias e docentes sem campus ficam de fora desta comparação.")
 
     # ---------- funil
-    with abas[3]:
+    with abas[4]:
         st.subheader("🔻 Funil de seleção (tipo PRISMA) e cobertura")
         c1, c2 = st.columns(2)
         fs = T["funil_selecao"]
@@ -334,7 +412,7 @@ Os totais estão na aba *Dados agregados*.
         c2.markdown("**IFs com menos dados**"); c2.dataframe(ci.tail(8)[["sigla", "docentes_efetivos", "registros_producao", "pct_doutores"]], hide_index=True)
 
     # ---------- séries
-    with abas[4]:
+    with abas[5]:
         st.subheader("📈 Séries temporais")
         if "serie_rede" in SERIES:
             sr = SERIES["serie_rede"]; sr = sr[sr["ano"].between(2005, 2025)]
@@ -360,7 +438,7 @@ Os totais estão na aba *Dados agregados*.
                        "cujo portal data os itens Qualis.")
 
     # ---------- dados agregados
-    with abas[5]:
+    with abas[6]:
         st.subheader("📋 Dados agregados")
         nivel_d = st.radio("Nível", ["Instituição", "Campus", "Região"], horizontal=True, key="niv_dados")
         ad = RI.agregar(d, nivel_d, None, 1)
@@ -375,7 +453,7 @@ Os totais estão na aba *Dados agregados*.
         st.download_button("⬇️ Baixar CSV", ad.to_csv(index=False).encode("utf-8-sig"), f"agregado_{nivel_d.lower()}.csv", "text/csv")
 
     # ---------- sobre
-    with abas[6]:
+    with abas[7]:
         st.subheader("ℹ️ Sobre o segmento Instituição")
         st.markdown("""
 Este segmento responde: **como as instituições, campi e regiões se comparam quando a atuação docente é vista em várias

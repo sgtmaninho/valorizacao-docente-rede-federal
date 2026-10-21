@@ -537,6 +537,9 @@ def main():
             "P_F1", "P_F2", "P_F3", "P_F4", "rank_P_F1", "rank_P_F2", "rank_P_F3", "rank_P_F4", "cluster", "perfil",
             "IPA_T", "IPA_R", "indice_PC1", "IM", "SP", "rank_IPA_T", "rank_IPA_R", "rank_indice_PC1", "rank_IM",
             "rank_SP", "rank_SP_no_perfil", "n_perfil", "pts_IPA_T_total"] + pts_cols
+    # coleta do currículo: docentes cujo Lattes não pôde ser lido pelo portal na extração (coleta incompleta)
+    a["coleta_cv"] = a["pessoa_uid"].isin(pes.loc[pes["tem_cv"] == True, "pessoa_uid"])  # noqa: E712
+    keep += ["coleta_cv"]
     a[keep].to_csv(DASH / "docentes.csv.gz", index=False, compression="gzip")
     print(json.dumps({k: ins[k] for k in ["amostra", "totais_producao"]}, ensure_ascii=False))
     print(funil.to_string(index=False)); print(fp.to_string(index=False)); print(tit.to_string(index=False))
