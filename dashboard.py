@@ -21,7 +21,11 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
+import importlib
+
 import ranking_institucional as RI
+
+RI = importlib.reload(RI)  # garante a versão atual do módulo mesmo com o servidor já aberto
 
 BASE = Path(__file__).parent
 DASH = BASE / "data" / "dashboard"
