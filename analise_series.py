@@ -29,7 +29,7 @@ import config as C
 from analise_exploratoria import PESOS_IPA, indice_pesos_fixos, concordancia, escala100
 
 SER = C.BASE_DIR / "data" / "raw_series"
-ANA = C.BASE_DIR / "data" / "analise"
+ANA = C.DATA_DIR / "analise"
 OUT = ANA / "series"
 ANO_INI, ANO_FIM = 2000, 2025
 JANELAS = [(2014, 2016), (2017, 2019), (2020, 2022), (2023, 2025)]

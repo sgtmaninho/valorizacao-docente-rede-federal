@@ -1,0 +1,1593 @@
+{
+ "byDate_artigo": [
+  {
+   "areasDoConhecimento": {
+    "areaDoConhecimento1": {
+     "id": 592698,
+     "nomeDaAreaDoConhecimento": "Química",
+     "nomeDaEspecialidade": "Eletroanalítica",
+     "nomeDaSubAreaDoConhecimento": "Química Analítica",
+     "nomeGrandeAreaDoConhecimento": "CIENCIAS_EXATAS_E_DA_TERRA"
+    },
+    "areaDoConhecimento2": null,
+    "areaDoConhecimento3": null,
+    "id": 405102
+   },
+   "autores": [
+    {
+     "cpf": null,
+     "id": 1933314,
+     "nomeCompletoDoAutor": "MAGARELLI, GABRIELLA",
+     "nomeParaCitacao": "MAGARELLI, GABRIELLA",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "1"
+    },
+    {
+     "cpf": null,
+     "id": 1933315,
+     "nomeCompletoDoAutor": "BEMQUERER, MARCELO PORTO",
+     "nomeParaCitacao": "BEMQUERER, MARCELO PORTO",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "10"
+    },
+    {
+     "cpf": null,
+     "id": 1933316,
+     "nomeCompletoDoAutor": "DA SILVA, JONATAS GOMES",
+     "nomeParaCitacao": "DA SILVA, JONATAS GOMES",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "2"
+    },
+    {
+     "cpf": null,
+     "id": 1933317,
+     "nomeCompletoDoAutor": "RIBEIRO, CAROLINE LUCHTENBERG",
+     "nomeParaCitacao": "RIBEIRO, CAROLINE LUCHTENBERG",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "3"
+    },
+    {
+     "cpf": null,
+     "id": 1933318,
+     "nomeCompletoDoAutor": "Thiago Viana de Freitas",
+     "nomeParaCitacao": "DE FREITAS, THIAGO VIANA",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "4"
+    },
+    {
+     "cpf": null,
+     "id": 1933319,
+     "nomeCompletoDoAutor": "RODRIGUES, MAGALI APARECIDA",
+     "nomeParaCitacao": "RODRIGUES, MAGALI APARECIDA",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "5"
+    },
+    {
+     "cpf": null,
+     "id": 1933320,
+     "nomeCompletoDoAutor": "DE SOUZA GIL, ERIC",
+     "nomeParaCitacao": "DE SOUZA GIL, ERIC",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "6"
+    },
+    {
+     "cpf": null,
+     "id": 1933321,
+     "nomeCompletoDoAutor": "MARRACCINI, PIERRE",
+     "nomeParaCitacao": "MARRACCINI, PIERRE",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "7"
+    },
+    {
+     "cpf": null,
+     "id": 1933322,
+     "nomeCompletoDoAutor": "DE SOUZA, JURANDIR RODRIGUES",
+     "nomeParaCitacao": "DE SOUZA, JURANDIR RODRIGUES",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "8"
+    },
+    {
+     "cpf": null,
+     "id": 1933323,
+     "nomeCompletoDoAutor": "DE CASTRO, CLARISSA SILVA PIRES",
+     "nomeParaCitacao": "DE CASTRO, CLARISSA SILVA PIRES",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "9"
+    }
+   ],
+   "dadosBasicosDoArtigo": {
+    "ano": null,
+    "anoDoArtigo": "2024",
+    "doi": "10.1016/j.jinorgbio.2023.112441",
+    "flagDivulgacaoCientifica": "NAO",
+    "flagRelevancia": "SIM",
+    "homePage": null,
+    "homePageDoTrabalho": "[doi:10.1016/j.jinorgbio.2023.112441]",
+    "id": 79377,
+    "idioma": "Inglês",
+    "meioDeDivulgacao": "MEIO_DIGITAL",
+    "natureza": "COMPLETO",
+    "pais": null,
+    "paisDePublicacao": "",
+    "tipo": null,
+    "titulo": null,
+    "tituloDoArtigo": "A voltammetric peptide biosensor for Cu2+ metal ion quantification in coffee seeds",
+    "tituloDoArtigoIngles": "A voltammetric peptide biosensor for Cu2+ metal ion quantification in coffee seeds",
+    "tituloIngles": null
+   },
+   "detalhamentoDoArtigo": {
+    "fasciculo": "",
+    "id": 79377,
+    "issn": "01620134",
+    "localDePublicacao": "",
+    "paginaFinal": "",
+    "paginaInicial": "112441",
+    "serie": "",
+    "tituloDoPeriodicoOuRevista": "JOURNAL OF INORGANIC BIOCHEMISTRY",
+    "volume": "251"
+   },
+   "id": 77411,
+   "informacoesAdicionais": null,
+   "ordemImportancia": "1",
+   "palavrasChave": {
+    "id": 386565,
+    "palavraChave1": "PEPTIDE BIOSENSOR",
+    "palavraChave2": "VOLTAMMETRY",
+    "palavraChave3": "",
+    "palavraChave4": "",
+    "palavraChave5": "",
+    "palavraChave6": "",
+    "palavrasChaves": "PEPTIDE BIOSENSOR, VOLTAMMETRY, "
+   },
+   "sequenciaProducao": "25",
+   "setoresDeAtividade": {
+    "id": 172057,
+    "setorDeAtividade1": "Pesquisa e desenvolvimento científico",
+    "setorDeAtividade2": "",
+    "setorDeAtividade3": ""
+   }
+  },
+  {
+   "areasDoConhecimento": {
+    "areaDoConhecimento1": {
+     "id": 592695,
+     "nomeDaAreaDoConhecimento": "Química",
+     "nomeDaEspecialidade": "",
+     "nomeDaSubAreaDoConhecimento": "Química Medicinal",
+     "nomeGrandeAreaDoConhecimento": "CIENCIAS_EXATAS_E_DA_TERRA"
+    },
+    "areaDoConhecimento2": {
+     "id": 592696,
+     "nomeDaAreaDoConhecimento": "Bioquímica",
+     "nomeDaEspecialidade": "",
+     "nomeDaSubAreaDoConhecimento": "Biologia Molecular",
+     "nomeGrandeAreaDoConhecimento": "CIENCIAS_BIOLOGICAS"
+    },
+    "areaDoConhecimento3": null,
+    "id": 405100
+   },
+   "autores": [
+    {
+     "cpf": null,
+     "id": 1933293,
+     "nomeCompletoDoAutor": "Thiago Viana de Freitas",
+     "nomeParaCitacao": "VIANA DE FREITAS, THIAGO",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "1"
+    },
+    {
+     "cpf": null,
+     "id": 1933294,
+     "nomeCompletoDoAutor": "RIBEIRO, DALILA J.S.",
+     "nomeParaCitacao": "RIBEIRO, DALILA J.S.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "10"
+    },
+    {
+     "cpf": null,
+     "id": 1933295,
+     "nomeCompletoDoAutor": "PRATES, MAURA VIANNA",
+     "nomeParaCitacao": "PRATES, MAURA VIANNA",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "11"
+    },
+    {
+     "cpf": null,
+     "id": 1933296,
+     "nomeCompletoDoAutor": "MAGALHÃES, KELLY G.",
+     "nomeParaCitacao": "MAGALHÃES, KELLY G.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "12"
+    },
+    {
+     "cpf": null,
+     "id": 1933297,
+     "nomeCompletoDoAutor": "SOLLER RAMADA, MARCELO HENRIQUE",
+     "nomeParaCitacao": "SOLLER RAMADA, MARCELO HENRIQUE",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "13"
+    },
+    {
+     "cpf": null,
+     "id": 1933298,
+     "nomeCompletoDoAutor": "ROBERTO DE SOUZA ALMEIDA LEITE, JOSÉ",
+     "nomeParaCitacao": "ROBERTO DE SOUZA ALMEIDA LEITE, JOSÉ",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "14"
+    },
+    {
+     "cpf": null,
+     "id": 1933299,
+     "nomeCompletoDoAutor": "BLOCH, CARLOS",
+     "nomeParaCitacao": "BLOCH, CARLOS",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "15"
+    },
+    {
+     "cpf": null,
+     "id": 1933300,
+     "nomeCompletoDoAutor": "LIMA DE OLIVEIRA, ALINE",
+     "nomeParaCitacao": "LIMA DE OLIVEIRA, ALINE",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "16"
+    },
+    {
+     "cpf": null,
+     "id": 1933301,
+     "nomeCompletoDoAutor": "VENDRELL, MARC",
+     "nomeParaCitacao": "VENDRELL, MARC",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "17"
+    },
+    {
+     "cpf": null,
+     "id": 1933302,
+     "nomeCompletoDoAutor": "BRAND, GUILHERME DOTTO",
+     "nomeParaCitacao": "BRAND, GUILHERME DOTTO",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "18"
+    },
+    {
+     "cpf": null,
+     "id": 1933303,
+     "nomeCompletoDoAutor": "KARMAKAR, UTSA",
+     "nomeParaCitacao": "KARMAKAR, UTSA",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "2"
+    },
+    {
+     "cpf": null,
+     "id": 1933304,
+     "nomeCompletoDoAutor": "VASCONCELOS, ANDREANNE G.",
+     "nomeParaCitacao": "VASCONCELOS, ANDREANNE G.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "3"
+    },
+    {
+     "cpf": null,
+     "id": 1933305,
+     "nomeCompletoDoAutor": "SANTOS, MICHELE A.",
+     "nomeParaCitacao": "SANTOS, MICHELE A.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "4"
+    },
+    {
+     "cpf": null,
+     "id": 1933306,
+     "nomeCompletoDoAutor": "OLIVEIRA DO VALE LIRA, BIANCA",
+     "nomeParaCitacao": "OLIVEIRA DO VALE LIRA, BIANCA",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "5"
+    },
+    {
+     "cpf": null,
+     "id": 1933307,
+     "nomeCompletoDoAutor": "COSTA, SAMUEL RIBEIRO",
+     "nomeParaCitacao": "COSTA, SAMUEL RIBEIRO",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "6"
+    },
+    {
+     "cpf": null,
+     "id": 1933308,
+     "nomeCompletoDoAutor": "BARBOSA, EDER ALVES",
+     "nomeParaCitacao": "BARBOSA, EDER ALVES",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "7"
+    },
+    {
+     "cpf": null,
+     "id": 1933309,
+     "nomeCompletoDoAutor": "CARDOZO-FH, JOSÉ",
+     "nomeParaCitacao": "CARDOZO-FH, JOSÉ",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "8"
+    },
+    {
+     "cpf": null,
+     "id": 1933310,
+     "nomeCompletoDoAutor": "CORREA, RAFAEL",
+     "nomeParaCitacao": "CORREA, RAFAEL",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "9"
+    }
+   ],
+   "dadosBasicosDoArtigo": {
+    "ano": null,
+    "anoDoArtigo": "2023",
+    "doi": "10.1016/j.jbc.2023.103056",
+    "flagDivulgacaoCientifica": "NAO",
+    "flagRelevancia": "SIM",
+    "homePage": null,
+    "homePageDoTrabalho": "[https://www.jbc.org/article/S0021-9258(23)00188-6/fulltext][doi:10.1016/j.jbc.2023.103056]",
+    "id": 79375,
+    "idioma": "Inglês",
+    "meioDeDivulgacao": "MEIO_DIGITAL",
+    "natureza": "COMPLETO",
+    "pais": null,
+    "paisDePublicacao": "",
+    "tipo": null,
+    "titulo": null,
+    "tituloDoArtigo": "Release of immunomodulatory peptides at bacterial membrane interfaces as a novel strategy to fight microorganisms",
+    "tituloDoArtigoIngles": "",
+    "tituloIngles": null
+   },
+   "detalhamentoDoArtigo": {
+    "fasciculo": "",
+    "id": 79375,
+    "issn": "00219258",
+    "localDePublicacao": "",
+    "paginaFinal": "",
+    "paginaInicial": "103056",
+    "serie": "4",
+    "tituloDoPeriodicoOuRevista": "JOURNAL OF BIOLOGICAL CHEMISTRY",
+    "volume": "299"
+   },
+   "id": 77409,
+   "informacoesAdicionais": null,
+   "ordemImportancia": "2",
+   "palavrasChave": null,
+   "sequenciaProducao": "21",
+   "setoresDeAtividade": null
+  },
+  {
+   "areasDoConhecimento": {
+    "areaDoConhecimento1": {
+     "id": 592697,
+     "nomeDaAreaDoConhecimento": "Educação",
+     "nomeDaEspecialidade": "Métodos e Técnicas de Ensino",
+     "nomeDaSubAreaDoConhecimento": "Ensino-Aprendizagem",
+     "nomeGrandeAreaDoConhecimento": "CIENCIAS_HUMANAS"
+    },
+    "areaDoConhecimento2": null,
+    "areaDoConhecimento3": null,
+    "id": 405101
+   },
+   "autores": [
+    {
+     "cpf": null,
+     "id": 1933311,
+     "nomeCompletoDoAutor": "CONCEIÇÃO ALVES, FERNANDO LUIZ",
+     "nomeParaCitacao": "CONCEIÇÃO ALVES, FERNANDO LUIZ",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "1"
+    },
+    {
+     "cpf": null,
+     "id": 1933312,
+     "nomeCompletoDoAutor": "Thiago Viana de Freitas",
+     "nomeParaCitacao": "VIANA DE FREITAS, THIAGO",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "2"
+    },
+    {
+     "cpf": null,
+     "id": 1933313,
+     "nomeCompletoDoAutor": "LEITE DE BRITO, JOSÉ GIOVANNI",
+     "nomeParaCitacao": "LEITE DE BRITO, JOSÉ GIOVANNI",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "3"
+    }
+   ],
+   "dadosBasicosDoArtigo": {
+    "ano": null,
+    "anoDoArtigo": "2021",
+    "doi": "10.22456/1679-1916.118528",
+    "flagDivulgacaoCientifica": "NAO",
+    "flagRelevancia": "SIM",
+    "homePage": null,
+    "homePageDoTrabalho": "[https://www.seer.ufrgs.br/renote/article/view/118528][doi:10.22456/1679-1916.118528]",
+    "id": 79376,
+    "idioma": "Português",
+    "meioDeDivulgacao": "MEIO_DIGITAL",
+    "natureza": "COMPLETO",
+    "pais": null,
+    "paisDePublicacao": "",
+    "tipo": null,
+    "titulo": null,
+    "tituloDoArtigo": "Construção de um quadro-cristal para aplicação em ambientes híbridos de ensino tecnológico",
+    "tituloDoArtigoIngles": "",
+    "tituloIngles": null
+   },
+   "detalhamentoDoArtigo": {
+    "fasciculo": "",
+    "id": 79376,
+    "issn": "16791916",
+    "localDePublicacao": "",
+    "paginaFinal": "391",
+    "paginaInicial": "382",
+    "serie": "1",
+    "tituloDoPeriodicoOuRevista": "RENOTE. REVISTA NOVAS TECNOLOGIAS NA EDUCAÇÃO",
+    "volume": "19"
+   },
+   "id": 77410,
+   "informacoesAdicionais": null,
+   "ordemImportancia": "3",
+   "palavrasChave": null,
+   "sequenciaProducao": "22",
+   "setoresDeAtividade": null
+  },
+  {
+   "areasDoConhecimento": null,
+   "autores": [
+    {
+     "cpf": null,
+     "id": 1933287,
+     "nomeCompletoDoAutor": "SILVEIRA, CINTIA",
+     "nomeParaCitacao": "SILVEIRA, CINTIA",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "1"
+    },
+    {
+     "cpf": null,
+     "id": 1933288,
+     "nomeCompletoDoAutor": "OLIVEIRA, FLÁVIA",
+     "nomeParaCitacao": "OLIVEIRA, FLÁVIA",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "2"
+    },
+    {
+     "cpf": null,
+     "id": 1933289,
+     "nomeCompletoDoAutor": "DOS SANTOS, MARIA LUCILIA",
+     "nomeParaCitacao": "DOS SANTOS, MARIA LUCILIA",
+     "nroIdCnpq": "1367227325248750",
+     "ordemDeAutoria": "3"
+    },
+    {
+     "cpf": null,
+     "id": 1933290,
+     "nomeCompletoDoAutor": "Thiago Viana de Freitas",
+     "nomeParaCitacao": "DE FREITAS, THIAGO",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "4"
+    },
+    {
+     "cpf": null,
+     "id": 1933291,
+     "nomeCompletoDoAutor": "IMPARATO, JOSÉ CARLOS",
+     "nomeParaCitacao": "IMPARATO, JOSÉ CARLOS",
+     "nroIdCnpq": "8515220936282964",
+     "ordemDeAutoria": "5"
+    },
+    {
+     "cpf": null,
+     "id": 1933292,
+     "nomeCompletoDoAutor": "MAGALHÃES, ANA CAROLINA",
+     "nomeParaCitacao": "MAGALHÃES, ANA CAROLINA",
+     "nroIdCnpq": "7945899934601567",
+     "ordemDeAutoria": "6"
+    }
+   ],
+   "dadosBasicosDoArtigo": {
+    "ano": null,
+    "anoDoArtigo": "2014",
+    "doi": "10.1159/000358400",
+    "flagDivulgacaoCientifica": "NAO",
+    "flagRelevancia": "SIM",
+    "homePage": null,
+    "homePageDoTrabalho": "[doi:10.1159/000358400]",
+    "id": 79374,
+    "idioma": "Inglês",
+    "meioDeDivulgacao": "MEIO_DIGITAL",
+    "natureza": "COMPLETO",
+    "pais": null,
+    "paisDePublicacao": "",
+    "tipo": null,
+    "titulo": null,
+    "tituloDoArtigo": "Anacardic Acid from Brazilian Cashew Nut Trees Reduces Dentine Erosion",
+    "tituloDoArtigoIngles": "",
+    "tituloIngles": null
+   },
+   "detalhamentoDoArtigo": {
+    "fasciculo": "",
+    "id": 79374,
+    "issn": "1421976X",
+    "localDePublicacao": "",
+    "paginaFinal": "556",
+    "paginaInicial": "549",
+    "serie": "6",
+    "tituloDoPeriodicoOuRevista": "Caries Research (Online)",
+    "volume": "48"
+   },
+   "id": 77408,
+   "informacoesAdicionais": null,
+   "ordemImportancia": "4",
+   "palavrasChave": null,
+   "sequenciaProducao": "10",
+   "setoresDeAtividade": null
+  }
+ ],
+ "byDate_evento": [
+  {
+   "areasDoConhecimento": {
+    "areaDoConhecimento1": {
+     "id": 592699,
+     "nomeDaAreaDoConhecimento": "Química",
+     "nomeDaEspecialidade": "",
+     "nomeDaSubAreaDoConhecimento": "Química Orgânica",
+     "nomeGrandeAreaDoConhecimento": "CIENCIAS_EXATAS_E_DA_TERRA"
+    },
+    "areaDoConhecimento2": null,
+    "areaDoConhecimento3": null,
+    "id": 405103
+   },
+   "autores": [
+    {
+     "cpf": null,
+     "id": 1933371,
+     "nomeCompletoDoAutor": "José Giovanni Leite de Brito",
+     "nomeParaCitacao": "DE BRITO, J. G. L.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "1"
+    },
+    {
+     "cpf": null,
+     "id": 1933372,
+     "nomeCompletoDoAutor": "Fernando Luiz Conceição Alves",
+     "nomeParaCitacao": "ALVES, F. L. C.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "2"
+    },
+    {
+     "cpf": null,
+     "id": 1933373,
+     "nomeCompletoDoAutor": "Thiago Viana de Freitas",
+     "nomeParaCitacao": "FREITAS, T. V.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "3"
+    }
+   ],
+   "dadosBasicosDoTrabalho": [
+    {
+     "ano": null,
+     "anoDoTrabalho": "2018",
+     "doi": "",
+     "flagDivulgacaoCientifica": "NAO",
+     "flagRelevancia": "NAO",
+     "homePage": null,
+     "homePageDoTrabalho": "",
+     "id": 165187,
+     "idioma": "Português",
+     "meioDeDivulgacao": "IMPRESSO",
+     "natureza": "RESUMO",
+     "pais": null,
+     "paisDePublicacao": null,
+     "paisDoEvento": "Brasil",
+     "tipo": null,
+     "titulo": null,
+     "tituloDoTrabalho": "Síntese, caracterização e e avaliação fotofísica de chalconas monossubstituídas",
+     "tituloDoTrabalhoIngles": "",
+     "tituloIngles": null
+    }
+   ],
+   "detalhamentoDoTrabalho": [
+    {
+     "anoDeRealizacao": "2018",
+     "cidadeDaEditora": "",
+     "cidadeDoEvento": "Brasília",
+     "classificacaoDoEvento": "NACIONAL",
+     "fasciculo": "",
+     "id": 165187,
+     "isbn": "",
+     "nomeDaEditora": "",
+     "nomeDoEvento": "Conecta IF",
+     "nomeDoEventoIngles": "",
+     "paginaFinal": "",
+     "paginaInicial": "",
+     "serie": "",
+     "tituloDosAnaisOuProceedings": "VIII Semana de Produção Científica (SP8)",
+     "volume": ""
+    }
+   ],
+   "id": 165187,
+   "informacoesAdicionais": null,
+   "palavrasChave": null,
+   "sequenciaProducao": "15",
+   "setoresDeAtividade": null
+  },
+  {
+   "areasDoConhecimento": null,
+   "autores": [
+    {
+     "cpf": null,
+     "id": 1933369,
+     "nomeCompletoDoAutor": "Thiago Viana de Freitas",
+     "nomeParaCitacao": "FREITAS, T. V.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "1"
+    },
+    {
+     "cpf": null,
+     "id": 1933370,
+     "nomeCompletoDoAutor": "DOS SANTOS, MARIA LUCILIA",
+     "nomeParaCitacao": "DOS SANTOS, MARIA LUCILIA",
+     "nroIdCnpq": "1367227325248750",
+     "ordemDeAutoria": "2"
+    }
+   ],
+   "dadosBasicosDoTrabalho": [
+    {
+     "ano": null,
+     "anoDoTrabalho": "2014",
+     "doi": "",
+     "flagDivulgacaoCientifica": "NAO",
+     "flagRelevancia": "NAO",
+     "homePage": null,
+     "homePageDoTrabalho": "",
+     "id": 165186,
+     "idioma": "Português",
+     "meioDeDivulgacao": "IMPRESSO",
+     "natureza": "RESUMO_EXPANDIDO",
+     "pais": null,
+     "paisDePublicacao": null,
+     "paisDoEvento": "Brasil",
+     "tipo": null,
+     "titulo": null,
+     "tituloDoTrabalho": "SÍNTESE DE DERIVADOS 2-BENZIL-QUINONA E 4-FENIL-1,3-DIOXOLANO COM POTENCIAL BIOLÓGICO A PARTIR DOS LIPÍDEOS FENÓLICOS DE A. occidentale",
+     "tituloDoTrabalhoIngles": "",
+     "tituloIngles": null
+    }
+   ],
+   "detalhamentoDoTrabalho": [
+    {
+     "anoDeRealizacao": "2014",
+     "cidadeDaEditora": "",
+     "cidadeDoEvento": "Ilhéus",
+     "classificacaoDoEvento": "INTERNACIONAL",
+     "fasciculo": "",
+     "id": 165186,
+     "isbn": "",
+     "nomeDaEditora": "",
+     "nomeDoEvento": "VII Simpósio Iberoamericano de Plantas Medicinais - II Simpósio Iberoamericano de Investigação em Câncer",
+     "nomeDoEventoIngles": "",
+     "paginaFinal": "",
+     "paginaInicial": "",
+     "serie": "",
+     "tituloDosAnaisOuProceedings": "A biodiversidade iberoamericana como fonte de produtos naturais bioativos",
+     "volume": ""
+    }
+   ],
+   "id": 165186,
+   "informacoesAdicionais": null,
+   "palavrasChave": null,
+   "sequenciaProducao": "11",
+   "setoresDeAtividade": null
+  },
+  {
+   "areasDoConhecimento": null,
+   "autores": [
+    {
+     "cpf": null,
+     "id": 1933361,
+     "nomeCompletoDoAutor": "Jonatas Gomes da Silva",
+     "nomeParaCitacao": "SILVA, J. G.",
+     "nroIdCnpq": "5619434483163612",
+     "ordemDeAutoria": "1"
+    },
+    {
+     "cpf": null,
+     "id": 1933362,
+     "nomeCompletoDoAutor": "Thiago Viana de Freitas",
+     "nomeParaCitacao": "FREITAS, T. V.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "2"
+    },
+    {
+     "cpf": null,
+     "id": 1933363,
+     "nomeCompletoDoAutor": "idio Alves de Sousa Filho",
+     "nomeParaCitacao": "SOUSA FILHO, I. A.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "3"
+    },
+    {
+     "cpf": null,
+     "id": 1933364,
+     "nomeCompletoDoAutor": "Aline C de Oliveira",
+     "nomeParaCitacao": "OLIVEIRA, A. C.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "4"
+    },
+    {
+     "cpf": null,
+     "id": 1933365,
+     "nomeCompletoDoAutor": "Luzia H C Lima",
+     "nomeParaCitacao": "LIMA, L. H. C.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "5"
+    },
+    {
+     "cpf": null,
+     "id": 1933366,
+     "nomeCompletoDoAutor": "Jurandir R de Souza",
+     "nomeParaCitacao": "SOUZA, J. R.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "6"
+    },
+    {
+     "cpf": null,
+     "id": 1933367,
+     "nomeCompletoDoAutor": "Carlos M P Vaz",
+     "nomeParaCitacao": "VAZ, C. M. P.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "7"
+    },
+    {
+     "cpf": null,
+     "id": 1933368,
+     "nomeCompletoDoAutor": "Clarissa S Pires de Castro",
+     "nomeParaCitacao": "CASTRO, C. S. P.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "8"
+    }
+   ],
+   "dadosBasicosDoTrabalho": [
+    {
+     "ano": null,
+     "anoDoTrabalho": "2012",
+     "doi": "",
+     "flagDivulgacaoCientifica": "NAO",
+     "flagRelevancia": "NAO",
+     "homePage": null,
+     "homePageDoTrabalho": "",
+     "id": 165185,
+     "idioma": "Português",
+     "meioDeDivulgacao": "NAO_INFORMADO",
+     "natureza": "RESUMO_EXPANDIDO",
+     "pais": null,
+     "paisDePublicacao": null,
+     "paisDoEvento": "Brasil",
+     "tipo": null,
+     "titulo": null,
+     "tituloDoTrabalho": "Desenvolvimento de Metodologia Analítica para a Determinação de Isoflavonas Totais em Formulações Farmacêuticas Empregando a Voltametria de Pulso Diferencial",
+     "tituloDoTrabalhoIngles": "",
+     "tituloIngles": null
+    }
+   ],
+   "detalhamentoDoTrabalho": [
+    {
+     "anoDeRealizacao": "2012",
+     "cidadeDaEditora": "",
+     "cidadeDoEvento": "Fortaleza",
+     "classificacaoDoEvento": "INTERNACIONAL",
+     "fasciculo": "",
+     "id": 165185,
+     "isbn": "",
+     "nomeDaEditora": "",
+     "nomeDoEvento": "XX Congresso da Sociedade Iberoamericana de Eletroquímica",
+     "nomeDoEventoIngles": "",
+     "paginaFinal": "",
+     "paginaInicial": "",
+     "serie": "",
+     "tituloDosAnaisOuProceedings": "XX Congresso da Sociedade Iberoamericana de Eletroquímica",
+     "volume": ""
+    }
+   ],
+   "id": 165185,
+   "informacoesAdicionais": null,
+   "palavrasChave": null,
+   "sequenciaProducao": "7",
+   "setoresDeAtividade": null
+  },
+  {
+   "areasDoConhecimento": null,
+   "autores": [
+    {
+     "cpf": null,
+     "id": 1933374,
+     "nomeCompletoDoAutor": "Thiago Viana de Freitas",
+     "nomeParaCitacao": "FREITAS, T. V.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "1"
+    },
+    {
+     "cpf": null,
+     "id": 1933375,
+     "nomeCompletoDoAutor": "Jonatas Gomes da Silva",
+     "nomeParaCitacao": "SILVA, J. G.",
+     "nroIdCnpq": "5619434483163612",
+     "ordemDeAutoria": "2"
+    },
+    {
+     "cpf": null,
+     "id": 1933376,
+     "nomeCompletoDoAutor": "Jorge Alex Taquita Melo",
+     "nomeParaCitacao": "Melo, J. A. T.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "3"
+    },
+    {
+     "cpf": null,
+     "id": 1933377,
+     "nomeCompletoDoAutor": "Eduardo Ferreira Pereira",
+     "nomeParaCitacao": "Pereira, E. F.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "4"
+    },
+    {
+     "cpf": null,
+     "id": 1933378,
+     "nomeCompletoDoAutor": "Luciano P Silva",
+     "nomeParaCitacao": "SILVA, L. P.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "5"
+    },
+    {
+     "cpf": null,
+     "id": 1933379,
+     "nomeCompletoDoAutor": "Marcelo P Bemquerer",
+     "nomeParaCitacao": "BEMQUERER, M. P.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "6"
+    },
+    {
+     "cpf": null,
+     "id": 1933380,
+     "nomeCompletoDoAutor": "Clarissa S Pires de Castro",
+     "nomeParaCitacao": "CASTRO, C. S. P.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "7"
+    },
+    {
+     "cpf": null,
+     "id": 1933381,
+     "nomeCompletoDoAutor": "Jurandir R de Souza",
+     "nomeParaCitacao": "SOUZA, J. R.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "8"
+    }
+   ],
+   "dadosBasicosDoTrabalho": [
+    {
+     "ano": null,
+     "anoDoTrabalho": "2012",
+     "doi": "",
+     "flagDivulgacaoCientifica": "NAO",
+     "flagRelevancia": "NAO",
+     "homePage": null,
+     "homePageDoTrabalho": "",
+     "id": 165188,
+     "idioma": "Português",
+     "meioDeDivulgacao": "IMPRESSO",
+     "natureza": "RESUMO",
+     "pais": null,
+     "paisDePublicacao": null,
+     "paisDoEvento": "Brasil",
+     "tipo": null,
+     "titulo": null,
+     "tituloDoTrabalho": "Determinação de Cobre em Amostras Alimentares Empregando o Eletrodo de Ouro Modificado com o Peptídeo de Prion",
+     "tituloDoTrabalhoIngles": "",
+     "tituloIngles": null
+    }
+   ],
+   "detalhamentoDoTrabalho": [
+    {
+     "anoDeRealizacao": "2012",
+     "cidadeDaEditora": "",
+     "cidadeDoEvento": "Brasília",
+     "classificacaoDoEvento": "REGIONAL",
+     "fasciculo": "",
+     "id": 165188,
+     "isbn": "",
+     "nomeDaEditora": "",
+     "nomeDoEvento": "9º Congresso de Iniciação Científica do DF",
+     "nomeDoEventoIngles": "",
+     "paginaFinal": "",
+     "paginaInicial": "",
+     "serie": "",
+     "tituloDosAnaisOuProceedings": "Congresso de Iniciação Científica do DF",
+     "volume": ""
+    }
+   ],
+   "id": 165188,
+   "informacoesAdicionais": null,
+   "palavrasChave": null,
+   "sequenciaProducao": "8",
+   "setoresDeAtividade": null
+  },
+  {
+   "areasDoConhecimento": null,
+   "autores": [
+    {
+     "cpf": null,
+     "id": 1933324,
+     "nomeCompletoDoAutor": "Thiago Viana de Freitas",
+     "nomeParaCitacao": "FREITAS, T. V.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "1"
+    }
+   ],
+   "dadosBasicosDoTrabalho": [
+    {
+     "ano": null,
+     "anoDoTrabalho": "2011",
+     "doi": "",
+     "flagDivulgacaoCientifica": "NAO",
+     "flagRelevancia": "NAO",
+     "homePage": null,
+     "homePageDoTrabalho": "",
+     "id": 165179,
+     "idioma": "Português",
+     "meioDeDivulgacao": "NAO_INFORMADO",
+     "natureza": "RESUMO",
+     "pais": null,
+     "paisDePublicacao": null,
+     "paisDoEvento": "Brasil",
+     "tipo": null,
+     "titulo": null,
+     "tituloDoTrabalho": "Caracterização e Avaliação do Eletrodo de Ouro Modificado com Peptídeo de Príon para a Determinação de Cobre em Amostras de Café",
+     "tituloDoTrabalhoIngles": "",
+     "tituloIngles": null
+    }
+   ],
+   "detalhamentoDoTrabalho": [
+    {
+     "anoDeRealizacao": "2011",
+     "cidadeDaEditora": "",
+     "cidadeDoEvento": "Brasília",
+     "classificacaoDoEvento": "LOCAL",
+     "fasciculo": "",
+     "id": 165179,
+     "isbn": "",
+     "nomeDaEditora": "",
+     "nomeDoEvento": "8o Congresso de Iniciação Científica do DF",
+     "nomeDoEventoIngles": "",
+     "paginaFinal": "",
+     "paginaInicial": "",
+     "serie": "",
+     "tituloDosAnaisOuProceedings": "8o Congresso de Iniciação Científica do DF",
+     "volume": ""
+    }
+   ],
+   "id": 165179,
+   "informacoesAdicionais": null,
+   "palavrasChave": null,
+   "sequenciaProducao": "1",
+   "setoresDeAtividade": null
+  },
+  {
+   "areasDoConhecimento": null,
+   "autores": [
+    {
+     "cpf": null,
+     "id": 1933325,
+     "nomeCompletoDoAutor": "Jonatas Gomes da Silva",
+     "nomeParaCitacao": "SILVA, J. G.",
+     "nroIdCnpq": "5619434483163612",
+     "ordemDeAutoria": "1"
+    },
+    {
+     "cpf": null,
+     "id": 1933326,
+     "nomeCompletoDoAutor": "Thiago Viana de Freitas",
+     "nomeParaCitacao": "FREITAS, T. V.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "2"
+    },
+    {
+     "cpf": null,
+     "id": 1933327,
+     "nomeCompletoDoAutor": "Luciano P Silva",
+     "nomeParaCitacao": "SILVA, L. P.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "3"
+    },
+    {
+     "cpf": null,
+     "id": 1933328,
+     "nomeCompletoDoAutor": "Jurandir R de Souza",
+     "nomeParaCitacao": "SOUZA, J. R.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "4"
+    },
+    {
+     "cpf": null,
+     "id": 1933329,
+     "nomeCompletoDoAutor": "Marcelo P Bemquerer",
+     "nomeParaCitacao": "BEMQUERER, M. P.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "5"
+    },
+    {
+     "cpf": null,
+     "id": 1933330,
+     "nomeCompletoDoAutor": "Clarissa S Pires de Castro",
+     "nomeParaCitacao": "CASTRO, C. S. P.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "6"
+    }
+   ],
+   "dadosBasicosDoTrabalho": [
+    {
+     "ano": null,
+     "anoDoTrabalho": "2011",
+     "doi": "",
+     "flagDivulgacaoCientifica": "NAO",
+     "flagRelevancia": "NAO",
+     "homePage": null,
+     "homePageDoTrabalho": "",
+     "id": 165180,
+     "idioma": "Português",
+     "meioDeDivulgacao": "NAO_INFORMADO",
+     "natureza": "RESUMO",
+     "pais": null,
+     "paisDePublicacao": null,
+     "paisDoEvento": "Brasil",
+     "tipo": null,
+     "titulo": null,
+     "tituloDoTrabalho": "Desenvolvimento de Metodologia Analítica para a Determinação de Cu(II) Utilizando Eletrodo de Ouro Modificado com Peptídeo da Proteína Príon",
+     "tituloDoTrabalhoIngles": "",
+     "tituloIngles": null
+    }
+   ],
+   "detalhamentoDoTrabalho": [
+    {
+     "anoDeRealizacao": "2011",
+     "cidadeDaEditora": "",
+     "cidadeDoEvento": "Bento Gonçalves",
+     "classificacaoDoEvento": "NACIONAL",
+     "fasciculo": "",
+     "id": 165180,
+     "isbn": "",
+     "nomeDaEditora": "",
+     "nomeDoEvento": "XVIII Simpósio Brasileiro de Eletroquímica e Eletroanalítica",
+     "nomeDoEventoIngles": "",
+     "paginaFinal": "",
+     "paginaInicial": "",
+     "serie": "",
+     "tituloDosAnaisOuProceedings": "XVIII Simpósio Brasileiro de Eletroquímica e Eletroanalítica",
+     "volume": ""
+    }
+   ],
+   "id": 165180,
+   "informacoesAdicionais": null,
+   "palavrasChave": null,
+   "sequenciaProducao": "2",
+   "setoresDeAtividade": null
+  },
+  {
+   "areasDoConhecimento": null,
+   "autores": [
+    {
+     "cpf": null,
+     "id": 1933331,
+     "nomeCompletoDoAutor": "Jonatas Gomes da Silva",
+     "nomeParaCitacao": "SILVA, J. G.",
+     "nroIdCnpq": "5619434483163612",
+     "ordemDeAutoria": "1"
+    },
+    {
+     "cpf": null,
+     "id": 1933332,
+     "nomeCompletoDoAutor": "Thiago Viana de Freitas",
+     "nomeParaCitacao": "FREITAS, T. V.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "2"
+    },
+    {
+     "cpf": null,
+     "id": 1933333,
+     "nomeCompletoDoAutor": "Gabriella Magarelli",
+     "nomeParaCitacao": "MAGARELLI, G.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "3"
+    },
+    {
+     "cpf": null,
+     "id": 1933334,
+     "nomeCompletoDoAutor": "Aline C de Oliveira",
+     "nomeParaCitacao": "OLIVEIRA, A. C.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "4"
+    },
+    {
+     "cpf": null,
+     "id": 1933335,
+     "nomeCompletoDoAutor": "Luzia H C Lima",
+     "nomeParaCitacao": "LIMA, L. H. C.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "5"
+    },
+    {
+     "cpf": null,
+     "id": 1933336,
+     "nomeCompletoDoAutor": "Jurandir R de Souza",
+     "nomeParaCitacao": "SOUZA, J. R.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "6"
+    },
+    {
+     "cpf": null,
+     "id": 1933337,
+     "nomeCompletoDoAutor": "Carlos M P Vaz",
+     "nomeParaCitacao": "VAZ, C. M. P.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "7"
+    },
+    {
+     "cpf": null,
+     "id": 1933338,
+     "nomeCompletoDoAutor": "Clarissa S Pires de Castro",
+     "nomeParaCitacao": "CASTRO, C. S. P.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "8"
+    }
+   ],
+   "dadosBasicosDoTrabalho": [
+    {
+     "ano": null,
+     "anoDoTrabalho": "2011",
+     "doi": "",
+     "flagDivulgacaoCientifica": "NAO",
+     "flagRelevancia": "NAO",
+     "homePage": null,
+     "homePageDoTrabalho": "",
+     "id": 165181,
+     "idioma": "Português",
+     "meioDeDivulgacao": "NAO_INFORMADO",
+     "natureza": "RESUMO",
+     "pais": null,
+     "paisDePublicacao": null,
+     "paisDoEvento": "Brasil",
+     "tipo": null,
+     "titulo": null,
+     "tituloDoTrabalho": "Determinação de Isoflavonas Totais em Formulações Farmacêuticas Empregando a Voltametria de Pulso Diferencial e o Eletrodo de Carbono Vítreo",
+     "tituloDoTrabalhoIngles": "",
+     "tituloIngles": null
+    }
+   ],
+   "detalhamentoDoTrabalho": [
+    {
+     "anoDeRealizacao": "2011",
+     "cidadeDaEditora": "",
+     "cidadeDoEvento": "Campos do Jordão",
+     "classificacaoDoEvento": "NACIONAL",
+     "fasciculo": "",
+     "id": 165181,
+     "isbn": "",
+     "nomeDaEditora": "",
+     "nomeDoEvento": "16o Encontro Nacional de Química Analítica",
+     "nomeDoEventoIngles": "",
+     "paginaFinal": "",
+     "paginaInicial": "",
+     "serie": "",
+     "tituloDosAnaisOuProceedings": "16o Encontro Nacional de Química Analítica",
+     "volume": ""
+    }
+   ],
+   "id": 165181,
+   "informacoesAdicionais": null,
+   "palavrasChave": null,
+   "sequenciaProducao": "3",
+   "setoresDeAtividade": null
+  },
+  {
+   "areasDoConhecimento": null,
+   "autores": [
+    {
+     "cpf": null,
+     "id": 1933355,
+     "nomeCompletoDoAutor": "Thiago Viana de Freitas",
+     "nomeParaCitacao": "FREITAS, T. V.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "1"
+    },
+    {
+     "cpf": null,
+     "id": 1933356,
+     "nomeCompletoDoAutor": "Jonatas Gomes da Silva",
+     "nomeParaCitacao": "SILVA, J. G.",
+     "nroIdCnpq": "5619434483163612",
+     "ordemDeAutoria": "2"
+    },
+    {
+     "cpf": null,
+     "id": 1933357,
+     "nomeCompletoDoAutor": "Luciano P Silva",
+     "nomeParaCitacao": "SILVA, L. P.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "3"
+    },
+    {
+     "cpf": null,
+     "id": 1933358,
+     "nomeCompletoDoAutor": "Jurandir R de Souza",
+     "nomeParaCitacao": "SOUZA, J. R.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "4"
+    },
+    {
+     "cpf": null,
+     "id": 1933359,
+     "nomeCompletoDoAutor": "Marcelo P Bemquerer",
+     "nomeParaCitacao": "BEMQUERER, M. P.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "5"
+    },
+    {
+     "cpf": null,
+     "id": 1933360,
+     "nomeCompletoDoAutor": "Clarissa S Pires de Castro",
+     "nomeParaCitacao": "CASTRO, C. S. P.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "6"
+    }
+   ],
+   "dadosBasicosDoTrabalho": [
+    {
+     "ano": null,
+     "anoDoTrabalho": "2011",
+     "doi": "",
+     "flagDivulgacaoCientifica": "NAO",
+     "flagRelevancia": "NAO",
+     "homePage": null,
+     "homePageDoTrabalho": "",
+     "id": 165184,
+     "idioma": "Português",
+     "meioDeDivulgacao": "NAO_INFORMADO",
+     "natureza": "RESUMO",
+     "pais": null,
+     "paisDePublicacao": null,
+     "paisDoEvento": "Brasil",
+     "tipo": null,
+     "titulo": null,
+     "tituloDoTrabalho": "DESENVOLVIMENTO DE MÉTODO VOLTAMÉTRICO PARA A DETERMINAÇÃO DE CU(II) UTILIZANDO ELETRODO DE OURO  MODIFICADO COM PEPTÍDEO DA PROTEÍNA PRÍON",
+     "tituloDoTrabalhoIngles": "",
+     "tituloIngles": null
+    }
+   ],
+   "detalhamentoDoTrabalho": [
+    {
+     "anoDeRealizacao": "2011",
+     "cidadeDaEditora": "",
+     "cidadeDoEvento": "Brasília",
+     "classificacaoDoEvento": "LOCAL",
+     "fasciculo": "",
+     "id": 165184,
+     "isbn": "",
+     "nomeDaEditora": "",
+     "nomeDoEvento": "XVI Encontro Talento Estudantil",
+     "nomeDoEventoIngles": "",
+     "paginaFinal": "",
+     "paginaInicial": "",
+     "serie": "",
+     "tituloDosAnaisOuProceedings": "XVI Encontro Talento Estudantil",
+     "volume": ""
+    }
+   ],
+   "id": 165184,
+   "informacoesAdicionais": null,
+   "palavrasChave": null,
+   "sequenciaProducao": "6",
+   "setoresDeAtividade": null
+  },
+  {
+   "areasDoConhecimento": null,
+   "autores": [
+    {
+     "cpf": null,
+     "id": 1933339,
+     "nomeCompletoDoAutor": "Thiago Viana de Freitas",
+     "nomeParaCitacao": "FREITAS, T. V.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "1"
+    },
+    {
+     "cpf": null,
+     "id": 1933340,
+     "nomeCompletoDoAutor": "Jonatas Gomes da Silva",
+     "nomeParaCitacao": "SILVA, J. G.",
+     "nroIdCnpq": "5619434483163612",
+     "ordemDeAutoria": "2"
+    },
+    {
+     "cpf": null,
+     "id": 1933341,
+     "nomeCompletoDoAutor": "Aline C de Oliveira",
+     "nomeParaCitacao": "OLIVEIRA, A. C.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "3"
+    },
+    {
+     "cpf": null,
+     "id": 1933342,
+     "nomeCompletoDoAutor": "M C B Moraes",
+     "nomeParaCitacao": "MORAES, M. C. B.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "4"
+    },
+    {
+     "cpf": null,
+     "id": 1933343,
+     "nomeCompletoDoAutor": "Luzia H C Lima",
+     "nomeParaCitacao": "LIMA, L. H. C.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "5"
+    },
+    {
+     "cpf": null,
+     "id": 1933344,
+     "nomeCompletoDoAutor": "Jurandir R de Souza",
+     "nomeParaCitacao": "SOUZA, J. R.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "6"
+    },
+    {
+     "cpf": null,
+     "id": 1933345,
+     "nomeCompletoDoAutor": "Carlos M P Vaz",
+     "nomeParaCitacao": "VAZ, C. M. P.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "7"
+    },
+    {
+     "cpf": null,
+     "id": 1933346,
+     "nomeCompletoDoAutor": "Clarissa S Pires de Castro",
+     "nomeParaCitacao": "CASTRO, C. S. P.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "8"
+    }
+   ],
+   "dadosBasicosDoTrabalho": [
+    {
+     "ano": null,
+     "anoDoTrabalho": "2010",
+     "doi": "",
+     "flagDivulgacaoCientifica": "NAO",
+     "flagRelevancia": "NAO",
+     "homePage": null,
+     "homePageDoTrabalho": "",
+     "id": 165182,
+     "idioma": "Português",
+     "meioDeDivulgacao": "NAO_INFORMADO",
+     "natureza": "RESUMO",
+     "pais": null,
+     "paisDePublicacao": null,
+     "paisDoEvento": "Brasil",
+     "tipo": null,
+     "titulo": null,
+     "tituloDoTrabalho": "DESENVOLVIMENTO E VALIDAÇÃO DE UM MÉTODO ELETROQUÍMICO PARA A DETERMINAÇÃO DE DAIDZINA EM SOJA UTILIZANDO ELETRODO DE MERCÚRIO",
+     "tituloDoTrabalhoIngles": "",
+     "tituloIngles": null
+    }
+   ],
+   "detalhamentoDoTrabalho": [
+    {
+     "anoDeRealizacao": "2010",
+     "cidadeDaEditora": "",
+     "cidadeDoEvento": "Brasília",
+     "classificacaoDoEvento": "LOCAL",
+     "fasciculo": "",
+     "id": 165182,
+     "isbn": "",
+     "nomeDaEditora": "",
+     "nomeDoEvento": "XV Encontro Talento Estudantil",
+     "nomeDoEventoIngles": "",
+     "paginaFinal": "",
+     "paginaInicial": "",
+     "serie": "",
+     "tituloDosAnaisOuProceedings": "XV Encontro Talento Estudantil",
+     "volume": ""
+    }
+   ],
+   "id": 165182,
+   "informacoesAdicionais": null,
+   "palavrasChave": null,
+   "sequenciaProducao": "4",
+   "setoresDeAtividade": null
+  },
+  {
+   "areasDoConhecimento": null,
+   "autores": [
+    {
+     "cpf": null,
+     "id": 1933347,
+     "nomeCompletoDoAutor": "Jonatas Gomes da Silva",
+     "nomeParaCitacao": "SILVA, J. G.",
+     "nroIdCnpq": "5619434483163612",
+     "ordemDeAutoria": "1"
+    },
+    {
+     "cpf": null,
+     "id": 1933348,
+     "nomeCompletoDoAutor": "Thiago Viana de Freitas",
+     "nomeParaCitacao": "FREITAS, T. V.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "2"
+    },
+    {
+     "cpf": null,
+     "id": 1933349,
+     "nomeCompletoDoAutor": "Aline C de Oliveira",
+     "nomeParaCitacao": "OLIVEIRA, A. C.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "3"
+    },
+    {
+     "cpf": null,
+     "id": 1933350,
+     "nomeCompletoDoAutor": "M C B Moraes",
+     "nomeParaCitacao": "MORAES, M. C. B.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "4"
+    },
+    {
+     "cpf": null,
+     "id": 1933351,
+     "nomeCompletoDoAutor": "Luzia H C Lima",
+     "nomeParaCitacao": "LIMA, L. H. C.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "5"
+    },
+    {
+     "cpf": null,
+     "id": 1933352,
+     "nomeCompletoDoAutor": "Jurandir R de Souza",
+     "nomeParaCitacao": "SOUZA, J. R.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "6"
+    },
+    {
+     "cpf": null,
+     "id": 1933353,
+     "nomeCompletoDoAutor": "Carlos M P Vaz",
+     "nomeParaCitacao": "VAZ, C. M. P.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "7"
+    },
+    {
+     "cpf": null,
+     "id": 1933354,
+     "nomeCompletoDoAutor": "Clarissa S Pires de Castro",
+     "nomeParaCitacao": "CASTRO, C. S. P.",
+     "nroIdCnpq": "",
+     "ordemDeAutoria": "8"
+    }
+   ],
+   "dadosBasicosDoTrabalho": [
+    {
+     "ano": null,
+     "anoDoTrabalho": "2010",
+     "doi": "",
+     "flagDivulgacaoCientifica": "NAO",
+     "flagRelevancia": "NAO",
+     "homePage": null,
+     "homePageDoTrabalho": "",
+     "id": 165183,
+     "idioma": "Português",
+     "meioDeDivulgacao": "NAO_INFORMADO",
+     "natureza": "RESUMO",
+     "pais": null,
+     "paisDePublicacao": null,
+     "paisDoEvento": "Brasil",
+     "tipo": null,
+     "titulo": null,
+     "tituloDoTrabalho": "DESENVOLVIMENTO DE METODOLOGIA ANALÍTICA PARA A DETERMINAÇÃO DE RUTINA UTILIZANDO ELETRODO DE GRAFITE",
+     "tituloDoTrabalhoIngles": "",
+     "tituloIngles": null
+    }
+   ],
+   "detalhamentoDoTrabalho": [
+    {
+     "anoDeRealizacao": "2010",
+     "cidadeDaEditora": "",
+     "cidadeDoEvento": "Brasília",
+     "classificacaoDoEvento": "LOCAL",
+     "fasciculo": "",
+     "id": 165183,
+     "isbn": "",
+     "nomeDaEditora": "",
+     "nomeDoEvento": "XV Encontro Talento Estudantil",
+     "nomeDoEventoIngles": "",
+     "paginaFinal": "",
+     "paginaInicial": "",
+     "serie": "",
+     "tituloDosAnaisOuProceedings": "XV Encontro Talento Estudantil",
+     "volume": ""
+    }
+   ],
+   "id": 165183,
+   "informacoesAdicionais": null,
+   "palavrasChave": null,
+   "sequenciaProducao": "5",
+   "setoresDeAtividade": null
+  }
+ ],
+ "campos_ano": {
+  ".dadosGerais.formacaoAcademicaTitulacao.doutorado.anoDeConclusao": 1,
+  ".dadosGerais.formacaoAcademicaTitulacao.doutorado.anoDeInicio": 1,
+  ".dadosGerais.formacaoAcademicaTitulacao.doutorado.anoDeObtencaoDoTitulo": 1,
+  ".dadosGerais.formacaoAcademicaTitulacao.graduacoes.anoDeConclusao": 1,
+  ".dadosGerais.formacaoAcademicaTitulacao.graduacoes.anoDeInicio": 1,
+  ".dadosGerais.formacaoAcademicaTitulacao.mestrados.anoDeConclusao": 1,
+  ".dadosGerais.formacaoAcademicaTitulacao.mestrados.anoDeInicio": 1,
+  ".dadosGerais.formacaoAcademicaTitulacao.mestrados.anoDeObtencaoDoTitulo": 1,
+  ".dadosGerais.atuacoesProfissionais.atuacaoProfissional.atividadesDeEnsino.ensino.anoFim": 8,
+  ".dadosGerais.atuacoesProfissionais.atuacaoProfissional.atividadesDeEnsino.ensino.anoInicio": 8,
+  ".dadosGerais.atuacoesProfissionais.atuacaoProfissional.vinculos.anoFim": 4,
+  ".dadosGerais.atuacoesProfissionais.atuacaoProfissional.vinculos.anoInicio": 6,
+  ".dadosGerais.atuacoesProfissionais.atuacaoProfissional.atividadesDeParticipacaoEmProjeto.participacaoEmProjeto.anoInicio": 3,
+  ".dadosGerais.atuacoesProfissionais.atuacaoProfissional.atividadesDeParticipacaoEmProjeto.participacaoEmProjeto.projetoDePesquisa.anoInicio": 3,
+  ".dadosGerais.atuacoesProfissionais.atuacaoProfissional.atividadesDeParticipacaoEmProjeto.participacaoEmProjeto.anoFim": 1,
+  ".dadosGerais.atuacoesProfissionais.atuacaoProfissional.atividadesDeParticipacaoEmProjeto.participacaoEmProjeto.projetoDePesquisa.anoFim": 1,
+  ".producaoBibliografica.artigosPublicados.artigoPublicado.dadosBasicosDoArtigo.anoDoArtigo": 4,
+  ".producaoBibliografica.artigosPublicados.artigoPublicadoByDate.dadosBasicosDoArtigo.anoDoArtigo": 4,
+  ".producaoBibliografica.trabalhosEmEventos.trabalhoEmEventos.dadosBasicosDoTrabalho.anoDoTrabalho": 10,
+  ".producaoBibliografica.trabalhosEmEventos.trabalhoEmEventos.detalhamentoDoTrabalho.anoDeRealizacao": 10,
+  ".producaoBibliografica.trabalhosEmEventos.trabalhoEmEventosByDate.dadosBasicosDoTrabalho.anoDoTrabalho": 10,
+  ".producaoBibliografica.trabalhosEmEventos.trabalhoEmEventosByDate.detalhamentoDoTrabalho.anoDeRealizacao": 10,
+  ".producaoTecnica.patente.dadosBasicosDaPatente.anoDesenvolvimento": 1,
+  ".producaoTecnica.demaisTiposDeProducaoTecnica.apresentacaoDeTrabalho.dadosBasicosDaApresentacaoDeTrabalho.ano": 1,
+  ".producaoTecnica.demaisTiposDeProducaoTecnica.cursoDeCurtaDuracaoMinistrado.dadosBasicosDeCursosCurtaDuracao.ano": 1,
+  ".dadosComplementares.formacaoComplementar.formacaoComplementarCursoDeCurtaDuracao.anoDeConclusao": 6,
+  ".dadosComplementares.formacaoComplementar.formacaoComplementarCursoDeCurtaDuracao.anoDeInicio": 6,
+  ".dadosComplementares.formacaoComplementar.outros.anoDeConclusao": 5,
+  ".dadosComplementares.formacaoComplementar.outros.anoDeInicio": 5,
+  ".dadosComplementares.orientacoesEmAndamento.outrasOrientacoesEmAndamento.dadosBasicosDeOutrasOrientacoesEmAndamento.ano": 1,
+  ".dadosComplementares.participacaoEmBancaJulgadora.outrasBancasJulgadoras.dadosBasicosDeOutrasBancasJulgadoras.ano": 1,
+  ".dadosComplementares.participacaoEmBancaTrabalhosConclusao.participacaoEmBancaDeDoutorado.dadosBasicosDaParticipacaoEmBancaDeDoutorado.ano": 2,
+  ".dadosComplementares.participacaoEmBancaTrabalhosConclusao.participacaoEmBancaDeGraduacao.dadosBasicosDaParticipacaoEmBancaDeGraduacao.ano": 2,
+  ".dadosComplementares.participacaoEmEventosCongressos.outrasParticipacoesEmEventosCongressos.dadosBasicosDeOutrasParticipacoesEmEventosCongressos.ano": 2,
+  ".dadosComplementares.participacaoEmEventosCongressos.participacaoEmEncontro.dadosBasicosDaParticipacaoEmEncontro.ano": 1,
+  ".dadosComplementares.participacaoEmEventosCongressos.participacaoEmOficina.dadosBasicosDaParticipacaoEmOficina.ano": 1
+ },
+ "ind_2023": [
+  [
+   "Artigo publicado c/ISSN - A2",
+   "Artigo publicado c/ISSN - sem Qualis",
+   "Outras bancas julgadoras"
+  ],
+  [
+   1,
+   1,
+   1
+  ],
+  [
+   "[ArtigoPublicado(id=77411, sequenciaProducao=25, autores=[MAGARELLI, GABRIELLA, BEMQUERER, MARCELO PORTO, DA SILVA, JONATAS GOMES, RIBEIRO, CAROLINE LUCHTENBERG, Thiago Viana de Freitas, RODRIGUES, MAGALI APARECIDA, DE SOUZA GIL, ERIC, MARRACCINI, PIERRE, DE SOUZA, JURANDIR RODRIGUES, DE CASTRO, CLARISSA SILVA PIRES], palavrasChave=PEPTIDE BIOSENSOR, VOLTAMMETRY, , areasDoConhecimento=AreasDoConhecimento(id=405102, areaDoConhecimento1=AreaDoConhecimento(id=592698, nomeGrandeAreaDoConhecimento=CIENCIAS_EXATAS_E_DA_TERRA, nomeDaAreaDoConhecimento=Química, nomeDaSubAreaDoConhecimento=Química Analítica, nomeDaEspecialidade=Eletroanalítica), areaDoConhecimento2=null, areaDoConhecimento3=null), setoresDeAtividade=SetoresDeAtividade(id=172057, setorDeAtividade1=Pesquisa e desenvolvimento científico, setorDeAtividade2=, setorDeAtividade3=), informacoesAdicionais=null, dadosBasicosDoArtigo=DadosBasicosDoArtigo(id=79377, natureza=COMPLETO, tipo=null, titulo=null, ano=null, paisDePublicacao=, pais=null, idioma=Inglês, meioDeDivulgacao=MEIO_DIGITAL, homePageDoTrabalho=[doi:10.1016/j.jinorgbio.2023.112441], homePage=null, flagRelevancia=SIM, doi=10.1016/j.jinorgbio.2023.112441, flagDivulgacaoCientifica=NAO, tituloIngles=null, tituloDoArtigo=A voltammetric peptide biosensor for Cu2+ metal ion quantification in coffee seeds, anoDoArtigo=2024, tituloDoArtigoIngles=A voltammetric peptide biosensor for Cu2+ metal ion quantification in coffee seeds), detalhamentoDoArtigo=DetalhamentoDoArtigo(id=79377, tituloDoPeriodicoOuRevista=JOURNAL OF INORGANIC BIOCHEMISTRY, issn=01620134, volume=251, fasciculo=, serie=, paginaInicial=112441, paginaFinal=, localDePublicacao=), ordemImportancia=1)]",
+   "java.util.stream.ReferencePipeline$Head@2ee58ad0",
+   "[OutrasBancasJulgadoras(id=19373, sequenciaProducao=24, participanteBanca=[ParticipanteBanca(id=557324, nomeCompletoDoParticipanteDaBanca=Ivone Rorigues Lima, nomeParaCitacaoDoParticipanteDaBanca=LIMA, I. R., ordemParticipante=1, cpfDoParticipanteDaBanca=null, nroIdCnpq=), ParticipanteBanca(id=557325, nomeCompletoDoParticipanteDaBanca=Thiago Viana de Freitas, nomeParaCitacaoDoParticipanteDaBanca=FREITAS, T. V., ordemParticipante=2, cpfDoParticipanteDaBanca=null, nroIdCnpq=)], palavrasChave=null, areasDoConhecimento=AreasDoConhecimento(id=405095, areaDoConhecimento1=AreaDoConhecimento(id=592690, nomeGrandeAreaDoConhecimento=CIENCIAS_DA_SAUDE, nomeDaAreaDoConhecimento=Educação Física, nomeDaSubAreaDoConhecimento=, nomeDaEspecialidade=), areaDoConhecimento2=null, areaDoConhecimento3=null), setoresDeAtividade=SetoresDeAtividade(id=172055, setorDeAtividade1=Educação, setorDeAtividade2=, setorDeAtividade3=), informacoesAdicionais=null, dadosBasicosDeOutrasBancasJulgadoras=DadosBasicosDeOutrasBancasJulgadoras(id=19373, natureza=Outra, tipo=, titulo=Processo Seletivo Simplificado para contratação de professor substituto área: Educação Física, ano=2023, paisDePublicacao=null, pais=Brasil, idioma=Português, meioDeDivulgacao=NAO_INFORMADO, homePageDoTrabalho=null, homePage=, flagRelevancia=NAO, doi=, flagDivulgacaoCientifica=NAO, tituloIngles=Processo Seletivo Simplificado para contratação de professor substituto área: Educação Física, tipoIngles=Processo Seletivo Simplificado para contratação de professor substituto área: Educação Física), detalhamentoDeOutrasBancasJulgadoras=DetalhamentoDeOutrasBancasJulgadoras(id=19373, codigoInstituicao=J01Z00000005, nomeInstituicao=Instituto Federal de Brasília))]"
+  ]
+ ],
+ "ind_2019": [
+  [
+   "Artigo publicado c/ISSN - A2",
+   "Artigo publicado c/ISSN - A4",
+   "Artigo publicado c/ISSN - sem Qualis",
+   "Outras bancas julgadoras"
+  ],
+  [
+   1,
+   1,
+   1,
+   1
+  ],
+  [
+   "[ArtigoPublicado(id=77411, sequenciaProducao=25, autores=[MAGARELLI, GABRIELLA, BEMQUERER, MARCELO PORTO, DA SILVA, JONATAS GOMES, RIBEIRO, CAROLINE LUCHTENBERG, Thiago Viana de Freitas, RODRIGUES, MAGALI APARECIDA, DE SOUZA GIL, ERIC, MARRACCINI, PIERRE, DE SOUZA, JURANDIR RODRIGUES, DE CASTRO, CLARISSA SILVA PIRES], palavrasChave=PEPTIDE BIOSENSOR, VOLTAMMETRY, , areasDoConhecimento=AreasDoConhecimento(id=405102, areaDoConhecimento1=AreaDoConhecimento(id=592698, nomeGrandeAreaDoConhecimento=CIENCIAS_EXATAS_E_DA_TERRA, nomeDaAreaDoConhecimento=Química, nomeDaSubAreaDoConhecimento=Química Analítica, nomeDaEspecialidade=Eletroanalítica), areaDoConhecimento2=null, areaDoConhecimento3=null), setoresDeAtividade=SetoresDeAtividade(id=172057, setorDeAtividade1=Pesquisa e desenvolvimento científico, setorDeAtividade2=, setorDeAtividade3=), informacoesAdicionais=null, dadosBasicosDoArtigo=DadosBasicosDoArtigo(id=79377, natureza=COMPLETO, tipo=null, titulo=null, ano=null, paisDePublicacao=, pais=null, idioma=Inglês, meioDeDivulgacao=MEIO_DIGITAL, homePageDoTrabalho=[doi:10.1016/j.jinorgbio.2023.112441], homePage=null, flagRelevancia=SIM, doi=10.1016/j.jinorgbio.2023.112441, flagDivulgacaoCientifica=NAO, tituloIngles=null, tituloDoArtigo=A voltammetric peptide biosensor for Cu2+ metal ion quantification in coffee seeds, anoDoArtigo=2024, tituloDoArtigoIngles=A voltammetric peptide biosensor for Cu2+ metal ion quantification in coffee seeds), detalhamentoDoArtigo=DetalhamentoDoArtigo(id=79377, tituloDoPeriodicoOuRevista=JOURNAL OF INORGANIC BIOCHEMISTRY, issn=01620134, volume=251, fasciculo=, serie=, paginaInicial=112441, paginaFinal=, localDePublicacao=), ordemImportancia=1)]",
+   "[ArtigoPublicado(id=77410, sequenciaProducao=22, autores=[CONCEIÇÃO ALVES, FERNANDO LUIZ, Thiago Viana de Freitas, LEITE DE BRITO, JOSÉ GIOVANNI], palavrasChave=null, areasDoConhecimento=AreasDoConhecimento(id=405101, areaDoConhecimento1=AreaDoConhecimento(id=592697, nomeGrandeAreaDoConhecimento=CIENCIAS_HUMANAS, nomeDaAreaDoConhecimento=Educação, nomeDaSubAreaDoConhecimento=Ensino-Aprendizagem, nomeDaEspecialidade=Métodos e Técnicas de Ensino), areaDoConhecimento2=null, areaDoConhecimento3=null), setoresDeAtividade=null, informacoesAdicionais=null, dadosBasicosDoArtigo=DadosBasicosDoArtigo(id=79376, natureza=COMPLETO, tipo=null, titulo=null, ano=null, paisDePublicacao=, pais=null, idioma=Português, meioDeDivulgacao=MEIO_DIGITAL, homePageDoTrabalho=[https://www.seer.ufrgs.br/renote/article/view/118528][doi:10.22456/1679-1916.118528], homePage=null, flagRelevancia=SIM, doi=10.22456/1679-1916.118528, flagDivulgacaoCientifica=NAO, tituloIngles=null, tituloDoArtigo=Construção de um quadro-cristal para aplicação em ambientes híbridos de ensino tecnológico, anoDoArtigo=2021, tituloDoArtigoIngles=), detalhamentoDoArtigo=DetalhamentoDoArtigo(id=79376, tituloDoPeriodicoOuRevista=RENOTE. REVISTA NOVAS TECNOLOGIAS NA EDUCAÇÃO, issn=16791916, volume=19, fasciculo=, serie=1, paginaInicial=382, paginaFinal=391, localDePublicacao=), ordemImportancia=3)]",
+   "java.util.stream.ReferencePipeline$Head@4efe0a4c",
+   "[OutrasBancasJulgadoras(id=19373, sequenciaProducao=24, participanteBanca=[ParticipanteBanca(id=557324, nomeCompletoDoParticipanteDaBanca=Ivone Rorigues Lima, nomeParaCitacaoDoParticipanteDaBanca=LIMA, I. R., ordemParticipante=1, cpfDoParticipanteDaBanca=null, nroIdCnpq=), ParticipanteBanca(id=557325, nomeCompletoDoParticipanteDaBanca=Thiago Viana de Freitas, nomeParaCitacaoDoParticipanteDaBanca=FREITAS, T. V., ordemParticipante=2, cpfDoParticipanteDaBanca=null, nroIdCnpq=)], palavrasChave=null, areasDoConhecimento=AreasDoConhecimento(id=405095, areaDoConhecimento1=AreaDoConhecimento(id=592690, nomeGrandeAreaDoConhecimento=CIENCIAS_DA_SAUDE, nomeDaAreaDoConhecimento=Educação Física, nomeDaSubAreaDoConhecimento=, nomeDaEspecialidade=), areaDoConhecimento2=null, areaDoConhecimento3=null), setoresDeAtividade=SetoresDeAtividade(id=172055, setorDeAtividade1=Educação, setorDeAtividade2=, setorDeAtividade3=), informacoesAdicionais=null, dadosBasicosDeOutrasBancasJulgadoras=DadosBasicosDeOutrasBancasJulgadoras(id=19373, natureza=Outra, tipo=, titulo=Processo Seletivo Simplificado para contratação de professor substituto área: Educação Física, ano=2023, paisDePublicacao=null, pais=Brasil, idioma=Português, meioDeDivulgacao=NAO_INFORMADO, homePageDoTrabalho=null, homePage=, flagRelevancia=NAO, doi=, flagDivulgacaoCientifica=NAO, tituloIngles=Processo Seletivo Simplificado para contratação de professor substituto área: Educação Física, tipoIngles=Processo Seletivo Simplificado para contratação de professor substituto área: Educação Física), detalhamentoDeOutrasBancasJulgadoras=DetalhamentoDeOutrasBancasJulgadoras(id=19373, codigoInstituicao=J01Z00000005, nomeInstituicao=Instituto Federal de Brasília))]"
+  ]
+ ]
+}

@@ -1,0 +1,532 @@
+sigla,campus,localizacao
+IFAC,Campus Cruzeiro Do Sul,Interior
+IFAC,Campus Rio Branco,Capital
+IFAC,Campus Sena Madureira,Interior
+IFAC,Campus Tarauaca,Interior
+IFAC,Campus Xapuri,Interior
+IFAC,Reitoria,Reitoria
+IFAL,Campus Arapiraca,Interior
+IFAL,Campus Avancado Benedito Bentes,Interior
+IFAL,Campus Batalha,Interior
+IFAL,Campus Coruripe,Interior
+IFAL,Campus Maceio,Capital
+IFAL,Campus Maragogi,Interior
+IFAL,Campus Marechal Deodoro,Interior
+IFAL,Campus Murici,Interior
+IFAL,Campus Palmeira Dos Indios,Interior
+IFAL,Campus Penedo,Interior
+IFAL,Campus Piranhas,Interior
+IFAL,Campus Rio Largo,Interior
+IFAL,Campus Santana Do Ipanema,Interior
+IFAL,Campus Sao Miguel Dos Campos,Interior
+IFAL,Campus Satuba,Interior
+IFAL,Campus Viçosa,Interior
+IFAL,Reitoria,Reitoria
+IFAM,Campus Avançado Boca do Acre,Interior
+IFAM,Campus Avançado Iranduba,Interior
+IFAM,Campus Avançado Manacapuru,Interior
+IFAM,Campus Coari,Interior
+IFAM,Campus Eirunepe,Interior
+IFAM,Campus Humaita,Interior
+IFAM,Campus Itacoatiara,Interior
+IFAM,Campus Labrea,Interior
+IFAM,Campus Manaus Centro,Capital
+IFAM,Campus Manaus Distrito,Capital
+IFAM,Campus Manaus Zona Leste,Capital
+IFAM,Campus Maues,Interior
+IFAM,Campus Parintins,Interior
+IFAM,Campus Presidente Figueiredo,Interior
+IFAM,Campus São Gabriel,Interior
+IFAM,Campus Tabatinga,Interior
+IFAM,Campus Tefé,Interior
+IFAM,Reitoria,Reitoria
+IFAP,Campus Laranjal do Jari,Interior
+IFAP,Campus Macapá,Capital
+IFAP,Campus Oiapoque,Interior
+IFAP,Campus Porto Grande,Interior
+IFAP,Campus Santana,Interior
+IFAP,Reitoria,Reitoria
+IFAP,,Sem campus
+IFB,Campus Brasília,Capital
+IFB,Campus Ceilândia,Capital
+IFB,Campus Estrutural,Capital
+IFB,Campus Gama,Capital
+IFB,Campus Planaltina,Capital
+IFB,Campus Recanto das Emas,Capital
+IFB,Campus Riacho Fundo,Capital
+IFB,Campus Samambaia,Capital
+IFB,Campus São Sebastião,Capital
+IFB,Campus Taguatinga,Capital
+IFB,,Sem campus
+IFBA,Polo de Inovação Salvador,Capital
+IFBA,Reitoria,Reitoria
+IFBA,,Sem campus
+IFC,Campus Abelardo Luz,Interior
+IFC,Campus Araquari,Interior
+IFC,Campus Blumenau,Interior
+IFC,Campus Brusque,Interior
+IFC,Campus Camboriu,Interior
+IFC,Campus Concordia,Interior
+IFC,Campus Fraiburgo,Interior
+IFC,Campus Ibirama,Interior
+IFC,Campus Luzerna,Interior
+IFC,Campus Rio do Sul,Interior
+IFC,Campus Santa Rosa do Sul,Interior
+IFC,Campus Sao Bento do Sul,Interior
+IFC,Campus Sao Francisco do Sul,Interior
+IFC,Campus Sombrio,Interior
+IFC,Campus Videira,Interior
+IFC,Reitoria,Reitoria
+IFC,,Sem campus
+IFCE,Campus Acaraú,Interior
+IFCE,Campus Acopiara,Interior
+IFCE,Campus Aracati,Interior
+IFCE,Campus Avançado de Jaguaruana,Interior
+IFCE,Campus Avançado de Mombaça,Interior
+IFCE,Campus Baturité,Interior
+IFCE,Campus Boa Viagem,Interior
+IFCE,Campus Camocim,Interior
+IFCE,Campus Canindé,Interior
+IFCE,Campus Caucaia,Interior
+IFCE,Campus Cedro,Interior
+IFCE,Campus Crateús,Interior
+IFCE,Campus Crato,Interior
+IFCE,Campus Fortaleza,Capital
+IFCE,Campus Horizonte,Interior
+IFCE,Campus Iguatu,Interior
+IFCE,Campus Itapipoca,Interior
+IFCE,Campus Jaguaribe,Interior
+IFCE,Campus Juazeiro do Norte,Interior
+IFCE,Campus Limoeiro do Norte,Interior
+IFCE,Campus Maracanaú,Interior
+IFCE,Campus Maranguape,Interior
+IFCE,Campus Morada Nova,Interior
+IFCE,Campus Paracuru,Interior
+IFCE,Campus Pecém,Interior
+IFCE,Campus Quixadá,Interior
+IFCE,Campus Sobral,Interior
+IFCE,Campus Tabuleiro Do Norte,Interior
+IFCE,Campus Tauá,Interior
+IFCE,Campus Tianguá,Interior
+IFCE,Campus Ubajara,Interior
+IFCE,Campus Umirim,Interior
+IFCE,Reitoria,Reitoria
+IFCE,,Sem campus
+IFF,Campus Bom Jesus do Itabapoana,Interior
+IFF,Campus Cabo Frio,Interior
+IFF,Campus Cambuci,Interior
+IFF,Campus Campos Centro,Interior
+IFF,Campus Campos Guarus,Interior
+IFF,Campus Itaborai,Interior
+IFF,Campus Itaperuna,Interior
+IFF,Campus Macaé,Interior
+IFF,Campus Maricá,Interior
+IFF,Campus Quissamã,Interior
+IFF,Campus Santo Antônio De Pádua,Interior
+IFF,Campus São João Da Barra,Interior
+IFF,Polo de Inovação Campos Dos Goytacazes,Interior
+IFF,Reitoria,Reitoria
+IFFAR,Campus Alegrete,Interior
+IFFAR,Campus Frederico Westphalen,Interior
+IFFAR,Campus Jaguari,Interior
+IFFAR,Campus Júlio de Castilhos,Interior
+IFFAR,Campus Panambi,Interior
+IFFAR,Campus Santa Rosa,Interior
+IFFAR,Campus Santo Augusto,Interior
+IFFAR,Campus Santo Ângelo,Interior
+IFFAR,Campus São Borja,Interior
+IFFAR,Campus São Vicente do Sul,Interior
+IFFAR,Campus Uruguaiana,Interior
+IFFAR,Reitoria,Reitoria
+IFG,Campus Anápolis,Interior
+IFG,Campus Aparecida de Goiânia,Capital
+IFG,Campus Cidade de Goiás,Interior
+IFG,Campus Formosa,Interior
+IFG,Campus Goiânia,Capital
+IFG,Campus Goiânia Oeste,Capital
+IFG,Campus Inhumas,Interior
+IFG,Campus Itumbiara,Interior
+IFG,Campus Jataí,Interior
+IFG,Campus Luziânia,Interior
+IFG,Campus Senador Canedo,Interior
+IFG,Campus Uruaçu,Interior
+IFG,Campus Valparaíso,Interior
+IFG,Campus Águas Lindas,Interior
+IFG,Polo de Inovação,Interior
+IFG,Reitoria,Reitoria
+IFG,,Sem campus
+IFGOIANO,Campus Campos Belos,Interior
+IFGOIANO,Campus Catalão,Interior
+IFGOIANO,Campus Ceres,Interior
+IFGOIANO,Campus Cristalina,Interior
+IFGOIANO,Campus Hidrolândia,Interior
+IFGOIANO,Campus Ipameri,Interior
+IFGOIANO,Campus Iporá,Interior
+IFGOIANO,Campus Morrinhos,Interior
+IFGOIANO,Campus Posse,Interior
+IFGOIANO,Campus Rio Verde,Interior
+IFGOIANO,Campus Trindade,Interior
+IFGOIANO,Campus Urutaí,Interior
+IFGOIANO,Polo de Inovação,Interior
+IFGOIANO,Reitoria,Reitoria
+IFGOIANO,,Sem campus
+IFMA,Campus Alcântara,Interior
+IFMA,Campus Araioses,Interior
+IFMA,Campus Avançado Carolina,Interior
+IFMA,Campus Avançado Porto Franco,Interior
+IFMA,Campus Avançado Rosário,Interior
+IFMA,Campus Açailândia,Interior
+IFMA,Campus Bacabal,Interior
+IFMA,Campus Barra do Corda,Interior
+IFMA,Campus Barreirinhas,Interior
+IFMA,Campus Buriticupu,Interior
+IFMA,Campus Caxias,Interior
+IFMA,Campus Codó,Interior
+IFMA,Campus Coelho Neto,Interior
+IFMA,Campus Grajaú,Interior
+IFMA,Campus Imperatriz,Interior
+IFMA,Campus Itapecuru Mirim,Interior
+IFMA,Campus Mirinzal,Interior
+IFMA,Campus Pedreiras,Interior
+IFMA,Campus Pinheiro,Interior
+IFMA,Campus Presidente Dutra,Interior
+IFMA,Campus Santa Inês,Interior
+IFMA,Campus São José de Ribamar,Interior
+IFMA,Campus São João dos Patos,Interior
+IFMA,Campus São Luís Centro Histórico,Capital
+IFMA,Campus São Luís Maracanã,Capital
+IFMA,Campus São Luís Monte Castelo,Capital
+IFMA,Campus São Raimundo das Mangabeiras,Interior
+IFMA,Campus Timon,Interior
+IFMA,Campus Viana,Interior
+IFMA,Campus Vitorino Freire,Interior
+IFMA,Campus Zé Doca,Interior
+IFMA,Reitoria,Reitoria
+IFMG,Campus Avançado Arcos,Interior
+IFMG,Campus Avançado Conselheiro Lafaiete,Interior
+IFMG,Campus Avançado Ipatinga,Interior
+IFMG,Campus Avançado Itabirito,Interior
+IFMG,Campus Avançado Piumhi,Interior
+IFMG,Campus Avançado Ponte Nova,Interior
+IFMG,Campus Bambuí,Interior
+IFMG,Campus Betim,Interior
+IFMG,Campus Congonhas,Interior
+IFMG,Campus Formiga,Interior
+IFMG,Campus Governador Valadares,Interior
+IFMG,Campus Ibirité,Interior
+IFMG,Campus Ouro Branco,Interior
+IFMG,Campus Ouro Preto,Interior
+IFMG,Campus Ribeirão das Neves,Interior
+IFMG,Campus Sabará,Interior
+IFMG,Campus Santa Luzia,Interior
+IFMG,Campus São João Evangelista,Interior
+IFMG,Polo de Inovação,Interior
+IFMG,Reitoria,Reitoria
+IFMG,,Sem campus
+IFMS,Campus Aquidauana,Interior
+IFMS,Campus Campo Grande,Capital
+IFMS,Campus Corumbá,Interior
+IFMS,Campus Coxim,Interior
+IFMS,Campus Dourados,Interior
+IFMS,Campus Jardim,Interior
+IFMS,Campus Naviraí,Interior
+IFMS,Campus Nova Andradina,Interior
+IFMS,Campus Ponta Porã,Interior
+IFMS,Campus Três Lagoas,Interior
+IFMS,Reitoria,Reitoria
+IFNMG,Campus Almenara,Interior
+IFNMG,Campus Araçuaí,Interior
+IFNMG,Campus Arinos,Interior
+IFNMG,Campus Diamantina,Interior
+IFNMG,Campus Janaúba,Interior
+IFNMG,Campus Januária,Interior
+IFNMG,Campus Montes Claros,Interior
+IFNMG,Campus Pirapora,Interior
+IFNMG,Campus Porteirinha,Interior
+IFNMG,Campus Salinas,Interior
+IFNMG,Campus Teófilo Otoni,Interior
+IFNMG,Reitoria,Reitoria
+IFNMG,,Sem campus
+IFPA,Campus Abaetetuba,Interior
+IFPA,Campus Altamira,Interior
+IFPA,Campus Ananindeua,Interior
+IFPA,Campus Belém,Capital
+IFPA,Campus Bragança,Interior
+IFPA,Campus Breves,Interior
+IFPA,Campus Cametá,Interior
+IFPA,Campus Castanhal,Interior
+IFPA,Campus Conceição do Araguaia,Interior
+IFPA,Campus Itaituba,Interior
+IFPA,Campus Marabá Industrial,Interior
+IFPA,Campus Marabá Rural,Interior
+IFPA,Campus Paragominas,Interior
+IFPA,Campus Parauapebas,Interior
+IFPA,Campus Santarém,Interior
+IFPA,Campus Tucuruí,Interior
+IFPA,Campus Vigia,Interior
+IFPA,Campus Óbidos,Interior
+IFPA,Reitoria,Reitoria
+IFPA,,Sem campus
+IFPB,Campus Cabedelo,Interior
+IFPB,Campus Cajazeiras,Interior
+IFPB,Campus Campina Grande,Interior
+IFPB,Campus Catolé do Rocha,Interior
+IFPB,Campus Esperança,Interior
+IFPB,Campus Guarabira,Interior
+IFPB,Campus Itabaiana,Interior
+IFPB,Campus Itaporanga,Interior
+IFPB,Campus João Pessoa,Capital
+IFPB,Campus Monteiro,Interior
+IFPB,Campus Patos,Interior
+IFPB,Campus Picuí,Interior
+IFPB,Campus Princesa Isabel,Interior
+IFPB,Campus Santa Luzia,Interior
+IFPB,Campus Santa Rita,Interior
+IFPB,Campus Sousa,Interior
+IFPB,Reitoria,Reitoria
+IFPB,,Sem campus
+IFPE,Campus Abreu e Lima,Interior
+IFPE,Campus Afogados da Ingazeira,Interior
+IFPE,Campus Barreiros,Interior
+IFPE,Campus Belo Jardim,Interior
+IFPE,Campus Cabo de Santo Agostinho,Interior
+IFPE,Campus Caruaru,Interior
+IFPE,Campus Garanhuns,Interior
+IFPE,Campus Igarassu,Interior
+IFPE,Campus Ipojuca,Interior
+IFPE,Campus Jaboatão Dos Guararapes,Interior
+IFPE,Campus Olinda,Interior
+IFPE,Campus Palmares,Interior
+IFPE,Campus Paulista,Interior
+IFPE,Campus Pesqueira,Interior
+IFPE,Campus Recife,Capital
+IFPE,Campus Vitória de Santo Antão,Interior
+IFPE,Reitoria,Reitoria
+IFPR,Campus Arapongas,Interior
+IFPR,Campus Assis Chateaubriand,Interior
+IFPR,Campus Astorga,Interior
+IFPR,Campus Barracão,Interior
+IFPR,Campus Campo Largo,Interior
+IFPR,Campus Capanema,Interior
+IFPR,Campus Cascavel,Interior
+IFPR,Campus Colombo,Interior
+IFPR,Campus Coronel Vivida,Interior
+IFPR,Campus Curitiba,Capital
+IFPR,Campus Foz do Iguaçu,Interior
+IFPR,Campus Goioere,Interior
+IFPR,Campus Irati,Interior
+IFPR,Campus Ivaipora,Interior
+IFPR,Campus Jacarezinho,Interior
+IFPR,Campus Jaguariaiva,Interior
+IFPR,Campus Londrina,Interior
+IFPR,Campus Palmas,Interior
+IFPR,Campus Paranaguá,Interior
+IFPR,Campus Paranavai,Interior
+IFPR,Campus Pinhais,Interior
+IFPR,Campus Pitanga,Interior
+IFPR,Campus Quedas do Iguaçu,Interior
+IFPR,Campus Telemaco Borba,Interior
+IFPR,Campus Umuarama,Interior
+IFPR,Campus União da Vitória,Interior
+IFPR,Reitoria,Reitoria
+IFPR,,Sem campus
+IFRJ,Campus Arraial do Cabo,Interior
+IFRJ,Campus Avançado Mesquita,Interior
+IFRJ,Campus Avançado Resende,Interior
+IFRJ,Campus Belford Roxo,Interior
+IFRJ,Campus Duque de Caxias,Capital
+IFRJ,Campus Engenheiro Paulo de Frontin,Interior
+IFRJ,Campus Nilópolis,Interior
+IFRJ,Campus Niterói,Interior
+IFRJ,Campus Paracambi,Interior
+IFRJ,Campus Pinheiral,Interior
+IFRJ,Campus Realengo,Capital
+IFRJ,Campus Rio de Janeiro,Capital
+IFRJ,Campus São Gonçalo,Interior
+IFRJ,Campus São João de Meriti,Interior
+IFRJ,Campus Volta Redonda,Interior
+IFRJ,Reitoria,Reitoria
+IFRJ,,Sem campus
+IFRN,Campus Apodi,Interior
+IFRN,Campus Caicó,Interior
+IFRN,Campus Canguaretama,Interior
+IFRN,Campus Ceará-Mirim,Interior
+IFRN,Campus Currais Novos,Interior
+IFRN,Campus Ipanguaçu,Interior
+IFRN,Campus João Câmara,Interior
+IFRN,Campus Jucurutu,Interior
+IFRN,Campus Lajes,Interior
+IFRN,Campus Macau,Interior
+IFRN,Campus Mossoró,Interior
+IFRN,Campus Natal - Central,Capital
+IFRN,Campus Natal - Cidade Alta,Capital
+IFRN,Campus Natal - Zona Leste (EaD),Capital
+IFRN,Campus Natal - Zona Norte,Capital
+IFRN,Campus Nova Cruz,Interior
+IFRN,Campus Parelhas,Interior
+IFRN,Campus Parnamirim,Interior
+IFRN,Campus Pau dos Ferros,Interior
+IFRN,Campus Santa Cruz,Interior
+IFRN,Campus São Gonçalo do Amarante,Interior
+IFRN,Campus São Paulo do Potengi,Interior
+IFRN,Reitoria,Reitoria
+IFRO,Reitoria,Reitoria
+IFRO,campus Ariquemes,Interior
+IFRO,campus Cacoal,Interior
+IFRO,campus Colorado do Oeste,Interior
+IFRO,campus Guajará Mirim,Interior
+IFRO,campus Jaru,Interior
+IFRO,campus Jí-paraná,Interior
+IFRO,campus Porto Velho Calama,Capital
+IFRO,campus Porto Velho Zona Norte,Capital
+IFRO,campus São Miguel,Interior
+IFRO,campus Vilhena,Interior
+IFRR,Campus Amajari,Interior
+IFRR,Campus Avançado Bonfim,Interior
+IFRR,Campus Boa Vista,Capital
+IFRR,Campus Boa Vista Zona Oeste,Capital
+IFRR,Campus Novo Paraíso,Interior
+IFRR,Reitoria,Reitoria
+IFRS,Campus Alvorada,Interior
+IFRS,Campus Bento Gonçalves,Interior
+IFRS,Campus Canoas,Interior
+IFRS,Campus Caxias do Sul,Interior
+IFRS,Campus Erechim,Interior
+IFRS,Campus Farroupilha,Interior
+IFRS,Campus Feliz,Interior
+IFRS,Campus Gramado,Interior
+IFRS,Campus Ibirubá,Interior
+IFRS,Campus Osório,Interior
+IFRS,Campus Porto Alegre,Capital
+IFRS,Campus Restinga,Interior
+IFRS,Campus Rio Grande,Interior
+IFRS,Campus Rolante,Interior
+IFRS,Campus Sertão,Interior
+IFRS,Campus Vacaria,Interior
+IFRS,Campus Veranópolis,Interior
+IFRS,Campus Viamão,Interior
+IFRS,Campus Zona Norte,Interior
+IFRS,Reitoria,Reitoria
+IFS,Campus Aracaju,Capital
+IFS,Campus Estância,Interior
+IFS,Campus Itabaiana,Interior
+IFS,Campus Lagarto,Interior
+IFS,Campus Poço Redondo,Interior
+IFS,Campus Propriá,Interior
+IFS,Campus São Cristóvão,Interior
+IFS,Campus Tobias Barreto,Interior
+IFS,Reitoria,Reitoria
+IFS,,Sem campus
+IFSC,Campus Urupema,Interior
+IFSC,Câmpus Araranguá,Interior
+IFSC,Câmpus Canoinhas,Interior
+IFSC,Câmpus Caçador,Interior
+IFSC,Câmpus Chapecó,Interior
+IFSC,Câmpus Criciúma,Interior
+IFSC,Câmpus Florianópolis,Capital
+IFSC,Câmpus Florianópolis-Continente,Capital
+IFSC,Câmpus Garopaba,Interior
+IFSC,Câmpus Gaspar,Interior
+IFSC,Câmpus Itajaí,Interior
+IFSC,Câmpus Jaraguá do SUL- RAU ( Geraldo Werninghaus),Interior
+IFSC,Câmpus Jaraguá do Sul,Interior
+IFSC,Câmpus Joinville,Interior
+IFSC,Câmpus Lages,Interior
+IFSC,Câmpus Palhoça Bilíngue,Interior
+IFSC,Câmpus São Carlos,Interior
+IFSC,Câmpus São José,Interior
+IFSC,Câmpus São Lourençco do Oeste,Interior
+IFSC,Câmpus São Miguel do Oeste,Interior
+IFSC,Câmpus Tubarão,Interior
+IFSC,Câmpus Xanxerê,Interior
+IFSC,Reitoria,Reitoria
+IFSERTAOPE,Campus Floresta,Interior
+IFSERTAOPE,Campus Ouricuri,Interior
+IFSERTAOPE,Campus Petrolina,Interior
+IFSERTAOPE,Campus Petrolina Zona Rural,Interior
+IFSERTAOPE,Campus Salgueiro,Interior
+IFSERTAOPE,Campus Santa Maria da Boa Vista,Interior
+IFSERTAOPE,Campus Serra Talhada,Interior
+IFSERTAOPE,Reitoria,Reitoria
+IFSERTAOPE,,Sem campus
+IFSP,Campus Araraquara,Interior
+IFSP,Campus Avaré,Interior
+IFSP,Campus Barretos - Sede,Interior
+IFSP,Campus Birigui,Interior
+IFSP,Campus Boituva,Interior
+IFSP,Campus Bragança Paulista,Interior
+IFSP,Campus Campinas,Interior
+IFSP,Campus Campos do Jordão,Interior
+IFSP,Campus Capivari,Interior
+IFSP,Campus Caraguatatuba,Interior
+IFSP,Campus Catanduva,Interior
+IFSP,Campus Cubatão,Interior
+IFSP,Campus Guarulhos,Interior
+IFSP,Campus Hortolândia,Interior
+IFSP,Campus Ilha Solteira,Interior
+IFSP,Campus Itapetininga,Interior
+IFSP,Campus Itaquaquecetuba,Interior
+IFSP,Campus Jacareí,Interior
+IFSP,Campus Jundiaí,Interior
+IFSP,Campus Matão,Interior
+IFSP,Campus Piracicaba,Interior
+IFSP,Campus Pirituba,Capital
+IFSP,Campus Presidente Epitácio,Interior
+IFSP,Campus Registro,Interior
+IFSP,Campus Salto,Interior
+IFSP,Campus Sertãozinho,Interior
+IFSP,Campus Sorocaba,Interior
+IFSP,Campus Suzano,Interior
+IFSP,Campus São Carlos,Interior
+IFSP,Campus São José dos Campos,Interior
+IFSP,Campus São João da Boa Vista,Interior
+IFSP,Campus São Miguel Paulista,Capital
+IFSP,Campus São Paulo,Capital
+IFSP,Campus São Roque,Interior
+IFSP,Campus Tupã,Interior
+IFSP,Campus Votuporanga,Interior
+IFSP,Reitoria,Reitoria
+IFSUDESTEMG,Campus Avançado Bom Sucesso,Interior
+IFSUDESTEMG,Campus Avançado Cataguases,Interior
+IFSUDESTEMG,Campus Avançado Ubá,Interior
+IFSUDESTEMG,Campus Barbacena,Interior
+IFSUDESTEMG,Campus Juiz de Fora,Interior
+IFSUDESTEMG,Campus Manhuaçu,Interior
+IFSUDESTEMG,Campus Muriaé,Interior
+IFSUDESTEMG,Campus Rio Pomba,Interior
+IFSUDESTEMG,Campus Santos Dumont,Interior
+IFSUDESTEMG,Campus São João Del Rei,Interior
+IFSUDESTEMG,Reitoria,Reitoria
+IFSUDESTEMG,,Sem campus
+IFSULDEMINAS,Campus Carmo de Minas,Interior
+IFSULDEMINAS,Campus Inconfidentes,Interior
+IFSULDEMINAS,Campus Itajubá,Interior
+IFSULDEMINAS,Campus Machado,Interior
+IFSULDEMINAS,Campus Muzambinho,Interior
+IFSULDEMINAS,Campus Passos,Interior
+IFSULDEMINAS,Campus Pouso Alegre,Interior
+IFSULDEMINAS,Campus Poços de Caldas,Interior
+IFSULDEMINAS,Campus Três Corações,Interior
+IFSULDEMINAS,Reitoria,Reitoria
+IFTM,Campus Avançado Campina Verde,Interior
+IFTM,Campus Avançado Uberaba Parque Tecnológico,Interior
+IFTM,Campus Ituiutaba,Interior
+IFTM,Campus Paracatu,Interior
+IFTM,Campus Patos de Minas,Interior
+IFTM,Campus Patrocínio,Interior
+IFTM,Campus Uberaba,Interior
+IFTM,Campus Uberlândia,Interior
+IFTM,Campus Uberlândia Centro,Interior
+IFTM,,Sem campus
+IFTO,Campus Araguatins,Interior
+IFTO,Campus Araguaína,Interior
+IFTO,Campus Colinas do Tocantins,Interior
+IFTO,Campus Dianópolis,Interior
+IFTO,Campus Formoso do Araguaia,Interior
+IFTO,Campus Gurupi,Interior
+IFTO,Campus Lagoa da Confusão,Interior
+IFTO,Campus Palmas,Capital
+IFTO,Campus Paraíso do Tocantins,Interior
+IFTO,Campus Pedro Afonso,Interior
+IFTO,Campus Porto Nacional,Interior
+IFTO,,Sem campus

@@ -1,0 +1,401 @@
+﻿pilar,posicao,nome,sigla,campus,perfil,titulacao,pilar_0_100,escore_fatorial,SP,rank_SP
+Produção científica,1,Francisco Régis Vieira Alves,IFCE,Campus Fortaleza,Pesquisador-formador,Pós-doutorado,100.0,4.515816014868593,99.72,6
+Produção científica,2,Marconi Batista Teixeira,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Pós-doutorado,100.0,4.393892311208169,87.63,3954
+Produção científica,3,Marcelo Santana Silva,IFBA,Reitoria,Pesquisador-formador,Pós-doutorado,99.99,3.6483284872970727,98.52,116
+Produção científica,4,Osvaldo Resende,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Doutorado,99.99,3.5650645028821883,94.95,984
+Produção científica,5,Frederico Antonio Loureiro Soares,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Pós-doutorado,99.99,4.7318854209841135,81.22,7202
+Produção científica,6,Douglas Andre Würz,IFSC,Câmpus Canoinhas,Pesquisador acadêmico,Doutorado,99.99,3.9620870785528415,98.1,181
+Produção científica,7,Matias Noll,IFGOIANO,Campus Ceres,Pesquisador-formador,Pós-doutorado,99.98,4.461457898091329,96.85,456
+Produção científica,8,Wilker Alves Morais,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Pós-doutorado,99.98,4.714954185376757,82.76,6413
+Produção científica,9,Maurilio Lopes Martins,IFSUDESTEMG,Campus Rio Pomba,Pesquisador-formador,Pós-doutorado,99.98,3.050108368636311,99.15,45
+Produção científica,10,Leandro Luiz Marcuzzo,IFC,Campus Rio do Sul,Pesquisador acadêmico,Pós-doutorado,99.97,3.7090479626592296,99.62,10
+Produção científica,11,Guilherme Malafaia Pinto,IFGOIANO,Campus Urutaí,Pesquisador-formador,Pós-doutorado,99.97,3.2085201797276937,99.74,4
+Produção científica,12,Jose Luiz Rodrigues Torres,IFTM,Campus Uberaba,Pesquisador-formador,Pós-doutorado,99.97,4.264505073889093,94.74,1045
+Produção científica,13,Antonio Pasqualetto,IFG,Campus Goiânia,Pesquisador-formador,Pós-doutorado,99.96,2.646957044754928,98.98,66
+Produção científica,14,Rocco Antonio Rangel Rosso Nelson,IFRN,Campus Natal - Central,Pesquisador acadêmico,Mestrado,99.96,4.394065843657218,94.91,994
+Produção científica,15,Pahlevi Augusto De Souza,IFRN,Campus Currais Novos,Pesquisador-formador,Doutorado,99.96,3.586148009743678,92.27,1907
+Produção científica,16,Emanuel Neto Alves De Oliveira,IFRN,Campus Pau dos Ferros,Pesquisador-formador,Pós-doutorado,99.96,3.517862621036356,99.56,12
+Produção científica,17,Kátia Aparecida De Pinho Costa,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Pós-doutorado,99.95,4.761132531085972,91.1,2411
+Produção científica,18,Vinícius Longo Ribeiro Vilela,IFPB,Campus Sousa,Pesquisador-formador,Pós-doutorado,99.95,3.743618198837397,98.51,118
+Produção científica,19,Daniel Teixeira Maldonado,IFSP,Campus Jacareí,Extensionista-difusor,Pós-doutorado,99.95,3.181722422817156,99.77,3
+Produção científica,20,Tatiana Colombo Pimentel,IFPR,Campus Paranavai,Pesquisador-formador,Pós-doutorado,99.94,3.4182765967599518,99.59,11
+Produção científica,21,Eduardo Guy Perpétuo Bock,IFSP,Campus São Paulo,Pesquisador-formador,Doutorado,99.94,3.8590928535891913,92.07,2006
+Produção científica,22,Pedro Dos Santos Portugal Júnior,IFSULDEMINAS,Campus Carmo de Minas,Pesquisador-formador,Pós-doutorado,99.94,3.61322788821228,96.64,509
+Produção científica,23,Lucas Eduardo De Oliveira Aparecido,IFSULDEMINAS,Campus Muzambinho,Pesquisador-formador,Pós-doutorado,99.94,3.803823637317133,87.51,4017
+Produção científica,24,Sandro César Silveira Jucá,IFCE,Campus Fortaleza,Pesquisador-formador,Pós-doutorado,99.93,4.087070812373341,87.43,4058
+Produção científica,25,Marco Antônio Pereira Da Silva,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Pós-doutorado,99.93,3.680593825633568,97.59,285
+Produção científica,26,Mateus Das Neves Gomes,IFPR,Campus Paranaguá,Pesquisador-formador,Pós-doutorado,99.93,4.001736276977257,98.04,197
+Produção científica,27,Adriano Teixeira De Oliveira,IFAM,Campus Manaus Centro,Pesquisador-formador,Pós-doutorado,99.92,4.521470838203473,98.24,156
+Produção científica,28,Daniel Emanuel Cabral De Oliveira,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Pós-doutorado,99.92,3.23113827324424,96.55,533
+Produção científica,29,Bruno Oliveira Lafetá,IFMG,Campus São João Evangelista,Pesquisador acadêmico,Doutorado,99.92,2.903104061091405,99.47,18
+Produção científica,30,Marcos Magalhães De Souza,IFSULDEMINAS,Campus Inconfidentes,Pesquisador acadêmico,Pós-doutorado,99.92,5.312271987330759,95.64,775
+Produção científica,31,Jader Lugon Junior,IFF,Campus Campos Centro,Pesquisador-formador,Pós-doutorado,99.91,3.0229588629955275,94.79,1032
+Produção científica,32,Jorge Cardoso Messeder,IFRJ,Campus Nilópolis,Pesquisador-formador,Doutorado,99.91,2.526584895734367,96.64,509
+Produção científica,33,Clecia Simone Goncalves Rosa Pacheco,IFSERTAOPE,Campus Petrolina,Pesquisador-formador,Pós-doutorado,99.91,3.1332022725141457,95.41,854
+Produção científica,34,Marlene Nunes Damaceno,IFCE,Campus Limoeiro do Norte,Pesquisador-formador,Doutorado,99.9,1.8902952590181752,99.8,2
+Produção científica,35,Adriano Gomes Da Cruz,IFRJ,Campus Rio de Janeiro,Pesquisador-formador,Pós-doutorado,99.9,2.462614654635443,97.35,333
+Produção científica,36,Ana Sara Castaman,IFRS,Campus Sertão,Extensionista-difusor,Pós-doutorado,99.9,2.958888030602568,99.69,7
+Produção científica,37,Ana Sara Castaman,IFC,Campus Videira,Extensionista-difusor,Pós-doutorado,99.89,2.9752302315511323,99.68,9
+Produção científica,38,Vicente De Paulo Santos De Oliveira,IFF,Polo de Inovação Campos Dos Goytacazes,Pesquisador-formador,Doutorado,99.89,1.785979232836506,99.31,28
+Produção científica,39,Rúbia Emmel,IFFAR,Campus Santa Rosa,Extensionista-difusor,Doutorado,99.89,3.281602292380945,97.95,210
+Produção científica,40,Marcos Dos Santos Lima,IFSERTAOPE,Campus Petrolina,Pesquisador-formador,Doutorado,99.89,2.825926264207676,87.2,4180
+Produção científica,41,Kleyton Danilo Da Silva Costa,IFAL,Campus Piranhas,Pesquisador acadêmico,Doutorado,99.88,3.736967576289007,94.47,1117
+Produção científica,42,Francisco Das Chagas Silva Souza,IFRN,Campus Mossoró,Pesquisador-formador,Pós-doutorado,99.88,2.709794277805676,99.31,28
+Produção científica,43,Raquel Breitenbach,IFRS,Campus Sertão,Extensionista-difusor,Pós-doutorado,99.88,3.1965486314255065,97.32,344
+Produção científica,44,Francisco José De Lima,IFCE,Campus Cedro,Pesquisador acadêmico,Doutorado,99.87,3.292880189194132,99.21,39
+Produção científica,45,Alvaro Antonio Ochoa Villa,IFPE,Campus Recife,Pesquisador-formador,Pós-doutorado,99.87,1.942464198193836,87.4,4075
+Produção científica,46,Roberta Pasqualli,IFSC,Câmpus Chapecó,Pesquisador-formador,Pós-doutorado,99.87,2.366233554554744,99.15,45
+Produção científica,47,Eliane Maurício Furtado Martins,IFSUDESTEMG,Campus Rio Pomba,Pesquisador-formador,Doutorado,99.87,2.9196035844805235,93.96,1290
+Produção científica,48,Rinaldo Dos Santos Araújo,IFCE,Campus Fortaleza,Pesquisador-formador,Doutorado,99.86,3.6502195872166823,92.01,2030
+Produção científica,49,Adriano Perin,IFGOIANO,Campus Rio Verde,Pesquisador acadêmico,Doutorado,99.86,3.8725462861330513,96.02,663
+Produção científica,50,André Rocha Pimenta,IFRJ,Campus Paracambi,Pesquisador-formador,Doutorado,99.86,2.1317418960999466,97.85,235
+Produção científica,51,Auzuir Ripardo De Alexandria,IFCE,Campus Fortaleza,Pesquisador-formador,Pós-doutorado,99.85,2.329964673573487,97.36,330
+Produção científica,52,Kelly De Araujo Rodrigues Pessoa,IFCE,Campus Fortaleza,Pesquisador-formador,Pós-doutorado,99.85,4.496449493608752,84.32,5616
+Produção científica,53,Wesley Pacheco Calixto,IFG,Campus Inhumas,Pesquisador-formador,Pós-doutorado,99.85,3.008684292942453,93.18,1602
+Produção científica,54,Suezilde Da Conceição Amaral Ribeiro,IFPA,,Pesquisador-formador,Doutorado,99.85,2.2112857674025457,98.21,161
+Produção científica,55,Johnnatan Duarte De Freitas,IFAL,Campus Maceio,Pesquisador-formador,Doutorado,99.84,2.029737026783952,99.0,63
+Produção científica,56,Antonio Mendes De Oliveira Neto,IFC,Campus Rio do Sul,Pesquisador-formador,Pós-doutorado,99.84,3.9354663279805937,89.74,2974
+Produção científica,57,Ariana Vieira Silva,IFSULDEMINAS,Campus Muzambinho,Extensionista-difusor,Doutorado,99.84,2.509916126450687,98.99,65
+Produção científica,58,Otavio Fernandes Lima Da Rocha,IFPA,,Pesquisador-formador,Pós-doutorado,99.83,3.4140416348357068,96.04,655
+Produção científica,59,Saul Jorge Pinto De Carvalho,IFSULDEMINAS,Reitoria,Pesquisador acadêmico,Doutorado,99.83,3.9380052647932464,97.29,353
+Produção científica,60,Clauber Rosanova,IFTO,Campus Palmas,Extensionista-difusor,Pós-doutorado,99.83,3.404648883650657,92.35,1868
+Produção científica,61,Fabiano Guimarães Silva,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Doutorado,99.82,3.938557239278606,91.49,2254
+Produção científica,62,Alessandra Marcone Tavares Alves De Figueirêdo,IFPB,Campus João Pessoa,Pesquisador acadêmico,Doutorado,99.82,3.4067560708831066,92.12,1979
+Produção científica,63,Frederico Campos Pereira,IFPB,Reitoria,Pesquisador-formador,Doutorado,99.82,3.182161695612629,87.33,4113
+Produção científica,64,Ana Lúcia Oliveira Aguiar,IFSERTAOPE,Campus Petrolina,Pesquisador-formador,Pós-doutorado,99.82,2.607455728818357,99.51,14
+Produção científica,65,Romeu E Silva Neto,IFF,Campus Campos Centro,Pesquisador-formador,Pós-doutorado,99.81,2.647831919193292,98.51,118
+Produção científica,66,Adriano Jakelaitis,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Pós-doutorado,99.81,4.010471571171984,96.63,511
+Produção científica,67,Marcos Paulo Ludwig,IFRS,Campus Ibirubá,Pesquisador acadêmico,Doutorado,99.81,3.321364821757973,98.2,163
+Produção científica,68,Roberta Pasqualli,IFC,Campus Videira,Pesquisador-formador,Pós-doutorado,99.8,2.590709290518212,98.77,83
+Produção científica,69,Maria Cleide Da Silva Barroso,IFCE,Campus Fortaleza,Pesquisador-formador,Pós-doutorado,99.8,3.233187896201146,94.94,986
+Produção científica,70,Rogerio Atem De Carvalho,IFF,Polo de Inovação Campos Dos Goytacazes,Pesquisador-formador,Doutorado,99.8,-0.0279311006703949,99.9,1
+Produção científica,71,João José De Assis Rangel,IFF,Campus Campos Centro,Pesquisador-formador,Doutorado,99.8,2.831263270337028,96.62,517
+Produção científica,72,Débora Astoni Moreira,IFGOIANO,Campus Urutaí,Pesquisador-formador,Pós-doutorado,99.79,3.743936233655816,92.84,1718
+Produção científica,73,Carlos Eduardo Barão,IFPR,Campus Paranavai,Pesquisador-formador,Doutorado,99.79,2.7571199425216566,97.63,277
+Produção científica,74,Sivanilza Teixeira Machado,IFSP,Campus Guarulhos,Pesquisador acadêmico,Pós-doutorado,99.79,3.675122826841488,98.08,188
+Produção científica,75,Ivan Bianchi,IFC,Campus Concordia,Pesquisador-formador,Doutorado,99.78,2.237072545988613,95.53,813
+Produção científica,76,Marcelo Moizinho Oliveira,IFMA,Campus São Luís Monte Castelo,Pesquisador-formador,Pós-doutorado,99.78,1.2455374961880392,99.73,5
+Produção científica,77,Tiago Savi Mondo,IFSC,Câmpus Florianópolis-Continente,Pesquisador acadêmico,Pós-doutorado,99.78,3.5092719076280434,99.09,52
+Produção científica,78,Welisson Marques,IFTM,Campus Uberaba,Pesquisador-formador,Pós-doutorado,99.78,3.001844481349871,98.14,173
+Produção científica,79,Nubia Deborah Araujo Caramello,IFAP,Campus Laranjal do Jari,Extensionista-difusor,Pós-doutorado,99.77,2.660992173076164,99.54,13
+Produção científica,80,Gabriel Henrique Horta De Oliveira,IFSUDESTEMG,Campus Manhuaçu,Pesquisador acadêmico,Pós-doutorado,99.77,3.882248284381113,98.81,81
+Produção científica,81,André Narvaes Da Rocha Campos,IFSUDESTEMG,Campus Rio Pomba,Pesquisador-formador,Pós-doutorado,99.77,3.038886251216819,87.04,4256
+Produção científica,82,Maria Regina Sarkis Peixoto Joele,IFPA,,Pesquisador-formador,Doutorado,99.76,1.7153592982011103,95.41,854
+Produção científica,83,Renato Farias Do Valle Junior,IFTM,Campus Uberaba,Pesquisador-formador,Pós-doutorado,99.76,2.2246897196436928,97.64,275
+Produção científica,84,Danielli Araújo Lima,IFTM,Campus Patrocínio,Pesquisador-formador,Pós-doutorado,99.76,1.1600654062181872,99.36,25
+Produção científica,85,Tiago Reis Dutra,IFNMG,Campus Diamantina,Pesquisador acadêmico,Doutorado,99.75,3.5817950432015078,97.67,268
+Produção científica,86,Carlos Alberto Machado Da Rocha,IFPA,,Pesquisador-formador,Pós-doutorado,99.75,2.818097662534284,94.12,1233
+Produção científica,87,Reinaldo Lucas Cajaiba,IFPA,,Pesquisador acadêmico,Pós-doutorado,99.75,3.110528477769303,99.17,42
+Produção científica,88,Ioná Maria Beltrão Rameh Barbosa,IFPE,Campus Recife,Pesquisador-formador,Doutorado,99.75,1.1123860314578478,98.67,95
+Produção científica,89,Pedro Pedrosa Rebouças Filho,IFCE,Campus Fortaleza,Pesquisador-formador,Pós-doutorado,99.74,2.654311256237857,95.0,967
+Produção científica,90,Milton Erthal Junior,IFF,Campus Campos Guarus,Pesquisador acadêmico,Pós-doutorado,99.74,4.166032394173451,96.95,435
+Produção científica,91,Marcos De Moraes Sousa,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Pós-doutorado,99.74,1.733720545853651,98.55,107
+Produção científica,92,Wagna Piler Carvalho Dos Santos,IFBA,,Pesquisador-formador,Doutorado,99.73,2.2941173211228194,97.19,382
+Produção científica,93,Maria Gláucia Dourado Furquim,IFGOIANO,Campus Iporá,Pesquisador-formador,Doutorado,99.73,2.084801855197275,98.88,75
+Produção científica,94,Roberto Remígio Florêncio,IFSERTAOPE,Campus Petrolina Zona Rural,Extensionista-difusor,Doutorado,99.73,3.2104472870733254,94.51,1105
+Produção científica,95,João Francisco Sarno Carvalho,IFSULDEMINAS,Campus Passos,Pesquisador acadêmico,Pós-doutorado,99.73,4.352482047128449,93.53,1456
+Produção científica,96,Caroline De Goes Sampaio,IFCE,Campus Maracanaú,Pesquisador-formador,Doutorado,99.72,2.744054486141665,96.16,623
+Produção científica,97,Cibele Silva Minafra,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Doutorado,99.72,4.248890808118856,93.03,1667
+Produção científica,98,Valdenildo Pedro Da Silva,IFRN,Campus Natal - Central,Extensionista-difusor,Pós-doutorado,99.72,2.130731984974569,99.2,40
+Produção científica,99,Marcus Vinicius Da Silva Pereira,IFRJ,Reitoria,Pesquisador-formador,Pós-doutorado,99.71,1.903752934965644,97.49,305
+Produção científica,100,Jefferson De Souza Pinto,IFSP,Campus Bragança Paulista,Pesquisador-formador,Pós-doutorado,99.71,2.8751814456733564,98.44,132
+Difusão e extensão,1,Ilma Rodrigues De Souza Fausto,IFRO,campus Jí-paraná,Pesquisador-formador,Pós-doutorado,100.0,4.752182171682598,96.28,585
+Difusão e extensão,2,Sérgio Nunes De Jesus,IFRO,campus Cacoal,Extensionista-difusor,Pós-doutorado,100.0,6.491151090926178,94.69,1063
+Difusão e extensão,3,Antonio Pasqualetto,IFG,Campus Goiânia,Pesquisador-formador,Pós-doutorado,99.99,4.110312784606992,98.98,66
+Difusão e extensão,4,Valdenildo Pedro Da Silva,IFRN,Campus Natal - Central,Extensionista-difusor,Pós-doutorado,99.99,4.2666099728691,99.2,40
+Difusão e extensão,5,Clecia Simone Goncalves Rosa Pacheco,IFSERTAOPE,Campus Petrolina,Pesquisador-formador,Pós-doutorado,99.99,4.790968114135663,95.41,854
+Difusão e extensão,6,Daniel Teixeira Maldonado,IFSP,Campus Jacareí,Extensionista-difusor,Pós-doutorado,99.99,4.39283695506405,99.77,3
+Difusão e extensão,7,Fabio Jose Rauen,IFC,,Pesquisador-formador,Pós-doutorado,99.98,4.659167147737595,99.05,59
+Difusão e extensão,8,José Solon Sales E Silva,IFCE,Reitoria,Extensionista-difusor,Doutorado,99.98,5.745847280025624,87.6,3968
+Difusão e extensão,9,Andrezza Maria Batista Do Nascimento Tavares,IFRN,Campus Natal - Central,Pesquisador-formador,Pós-doutorado,99.98,4.553522989759885,99.23,36
+Difusão e extensão,10,Daniel Nascimento E Silva,IFAM,Campus Manaus Distrito,Extensionista-difusor,Pós-doutorado,99.97,4.5000387568070215,99.39,23
+Difusão e extensão,11,Rogerio Atem De Carvalho,IFF,Polo de Inovação Campos Dos Goytacazes,Pesquisador-formador,Doutorado,99.97,2.846845212758101,99.9,1
+Difusão e extensão,12,Ilane Ferreira,IFRN,Campus Natal - Zona Leste (EaD),Extensionista-difusor,Pós-doutorado,99.97,4.475392458959238,99.47,18
+Difusão e extensão,13,Rita Rodrigues De Souza,IFG,Campus Jataí,Extensionista-difusor,Pós-doutorado,99.96,4.3836113260963865,97.06,412
+Difusão e extensão,14,Romier Da Paixão Sousa,IFPA,,Pesquisador-formador,Pós-doutorado,99.96,4.116493699532694,98.75,85
+Difusão e extensão,15,Silvia De Castro Bertagnolli,IFRS,Campus Porto Alegre,Pesquisador-formador,Doutorado,99.96,3.599253139369042,99.23,36
+Difusão e extensão,16,Gislene Miotto Catolino Raymundo,IFSC,Câmpus Florianópolis,Extensionista-difusor,Pós-doutorado,99.96,4.401512275846955,98.93,69
+Difusão e extensão,17,Nubia Deborah Araujo Caramello,IFAP,Campus Laranjal do Jari,Extensionista-difusor,Pós-doutorado,99.95,3.80364855261157,99.54,13
+Difusão e extensão,18,Máriam Trierveiler Pereira,IFPR,Campus Curitiba,Pesquisador-formador,Doutorado,99.95,4.368917068089851,98.64,97
+Difusão e extensão,19,Roberta Pasqualli,IFSC,Câmpus Chapecó,Pesquisador-formador,Pós-doutorado,99.95,3.310679068956336,99.15,45
+Difusão e extensão,20,Guilherme Malafaia Pinto,IFGOIANO,Campus Urutaí,Pesquisador-formador,Pós-doutorado,99.94,2.343478423522264,99.74,4
+Difusão e extensão,21,Maylta Brandão Dos Anjos,IFRJ,Campus Nilópolis,Pesquisador-formador,Doutorado,99.94,4.914988985664739,87.61,3963
+Difusão e extensão,22,Danielle Cunha De Souza Pereira,IFRR,Campus Amajari,Extensionista-difusor,Doutorado,99.94,4.362552512867967,97.62,278
+Difusão e extensão,23,Ana Lúcia Oliveira Aguiar,IFSERTAOPE,Campus Petrolina,Pesquisador-formador,Pós-doutorado,99.94,3.166320494977853,99.51,14
+Difusão e extensão,24,Arthur Breno Stürmer,IFFAR,Campus Frederico Westphalen,Extensionista-difusor,Doutorado,99.93,3.788501348640564,98.06,192
+Difusão e extensão,25,Ana Lúcia Sarmento Henrique,IFRN,Campus Natal - Zona Leste (EaD),Extensionista-difusor,Doutorado,99.93,4.472389292205468,99.28,32
+Difusão e extensão,26,Marimar Da Silva,IFSC,Câmpus Florianópolis-Continente,Extensionista-difusor,Pós-doutorado,99.93,3.921517305893963,99.33,26
+Difusão e extensão,27,Teresinha De Jesus Aguiar Dos Santos Andrade,IFMA,Campus Presidente Dutra,Extensionista-difusor,Pós-doutorado,99.92,4.072575870458333,98.06,192
+Difusão e extensão,28,Adriano Gomes Da Cruz,IFRJ,Campus Rio de Janeiro,Pesquisador-formador,Pós-doutorado,99.92,2.5880072953121784,97.35,333
+Difusão e extensão,29,Maria Augusta Martiarena,IFRS,Campus Osório,Pesquisador-formador,Pós-doutorado,99.92,3.5684241874374183,98.48,129
+Difusão e extensão,30,Ana Sara Castaman,IFRS,Campus Sertão,Extensionista-difusor,Pós-doutorado,99.92,2.717575336015789,99.69,7
+Difusão e extensão,31,Ana Sara Castaman,IFC,Campus Videira,Extensionista-difusor,Pós-doutorado,99.91,2.6587324088651645,99.68,9
+Difusão e extensão,32,Haroldo De Vasconcelos Bentes,IFPA,,Extensionista-difusor,Pós-doutorado,99.91,4.43810506309111,97.43,318
+Difusão e extensão,33,Grazielle Rodrigues Pereira,IFRJ,Campus Avançado Mesquita,Pesquisador-formador,Doutorado,99.91,3.970576066947456,97.54,299
+Difusão e extensão,34,Nilton Nélio Cometti,IFB,Campus Planaltina,Extensionista-difusor,Doutorado,99.9,3.738261149198496,97.4,324
+Difusão e extensão,35,Francisco Régis Vieira Alves,IFCE,Campus Fortaleza,Pesquisador-formador,Pós-doutorado,99.9,2.182946666311936,99.72,6
+Difusão e extensão,36,Plinio Alexandre Dos Santos Caetano,IFSP,Campus Sertãozinho,Gestor-formador,Doutorado,99.9,3.537853055005965,97.94,211
+Difusão e extensão,37,Mariana Fernandes Dos Santos,IFBA,,Extensionista-difusor,Doutorado,99.89,3.3524624360996182,99.31,28
+Difusão e extensão,38,Fagno Da Silva Soares,IFMA,Campus Açailândia,Extensionista-difusor,Pós-doutorado,99.89,3.870059256244229,92.96,1688
+Difusão e extensão,39,Joyce Luciane Correia Muzi,IFPR,Campus Curitiba,Extensionista-difusor,Doutorado,99.89,4.360742949589851,97.52,302
+Difusão e extensão,40,Paulo Jorge De Oliveira Carvalho,IFSP,Campus Cubatão,Extensionista-difusor,Doutorado,99.89,3.928469473546276,93.39,1507
+Difusão e extensão,41,Leandro Luiz Marcuzzo,IFC,Campus Rio do Sul,Pesquisador acadêmico,Pós-doutorado,99.88,2.328158655846216,99.62,10
+Difusão e extensão,42,Andréa Poletto Sonza,IFRS,Reitoria,Extensionista-difusor,Doutorado,99.88,5.071782641327592,95.99,672
+Difusão e extensão,43,Rosana Ferrareto Lourenço Rodrigues,IFSP,Campus São João da Boa Vista,Extensionista-difusor,Pós-doutorado,99.88,3.7395949790815775,99.48,17
+Difusão e extensão,44,Manuel Alves De Sousa Junior,IFBA,,Extensionista-difusor,Doutorado,99.87,4.304081528270411,92.74,1750
+Difusão e extensão,45,Mauricio Ramos Lutz,IFFAR,Campus Alegrete,Extensionista-difusor,Pós-doutorado,99.87,3.283474875146965,99.49,16
+Difusão e extensão,46,Miranilde Oliveira Neves,IFPA,,Pesquisador-formador,Pós-doutorado,99.87,3.849571594894672,98.58,103
+Difusão e extensão,47,Tatiana Colombo Pimentel,IFPR,Campus Paranavai,Pesquisador-formador,Pós-doutorado,99.87,1.8762321292628523,99.59,11
+Difusão e extensão,48,Diego Pizarro,IFB,Campus Brasília,Extensionista-difusor,Pós-doutorado,99.86,3.8806762738921217,97.49,305
+Difusão e extensão,49,Rosemeri Scalabrin,IFPA,,Pesquisador-formador,Pós-doutorado,99.86,4.274905473915245,86.94,4319
+Difusão e extensão,50,Josimar De Aparecido Vieira,IFRS,Campus Sertão,Pesquisador-formador,Pós-doutorado,99.86,2.770604412370715,98.12,176
+Difusão e extensão,51,Vicente De Paulo Santos De Oliveira,IFF,Polo de Inovação Campos Dos Goytacazes,Pesquisador-formador,Doutorado,99.85,2.4043545864816678,99.31,28
+Difusão e extensão,52,Mariele Josiane Fuchs,IFFAR,Campus Santa Rosa,Extensionista-difusor,Mestrado,99.85,3.809412356985472,94.42,1132
+Difusão e extensão,53,Jairo Da Silva E Silva,IFPA,,Extensionista-difusor,Doutorado,99.85,3.424369296485723,99.11,50
+Difusão e extensão,54,Maurilio Lopes Martins,IFSUDESTEMG,Campus Rio Pomba,Pesquisador-formador,Pós-doutorado,99.85,2.320158405992013,99.15,45
+Difusão e extensão,55,Marcelo Santana Silva,IFBA,Reitoria,Pesquisador-formador,Pós-doutorado,99.84,2.221089746505484,98.52,116
+Difusão e extensão,56,Adilson Ribeiro De Oliveira,IFMG,Campus Ouro Branco,Extensionista-difusor,Pós-doutorado,99.84,3.683674953007488,98.75,85
+Difusão e extensão,57,Laerte Silva Da Fonseca,IFS,Campus Aracaju,Pesquisador-formador,Pós-doutorado,99.84,3.1990751213762234,98.54,109
+Difusão e extensão,58,Arliene Stephanie Menezes Pereira Pinto,IFCE,Campus Paracuru,Extensionista-difusor,Pós-doutorado,99.83,3.142362503780032,99.08,54
+Difusão e extensão,59,Rosenilde Nogueira Paniago,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Pós-doutorado,99.83,3.0838025044823705,98.0,202
+Difusão e extensão,60,Helena Do Socorro Campos Da Rocha,IFPA,,Extensionista-difusor,Doutorado,99.83,3.875980354069432,97.45,313
+Difusão e extensão,61,Aliger Dos Santos Pereira,IFBA,,Extensionista-difusor,Pós-doutorado,99.82,4.191532954015564,95.79,727
+Difusão e extensão,62,Marcos Fernandes Sobrinho,IFGOIANO,Campus Urutaí,Pesquisador-formador,Pós-doutorado,99.82,2.319362527376857,99.51,14
+Difusão e extensão,63,Fernanda Raghiante,IFTM,Campus Uberlândia,Extensionista-difusor,Doutorado,99.82,3.729025899371214,98.42,135
+Difusão e extensão,64,Fernando Morais Rodrigues,IFTO,Campus Paraíso do Tocantins,Extensionista-difusor,Doutorado,99.82,4.107807950354085,89.46,3111
+Difusão e extensão,65,Liliane Madruga Prestes,IFRS,Campus Porto Alegre,Extensionista-difusor,Doutorado,99.81,3.912248832781594,98.36,143
+Difusão e extensão,66,Aristides Faria Lopes Dos Santos,IFSP,Campus Cubatão,Extensionista-difusor,Doutorado,99.81,3.6771654383572336,97.86,231
+Difusão e extensão,67,Jaqueline Maissiat,IFTM,Campus Uberaba,Pesquisador-formador,Doutorado,99.81,3.6015283459211647,98.5,122
+Difusão e extensão,68,Angela Maria Corrêa Mouzinho Santos,IFMA,Campus Santa Inês,Extensionista-difusor,Doutorado,99.8,3.855659182528162,95.99,672
+Difusão e extensão,69,Francisco Das Chagas Silva Souza,IFRN,Campus Mossoró,Pesquisador-formador,Pós-doutorado,99.8,2.7886778045630205,99.31,28
+Difusão e extensão,70,Aurélio Ferreira Borges,IFRO,campus Colorado do Oeste,Extensionista-difusor,Pós-doutorado,99.8,4.096578140044433,93.23,1581
+Difusão e extensão,71,Luciana Cavalcanti De Azevedo,IFSERTAOPE,Campus Petrolina,Pesquisador-formador,Pós-doutorado,99.8,3.2452791204491667,87.71,3915
+Difusão e extensão,72,Roberta Pasqualli,IFC,Campus Videira,Pesquisador-formador,Pós-doutorado,99.79,2.7985843536041384,98.77,83
+Difusão e extensão,73,Viviane Diehl,IFRS,Campus Feliz,Extensionista-difusor,Pós-doutorado,99.79,3.669139503498162,93.35,1530
+Difusão e extensão,74,Roberto Remígio Florêncio,IFSERTAOPE,Campus Petrolina Zona Rural,Extensionista-difusor,Doutorado,99.79,3.5432476234384973,94.51,1105
+Difusão e extensão,75,Luiz Alberto Oliveira Lima Roque,IFF,Campus Macaé,Extensionista-difusor,Mestrado,99.78,4.821660778494502,89.66,3010
+Difusão e extensão,76,Gil Derlan Silva Almeida,IFMA,Campus Bacabal,Extensionista-difusor,Pós-doutorado,99.78,3.3209060384113,97.86,231
+Difusão e extensão,77,Fernando Rossetto Gallego Campos,IFSC,Câmpus Chapecó,Extensionista-difusor,Doutorado,99.78,4.204583747033964,98.07,190
+Difusão e extensão,78,Kélvya Freitas Abreu,IFSERTAOPE,Campus Salgueiro,Extensionista-difusor,Doutorado,99.78,3.588118770342594,99.25,34
+Difusão e extensão,79,Mateus Gianni Fonseca,IFB,,Pesquisador-formador,Pós-doutorado,99.77,3.202263157630721,98.57,104
+Difusão e extensão,80,Eva Cristina Francisco,IFSP,Reitoria,Extensionista-difusor,Pós-doutorado,99.77,3.4300560899488346,99.01,61
+Difusão e extensão,81,Paula Jucá De Sousa,IFTO,Campus Paraíso do Tocantins,Extensionista-difusor,Doutorado,99.77,4.374432134768886,89.75,2968
+Difusão e extensão,82,Sylvana Karla Da Silva De Lemos Santos,IFB,Campus Brasília,Extensionista-difusor,Doutorado,99.76,3.300616461871529,98.29,152
+Difusão e extensão,83,Joana Peixoto,IFG,Campus Goiânia,Pesquisador-formador,Doutorado,99.76,3.589263900913509,97.19,382
+Difusão e extensão,84,Liz Carmem Silva-pereira,IFPA,,Extensionista-difusor,Doutorado,99.76,3.5111599141750447,96.65,505
+Difusão e extensão,85,Luis Rodolfo Cabral,IFMA,Campus Avançado Rosário,Extensionista-difusor,Pós-doutorado,99.75,3.2467774431522973,98.22,159
+Difusão e extensão,86,Jaqueline Gomes De Jesus,IFRJ,,Extensionista-difusor,Pós-doutorado,99.75,3.0713480728191747,98.88,75
+Difusão e extensão,87,Viviane Cristina Garcia De Stefani,IFSP,Campus São Carlos,Extensionista-difusor,Pós-doutorado,99.75,3.410242067880863,96.99,427
+Difusão e extensão,88,Eliane Maurício Furtado Martins,IFSUDESTEMG,Campus Rio Pomba,Pesquisador-formador,Doutorado,99.75,2.8378174963108678,93.96,1290
+Difusão e extensão,89,Bruno De Assis Freire De Lima,IFMG,Campus Sabará,Extensionista-difusor,Pós-doutorado,99.74,3.7420235119165217,95.65,774
+Difusão e extensão,90,Frederico Fonseca Da Silva,IFPR,Campus Curitiba,Extensionista-difusor,Pós-doutorado,99.74,2.9669708295398447,98.54,109
+Difusão e extensão,91,Andréia Modrzejewski Zucolotto,IFRS,Campus Porto Alegre,Pesquisador-formador,Pós-doutorado,99.74,2.7987286151836703,98.1,181
+Difusão e extensão,92,Guilherme Sachs,IFPR,Campus Telemaco Borba,Gestor-formador,Mestrado,99.73,3.640878833286787,93.83,1337
+Difusão e extensão,93,Maria Cristina Caminha De Castilhos França,IFRS,Campus Porto Alegre,Pesquisador-formador,Pós-doutorado,99.73,3.4121435341063258,97.75,251
+Difusão e extensão,94,Adriano Larentes Da Silva,IFSC,Câmpus Lages,Pesquisador-formador,Pós-doutorado,99.73,3.614578872209094,97.87,228
+Difusão e extensão,95,André Ricardo Lucas Vieira,IFSERTAOPE,Campus Santa Maria da Boa Vista,Extensionista-difusor,Doutorado,99.73,3.55349671137349,99.2,40
+Difusão e extensão,96,Raffaelle Andressa Dos Santos Araujo,IFMA,Campus São Luís Monte Castelo,Extensionista-difusor,Doutorado,99.72,3.330401985253157,97.57,290
+Difusão e extensão,97,Ioná Maria Beltrão Rameh Barbosa,IFPE,Campus Recife,Pesquisador-formador,Doutorado,99.72,2.3983857864133977,98.67,95
+Difusão e extensão,98,Valquiria Farias Bezerra Barbosa,IFPE,Campus Abreu e Lima,Extensionista-difusor,Pós-doutorado,99.72,2.552513863923161,99.42,21
+Difusão e extensão,99,Marcus Ramusyo De Almeida Brasil,IFMA,Campus São Luís Centro Histórico,Extensionista-difusor,Pós-doutorado,99.71,3.128037534754963,98.7,92
+Difusão e extensão,100,Nila Michele Bastos Santos,IFMA,Campus Pedreiras,Extensionista-difusor,Doutorado,99.71,4.689392875978736,93.54,1451
+Gestão e ensino,1,Paulo Cesar Fachin,IFSC,Câmpus São Lourençco do Oeste,Pesquisador-formador,Pós-doutorado,100.0,2.010343407765026,98.5,122
+Gestão e ensino,2,Ana Sara Castaman,IFC,Campus Videira,Extensionista-difusor,Pós-doutorado,99.99,1.5429209812256934,99.68,9
+Gestão e ensino,3,Marlene Nunes Damaceno,IFCE,Campus Limoeiro do Norte,Pesquisador-formador,Doutorado,99.99,3.088668096939565,99.8,2
+Gestão e ensino,4,Ana Sara Castaman,IFRS,Campus Sertão,Extensionista-difusor,Pós-doutorado,99.99,1.5359922335907652,99.69,7
+Gestão e ensino,5,Geraldo Gonçalves De Lima,IFTM,Campus Uberaba,Pesquisador-formador,Pós-doutorado,99.99,2.220667941456235,99.07,55
+Gestão e ensino,6,Carlos Paula Lemos,IFTM,Campus Patos de Minas,Gestor-formador,Doutorado,99.99,4.189714726998464,95.95,686
+Gestão e ensino,7,Mauricio Ramos Lutz,IFFAR,Campus Alegrete,Extensionista-difusor,Pós-doutorado,99.98,2.085949951701928,99.49,16
+Gestão e ensino,8,Marcelo Moizinho Oliveira,IFMA,Campus São Luís Monte Castelo,Pesquisador-formador,Pós-doutorado,99.98,2.6354646118567198,99.73,5
+Gestão e ensino,9,Waldo Luis De Lucca,IFSP,Campus Capivari,Gestor-formador,Mestrado,99.98,3.9757714742055086,85.47,5032
+Gestão e ensino,10,Edilon Mendes Nunes,IFAP,Campus Laranjal do Jari,Gestor-formador,Doutorado,99.97,2.730034979007311,97.88,225
+Gestão e ensino,11,João Batista Teixeira De Aguiar,IFRO,campus Porto Velho Zona Norte,Gestor-formador,Mestrado,99.97,3.112818090001846,91.37,2302
+Gestão e ensino,12,Guilherme Oberlender,IFSULDEMINAS,Campus Muzambinho,Gestor-formador,Pós-doutorado,99.97,3.860514265181493,99.69,7
+Gestão e ensino,13,Dênis Fernando Fraga Rios,IFMG,Campus Avançado Arcos,Gestor-formador,Mestrado,99.96,3.787079165095357,93.08,1647
+Gestão e ensino,14,Jefferson Pereira De Almeida,IFRS,Campus Farroupilha,Gestor-formador,Doutorado,99.96,3.397926385349608,89.98,2865
+Gestão e ensino,15,Gislene Miotto Catolino Raymundo,IFSC,Câmpus Florianópolis,Extensionista-difusor,Pós-doutorado,99.96,1.1482582038403712,98.93,69
+Gestão e ensino,16,Adriano Nezello Schneider Pizzatto Heis,IFSC,Reitoria,Gestor-formador,Mestrado,99.96,3.292080053133293,93.46,1484
+Gestão e ensino,17,Lívia Da Silva Modesto Rodrigues,IFBA,,Gestor-formador,Pós-doutorado,99.95,3.354210496841804,93.35,1530
+Gestão e ensino,18,Rebeca Vilas Boas Cardoso De Oliveira,IFSP,Campus São Paulo,Gestor-formador,Doutorado,99.95,3.14571869251341,95.58,795
+Gestão e ensino,19,Fernanda Barbosa Borges Jardim,IFTM,Campus Uberaba,Pesquisador-formador,Doutorado,99.95,2.2932072434799293,99.13,48
+Gestão e ensino,20,Magali Dias De Souza,IFC,Campus Camboriu,Gestor-formador,Pós-doutorado,99.94,2.52742645729119,99.31,28
+Gestão e ensino,21,Karlucy Farias De Sousa,IFPE,Campus Belo Jardim,Extensionista-difusor,Doutorado,99.94,1.7005586587279844,97.97,209
+Gestão e ensino,22,Raimundo Nonato Da Silveira Junior,IFRJ,Campus Rio de Janeiro,Gestor-formador,Doutorado,99.94,3.952922516845488,90.49,2655
+Gestão e ensino,23,Tito Matias Ferreira Júnior,IFRN,Campus Ceará-Mirim,Gestor-formador,Doutorado,99.94,2.6251739292172838,98.21,161
+Gestão e ensino,24,José Aurélio Vazquez Rubio,IFGOIANO,Campus Rio Verde,Gestor-formador,Doutorado,99.93,3.712812788269084,92.06,2012
+Gestão e ensino,25,Cherilo Dalbosco,IFSC,Câmpus São Miguel do Oeste,Gestor-formador,Doutorado,99.93,3.200148278914498,95.33,878
+Gestão e ensino,26,Sandro De Paiva Carvalho,IFSUDESTEMG,Campus Rio Pomba,Gestor-formador,Mestrado,99.93,3.621496101124463,89.84,2933
+Gestão e ensino,27,Graciela Fagundes Rodrigues,IFFAR,Campus Frederico Westphalen,Gestor-formador,Doutorado,99.92,2.933146300798028,98.12,176
+Gestão e ensino,28,José Carlos De Sousa Júnior,IFGOIANO,Campus Iporá,Pesquisador-formador,Doutorado,99.92,2.563174412584549,98.96,67
+Gestão e ensino,29,Josimar De Aparecido Vieira,IFRS,Campus Sertão,Pesquisador-formador,Pós-doutorado,99.92,1.3946596650383485,98.12,176
+Gestão e ensino,30,Fernando Barros Rodrigues,IFSP,Campus Presidente Epitácio,Gestor-formador,Doutorado,99.92,3.749179440610487,91.84,2098
+Gestão e ensino,31,Regina Maria De Oliveira Brasileiro,IFAL,Campus Maceio,Gestor-formador,Doutorado,99.91,2.34434814690626,98.42,135
+Gestão e ensino,32,Leonardo Figueiredo Maia,IFPA,,Gestor-formador,Mestrado,99.91,2.9280630764572284,84.8,5386
+Gestão e ensino,33,Damião Pedro Meira Filho,IFPA,,Gestor-formador,Doutorado,99.91,1.733693745912578,98.95,68
+Gestão e ensino,34,Daniel Corrêa Lobato,IFSP,Reitoria,Gestor-formador,Doutorado,99.9,3.717385755200093,96.92,439
+Gestão e ensino,35,Fernando Paula Ferreira,IFTM,Campus Ituiutaba,Gestor-formador,Mestrado,99.9,2.892391741668012,79.49,8076
+Gestão e ensino,36,Walteno Martins Parreira Júnior,IFTM,Campus Uberlândia Centro,Gestor-formador,Doutorado,99.9,2.274560017940128,99.13,48
+Gestão e ensino,37,Claudionor Camilo Da Costa,IFMG,Campus São João Evangelista,Gestor-formador,Doutorado,99.89,3.552775401173679,89.2,3230
+Gestão e ensino,38,Rocco Antonio Rangel Rosso Nelson,IFRN,Campus Natal - Central,Pesquisador acadêmico,Mestrado,99.89,0.3418429096416539,94.91,994
+Gestão e ensino,39,Tatiane Pellin Cislaghi,IFRS,Campus Bento Gonçalves,Gestor-formador,Doutorado,99.89,2.522789720678692,99.33,26
+Gestão e ensino,40,Isabella De Souza Gomes Campelo,IFSUDESTEMG,Campus Barbacena,Gestor-formador,Doutorado,99.89,3.3962956628923,79.85,7901
+Gestão e ensino,41,Aline Dos Santos Lima,IFBA,,Gestor-formador,Doutorado,99.88,2.229206239207032,99.37,24
+Gestão e ensino,42,Adriano Nezello Schneider Pizzatto Heis,IFC,Campus Rio do Sul,Gestor-formador,Mestrado,99.88,2.9531541052181214,87.25,4151
+Gestão e ensino,43,Andrea Padovan Jubileu,IFSP,Campus Presidente Epitácio,Gestor-formador,Doutorado,99.88,3.530511339406853,92.57,1798
+Gestão e ensino,44,Maria De Nazaré Rodrigues Pereira Martins,IFPA,,Gestor-formador,Doutorado,99.87,3.048021031058989,96.49,550
+Gestão e ensino,45,Nadja Da Nobrega Rodrigues,IFPB,Campus João Pessoa,Pesquisador-formador,Doutorado,99.87,1.9491697449660863,96.09,640
+Gestão e ensino,46,Francisco Das Chagas Silva Souza,IFRN,Campus Mossoró,Pesquisador-formador,Pós-doutorado,99.87,0.2608485252882194,99.31,28
+Gestão e ensino,47,Caroline Lengert,IFSC,Câmpus Palhoça Bilíngue,Gestor-formador,Mestrado,99.87,2.9247262451381566,93.99,1280
+Gestão e ensino,48,Fausto De Melo Faria Filho,IFGOIANO,Campus Ceres,Pesquisador acadêmico,Pós-doutorado,99.86,1.681940445789856,93.74,1368
+Gestão e ensino,49,Sandro Salles Gonçalves,IFMG,Campus São João Evangelista,Gestor-formador,Mestrado,99.86,2.6775476629640704,87.26,4140
+Gestão e ensino,50,Paulo Cesar Mioralli,IFSP,Campus Catanduva,Gestor-formador,Pós-doutorado,99.86,3.582855691745748,96.31,579
+Gestão e ensino,51,Luiz Frederico Motta,IFNMG,Campus Montes Claros,Gestor-formador,Doutorado,99.85,2.9876540234346667,95.48,824
+Gestão e ensino,52,Renato Messias Ferreira Calixto,IFSC,Câmpus Palhoça Bilíngue,Gestor-formador,Mestrado,99.85,2.9773624777848755,88.83,3397
+Gestão e ensino,53,Herlon Alves Bezerra,IFSERTAOPE,Campus Petrolina,Gestor-formador,Doutorado,99.85,1.761413178090802,98.09,184
+Gestão e ensino,54,Eduardo César Catanozi,IFSP,Campus Votuporanga,Gestor-formador,Doutorado,99.85,3.354352848274776,96.11,635
+Gestão e ensino,55,Jairo Da Silva E Silva,IFPA,,Extensionista-difusor,Doutorado,99.84,0.5192134481276145,99.11,50
+Gestão e ensino,56,Jaime Barradas Da Silva,IFPA,,Gestor-formador,Mestrado,99.84,1.8431973678810207,88.88,3376
+Gestão e ensino,57,Ramiro Romankevicius Costa,IFSP,Campus Campinas,Gestor-formador,Mestrado,99.84,3.4538323191153903,84.02,5738
+Gestão e ensino,58,Cátia Keske,IFFAR,Campus Panambi,Extensionista-difusor,Doutorado,99.83,1.5969043159175698,93.52,1460
+Gestão e ensino,59,Giselle Cristina Cardoso,IFSULDEMINAS,Campus Poços de Caldas,Gestor-formador,Mestrado,99.83,2.671771237362832,95.69,760
+Gestão e ensino,60,Bruno Ferreira Alves,IFSULDEMINAS,Campus Poços de Caldas,Gestor-formador,Mestrado,99.83,3.372837620914804,87.52,4008
+Gestão e ensino,61,Fábio Weber Albiero,IFFAR,Campus Santo Ângelo,Gestor-formador,Mestrado,99.82,3.006768332747845,93.03,1667
+Gestão e ensino,62,Ângelo Cássio Magalhães Horn,IFRS,Campus Porto Alegre,Gestor-formador,Pós-doutorado,99.82,3.202352142222382,93.95,1294
+Gestão e ensino,63,Marilia Assunta Sfreddo,IFRS,Campus Erechim,Gestor-formador,Doutorado,99.82,3.3496529358501483,96.09,640
+Gestão e ensino,64,Amanda Ribeiro Vieira,IFSP,Campus Sorocaba,Gestor-formador,Doutorado,99.82,2.3775668984136704,99.11,50
+Gestão e ensino,65,Solange Aparecida Zotti,IFC,Campus Concordia,Gestor-formador,Pós-doutorado,99.81,2.0951558656297173,99.22,38
+Gestão e ensino,66,Jaqueline Morgan,IFRS,Reitoria,Gestor-formador,Pós-doutorado,99.81,2.624455058063312,90.05,2841
+Gestão e ensino,67,Luiz Carlos Gomes Júnior,IFSUDESTEMG,Campus Barbacena,Gestor-formador,Doutorado,99.81,3.0871674281034567,97.04,416
+Gestão e ensino,68,Marco Johnny De Oliveira Do Nascimento,IFAP,Campus Santana,Gestor-formador,Mestrado,99.8,3.2238187276741472,89.32,3183
+Gestão e ensino,69,Katia Arcaro,IFRS,Campus Caxias do Sul,Gestor-formador,Doutorado,99.8,2.7339802372769872,90.46,2668
+Gestão e ensino,70,Magali Da Silva Rodrigues,IFRS,Campus Porto Alegre,Gestor-formador,Doutorado,99.8,3.4749625413272387,93.55,1444
+Gestão e ensino,71,Regina Staropoli De Azevedo,IFTM,Campus Patrocínio,Gestor-formador,Doutorado,99.8,3.938897529636838,90.65,2582
+Gestão e ensino,72,Lucilene Losch De Oliveira,IFFAR,Campus Panambi,Pesquisador-formador,Doutorado,99.79,2.937853457736004,91.63,2190
+Gestão e ensino,73,Ana Claudia Ferreira Rosa,IFPA,,Gestor-formador,Doutorado,99.79,2.326998144572177,98.5,122
+Gestão e ensino,74,Paula Vieira Silva,IFSUDESTEMG,Campus Rio Pomba,Gestor-formador,Mestrado,99.79,3.017160701216264,89.85,2928
+Gestão e ensino,75,Gianfranco Da Silva Araujo,IFC,Campus Camboriu,Gestor-formador,Mestrado,99.78,3.3039847441035044,85.27,5133
+Gestão e ensino,76,José Guilherme Magalini Santos Decanini,IFSP,Campus Presidente Epitácio,Gestor-formador,Doutorado,99.78,3.2703756070929013,92.8,1734
+Gestão e ensino,77,Lucas Antonio Caritá,IFSP,Campus São José dos Campos,Gestor-formador,Pós-doutorado,99.78,2.6365544005273938,97.45,313
+Gestão e ensino,78,Jaqueline Maissiat,IFTM,Campus Uberaba,Pesquisador-formador,Doutorado,99.78,1.1841023360566276,98.5,122
+Gestão e ensino,79,Lorena De Almeida Cavalcante Brandão Nunes,IFGOIANO,Campus Ceres,Gestor-formador,Doutorado,99.77,2.116821653068277,94.8,1030
+Gestão e ensino,80,Roberto Akitoshi Komatsu,IFSC,Câmpus Lages,Gestor-formador,Doutorado,99.77,2.9712288359899786,96.65,505
+Gestão e ensino,81,Ed Alencar Dias Da Silva,IFSP,Campus Salto,Gestor-formador,Mestrado,99.77,3.192395747891597,91.55,2227
+Gestão e ensino,82,Hebison Almeida Dos Santos,IFPA,,Gestor-formador,Mestrado,99.76,1.6183699857557003,93.04,1664
+Gestão e ensino,83,Charles Artur Santos De Oliveira,IFSP,Campus Cubatão,Gestor-formador,Pós-doutorado,99.76,3.203569817113084,94.88,1001
+Gestão e ensino,84,Sâmara Sathler Corrêa De Lima,IFSUDESTEMG,Campus São João Del Rei,Gestor-formador,Mestrado,99.76,2.9043434728834,91.96,2054
+Gestão e ensino,85,Carla Cristiane Costa,IFFAR,Campus Santa Rosa,Extensionista-difusor,Doutorado,99.75,1.8099712163504105,88.71,3454
+Gestão e ensino,86,Rafael Divino Ferreira Feitosa,IFGOIANO,Campus Ceres,Gestor-formador,Doutorado,99.75,2.65656028801248,92.15,1965
+Gestão e ensino,87,Cláudia Leite Munhoz,IFMS,Campus Coxim,Gestor-formador,Doutorado,99.75,1.5302382435674335,99.09,52
+Gestão e ensino,88,Sandra Mendes De Sousa Silva,IFRR,Campus Boa Vista,Gestor-formador,Especialização,99.75,3.2884242420432046,87.15,4204
+Gestão e ensino,89,Getulio Jorge Stefanello Júnior,IFFAR,Reitoria,Gestor-formador,Doutorado,99.74,3.5530347589035505,96.54,535
+Gestão e ensino,90,Cláudia Aparecida De Campos,IFMG,Campus Bambuí,Gestor-formador,Mestrado,99.74,3.210327253567954,80.8,7405
+Gestão e ensino,91,Fulvio Bianco Prevot,IFSP,Campus São Paulo,Gestor-formador,Doutorado,99.74,2.968763220276444,84.24,5648
+Gestão e ensino,92,Pablo Freire Matos,IFBA,,Gestor-formador,Mestrado,99.73,3.374576600903624,97.26,366
+Gestão e ensino,93,Adilson Ribeiro Paz Stamberg,IFC,Campus Concordia,Gestor-formador,Doutorado,99.73,2.251369508358477,96.38,572
+Gestão e ensino,94,Emerson Araujo De Campos,IFPA,,Gestor-formador,Doutorado,99.73,2.095572097672939,92.13,1973
+Gestão e ensino,95,Daniel Cézar Da Silva,IFPB,Campus Cabedelo,Gestor-formador,Doutorado,99.73,3.1253163499724783,95.37,861
+Gestão e ensino,96,Iandra Maria Weirich Da Silva Coelho,IFAM,Campus Manaus Centro,Pesquisador-formador,Doutorado,99.72,-0.0302863530136487,99.06,57
+Gestão e ensino,97,Marcos Fernandes Sobrinho,IFGOIANO,Campus Urutaí,Pesquisador-formador,Pós-doutorado,99.72,0.7830970378158086,99.51,14
+Gestão e ensino,98,Bianca Smith Pilla,IFRS,Campus Porto Alegre,Gestor-formador,Pós-doutorado,99.72,2.051186166902062,93.21,1589
+Gestão e ensino,99,Claudia Ferreira De Almeida,IFAC,Campus Rio Branco,Gestor-formador,Mestrado,99.71,2.5823859540009093,88.46,3565
+Gestão e ensino,100,Juliana Limana Malavolta,IFFAR,Campus Jaguari,Gestor-formador,Doutorado,99.71,2.939315621398059,92.84,1718
+Pós-graduação e inovação,1,Rogerio Atem De Carvalho,IFF,Polo de Inovação Campos Dos Goytacazes,Pesquisador-formador,Doutorado,100.0,10.637534436513238,99.9,1
+Pós-graduação e inovação,2,Osvaldo Resende,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Doutorado,100.0,9.803067268161143,94.95,984
+Pós-graduação e inovação,3,Marconi Batista Teixeira,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Pós-doutorado,99.99,9.343243394319831,87.63,3954
+Pós-graduação e inovação,4,Adriano Carvalho Costa,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Doutorado,99.99,9.496469391299538,98.02,200
+Pós-graduação e inovação,5,Alvaro Antonio Ochoa Villa,IFPE,Campus Recife,Pesquisador-formador,Pós-doutorado,99.99,9.101260214868834,87.4,4075
+Pós-graduação e inovação,6,José Ângelo Peixoto Da Costa,IFPE,Campus Recife,Pesquisador-formador,Doutorado,99.99,10.761645813939232,94.41,1135
+Pós-graduação e inovação,7,Auzuir Ripardo De Alexandria,IFCE,Campus Fortaleza,Pesquisador-formador,Pós-doutorado,99.98,9.727791941585808,97.36,330
+Pós-graduação e inovação,8,Pedro Pedrosa Rebouças Filho,IFCE,Campus Fortaleza,Pesquisador-formador,Pós-doutorado,99.98,10.075444710167542,95.0,967
+Pós-graduação e inovação,9,Pedro Henrique Ferreira Tomé,IFTM,Campus Uberlândia,Pesquisador-formador,Doutorado,99.98,9.012240543089396,93.42,1500
+Pós-graduação e inovação,10,Simone Vasconcelos Silva,IFF,Reitoria,Pesquisador-formador,Pós-doutorado,99.97,8.870900540175839,99.41,22
+Pós-graduação e inovação,11,Francisco Adelton Alves Ribeiro,IFMA,Campus Codó,Pesquisador-formador,Doutorado,99.97,9.283637776007904,97.54,299
+Pós-graduação e inovação,12,Adriano Gomes Da Cruz,IFRJ,Campus Rio de Janeiro,Pesquisador-formador,Pós-doutorado,99.97,8.107330864986906,97.35,333
+Pós-graduação e inovação,13,Johnnatan Duarte De Freitas,IFAL,Campus Maceio,Pesquisador-formador,Doutorado,99.96,8.185060845784358,99.0,63
+Pós-graduação e inovação,14,Marcio Luis Valença Araújo,IFBA,,Pesquisador-formador,Doutorado,99.96,9.022848594865586,94.01,1275
+Pós-graduação e inovação,15,Wesley Pacheco Calixto,IFG,Campus Inhumas,Pesquisador-formador,Pós-doutorado,99.96,7.858820740173278,93.18,1602
+Pós-graduação e inovação,16,Silvia De Castro Bertagnolli,IFRS,Campus Porto Alegre,Pesquisador-formador,Doutorado,99.96,8.474195381377232,99.23,36
+Pós-graduação e inovação,17,Daniel Emanuel Cabral De Oliveira,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Pós-doutorado,99.95,8.102779933950044,96.55,533
+Pós-graduação e inovação,18,Alexsandro Dos Santos Felipe,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Pós-doutorado,99.95,8.334247056447465,91.32,2319
+Pós-graduação e inovação,19,Francisco Petrônio Alencar De Medeiros,IFPB,Campus João Pessoa,Pesquisador-formador,Doutorado,99.95,8.90214241506956,97.0,426
+Pós-graduação e inovação,20,Glendo De Freitas Guimarães,IFCE,Campus Fortaleza,Pesquisador-formador,Pós-doutorado,99.94,8.460045036324205,87.35,4106
+Pós-graduação e inovação,21,Frederico Antonio Loureiro Soares,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Pós-doutorado,99.94,7.207644127635702,81.22,7202
+Pós-graduação e inovação,22,Ana Angélica Mathias Macêdo,IFMA,Campus Imperatriz,Pesquisador-formador,Pós-doutorado,99.94,7.981585168604272,99.47,18
+Pós-graduação e inovação,23,Juliana Dantas Ribeiro Viana De Medeiros,IFPB,Reitoria,Pesquisador-formador,Doutorado,99.94,8.946776768664968,85.09,5248
+Pós-graduação e inovação,24,Sheyla Karolina Justino Marques,IFAL,Campus Palmeira Dos Indios,Pesquisador-formador,Pós-doutorado,99.93,7.478284478249154,96.46,559
+Pós-graduação e inovação,25,Raphael De Aquino Gomes,IFG,Campus Goiânia,Pesquisador-formador,Pós-doutorado,99.93,7.852321778210343,99.07,55
+Pós-graduação e inovação,26,Ruan Delgado Gomes,IFPB,Campus João Pessoa,Pesquisador-formador,Doutorado,99.93,8.39770680474423,94.34,1157
+Pós-graduação e inovação,27,Antonio Mauro Barbosa De Oliveira,IFCE,Campus Baturité,Pesquisador-formador,Pós-doutorado,99.92,7.967697113486622,97.33,340
+Pós-graduação e inovação,28,Marco Antônio Pereira Da Silva,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Pós-doutorado,99.92,5.270390059178273,97.59,285
+Pós-graduação e inovação,29,Damires Yluska De Souza Fernandes,IFPB,Campus João Pessoa,Pesquisador-formador,Doutorado,99.92,8.484466069460881,93.92,1304
+Pós-graduação e inovação,30,Gustavo De Novaes Pires Leite,IFPE,Campus Recife,Pesquisador-formador,Pós-doutorado,99.92,7.927797659853118,87.2,4180
+Pós-graduação e inovação,31,Ivan Bianchi,IFC,Campus Concordia,Pesquisador-formador,Doutorado,99.91,6.112082294937214,95.53,813
+Pós-graduação e inovação,32,Alan Carlos Da Costa,IFGOIANO,Reitoria,Pesquisador-formador,Doutorado,99.91,6.922451978819693,95.47,832
+Pós-graduação e inovação,33,Hamilton César De Oliveira Charlo,IFTM,Campus Uberaba,Pesquisador-formador,Doutorado,99.91,7.396218360441953,92.55,1809
+Pós-graduação e inovação,34,Antonio Carlos Dos Santos Souza,IFBA,,Pesquisador-formador,Doutorado,99.9,7.455842093701658,95.61,785
+Pós-graduação e inovação,35,Alfredo Gomes Neto,IFPB,Campus João Pessoa,Pesquisador-formador,Pós-doutorado,99.9,8.70943599447782,94.81,1025
+Pós-graduação e inovação,36,Aida Araújo Ferreira,IFPE,Campus Recife,Pesquisador-formador,Pós-doutorado,99.9,7.115229410749169,95.98,676
+Pós-graduação e inovação,37,Leandro Rodrigues Da Silva Souza,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Doutorado,99.89,7.549489073392779,85.99,4776
+Pós-graduação e inovação,38,Marcos De Moraes Sousa,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Pós-doutorado,99.89,7.059640229505632,98.55,107
+Pós-graduação e inovação,39,Adriano Soares De Oliveira Bailão,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Doutorado,99.89,8.916401320760205,72.97,11333
+Pós-graduação e inovação,40,Marília Regina Costa Castro Lyra,IFPE,Campus Recife,Pesquisador-formador,Pós-doutorado,99.89,6.641601695849883,95.55,804
+Pós-graduação e inovação,41,Jader Lugon Junior,IFF,Campus Campos Centro,Pesquisador-formador,Pós-doutorado,99.88,7.586429257680066,94.79,1032
+Pós-graduação e inovação,42,Vicente De Paulo Santos De Oliveira,IFF,Polo de Inovação Campos Dos Goytacazes,Pesquisador-formador,Doutorado,99.88,6.202097039046993,99.31,28
+Pós-graduação e inovação,43,Cristina De Andrade Monteiro,IFMA,Campus São Luís Monte Castelo,Pesquisador-formador,Doutorado,99.88,6.5979176740577925,98.07,190
+Pós-graduação e inovação,44,Áurea Luiza Quixabeira Rosa E Silva Rapôso,IFAL,Campus Maceio,Pesquisador-formador,Doutorado,99.87,7.313537707842838,97.94,211
+Pós-graduação e inovação,45,Elias Teodoro Da Silva Júnior,IFCE,Campus Fortaleza,Pesquisador-formador,Doutorado,99.87,7.907622225161609,93.66,1394
+Pós-graduação e inovação,46,Elder Geraldo Domingues,IFG,Campus Goiânia,Pesquisador-formador,Doutorado,99.87,7.038861213267629,95.43,845
+Pós-graduação e inovação,47,Kaio Alexandre Da Silva,IFRO,campus Porto Velho Calama,Pesquisador-formador,Doutorado,99.87,7.516541450387571,93.43,1497
+Pós-graduação e inovação,48,Frederico Duarte De Menezes,IFPE,Campus Recife,Pesquisador-formador,Doutorado,99.86,8.229889539732921,88.89,3369
+Pós-graduação e inovação,49,Sérgio Luciano Avila,IFSC,Câmpus Florianópolis,Pesquisador-formador,Pós-doutorado,99.86,7.29805015799711,96.92,439
+Pós-graduação e inovação,50,Marcelo Mendes Pedroza,IFTO,Campus Palmas,Pesquisador-formador,Doutorado,99.86,7.377751784146284,93.28,1566
+Pós-graduação e inovação,51,Ronny Francisco Marques De Souza,IFAL,Campus Piranhas,Pesquisador-formador,Doutorado,99.85,6.87079412181426,90.11,2813
+Pós-graduação e inovação,52,Marcus Vinícius Teixeira Navarro,IFBA,,Pesquisador-formador,Doutorado,99.85,7.4518663034115935,97.02,419
+Pós-graduação e inovação,53,Allysson Macário De Araujo Caldas,IFPB,Campus João Pessoa,Pesquisador-formador,Doutorado,99.85,7.18036600393675,86.09,4735
+Pós-graduação e inovação,54,Ioná Maria Beltrão Rameh Barbosa,IFPE,Campus Recife,Pesquisador-formador,Doutorado,99.85,7.324579836218514,98.67,95
+Pós-graduação e inovação,55,Mário Lettieri Teixeira,IFC,Campus Concordia,Pesquisador-formador,Doutorado,99.84,6.816327219128092,94.75,1043
+Pós-graduação e inovação,56,Carlos Danilo Miranda Regis,IFPB,Reitoria,Pesquisador-formador,Doutorado,99.84,7.246472299367128,97.93,216
+Pós-graduação e inovação,57,José Augusto Andrade Filho,IFS,Reitoria,Pesquisador-formador,Pós-doutorado,99.84,7.506331080331136,83.01,6288
+Pós-graduação e inovação,58,Renato Lima Novais,IFBA,,Pesquisador-formador,Pós-doutorado,99.83,7.730483258082758,95.76,738
+Pós-graduação e inovação,59,Ajalmar Rêgo Da Rocha Neto,IFCE,Campus Fortaleza,Pesquisador-formador,Doutorado,99.83,7.780722753073577,85.49,5022
+Pós-graduação e inovação,60,Ilma Rodrigues De Souza Fausto,IFRO,campus Jí-paraná,Pesquisador-formador,Pós-doutorado,99.83,6.781534213040438,96.28,585
+Pós-graduação e inovação,61,Omar Andres Carmona Cortes,IFMA,Campus São Luís Monte Castelo,Pesquisador-formador,Pós-doutorado,99.82,6.048807863585371,94.38,1146
+Pós-graduação e inovação,62,Marcos Alyssandro Soares Dos Anjos,IFPB,Campus João Pessoa,Pesquisador-formador,Pós-doutorado,99.82,6.620178086917011,95.01,964
+Pós-graduação e inovação,63,Renata Santana Lorenzo Raices,IFRJ,Campus Rio de Janeiro,Pesquisador-formador,Doutorado,99.82,6.886965233175617,95.42,849
+Pós-graduação e inovação,64,Danielli Araújo Lima,IFTM,Campus Patrocínio,Pesquisador-formador,Pós-doutorado,99.82,5.943394495716695,99.36,25
+Pós-graduação e inovação,65,Jose Wally Mendonça Menezes,IFCE,Reitoria,Pesquisador-formador,Doutorado,99.81,6.573556514835419,86.72,4431
+Pós-graduação e inovação,66,Suezilde Da Conceição Amaral Ribeiro,IFPA,,Pesquisador-formador,Doutorado,99.81,6.171508370781377,98.21,161
+Pós-graduação e inovação,67,Marco Antônio Pereira Araújo,IFSUDESTEMG,Campus Juiz de Fora,Pesquisador-formador,Doutorado,99.81,6.127750658709981,93.83,1337
+Pós-graduação e inovação,68,Alan John Duarte De Freitas,IFAL,Campus Maceio,Pesquisador-formador,Doutorado,99.8,5.951203903890256,98.92,71
+Pós-graduação e inovação,69,Jose Anglada Rivera,IFAM,Campus Manaus Centro,Pesquisador-formador,Pós-doutorado,99.8,6.0762448441688095,95.66,771
+Pós-graduação e inovação,70,Anderson Rodrigo Da Silva,IFGOIANO,Campus Urutaí,Pesquisador-formador,Pós-doutorado,99.8,5.653208505631453,96.79,475
+Pós-graduação e inovação,71,Tavvs Micael Alves,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Pós-doutorado,99.8,6.883404528552208,80.93,7348
+Pós-graduação e inovação,72,Carina Teixeira De Oliveira,IFCE,Campus Horizonte,Pesquisador-formador,Pós-doutorado,99.79,7.466745609205919,84.46,5545
+Pós-graduação e inovação,73,Jomar Sales Vasconcelos,IFMA,Campus São Luís Monte Castelo,Pesquisador-formador,Doutorado,99.79,6.504381006187072,96.0,668
+Pós-graduação e inovação,74,Marco Hiroshi Naka,IFMS,Campus Campo Grande,Pesquisador-formador,Pós-doutorado,99.79,6.913531743766216,96.61,520
+Pós-graduação e inovação,75,Reinaldo Bezerra Braga,IFCE,Campus Fortaleza,Pesquisador-formador,Pós-doutorado,99.78,7.746953693650523,79.56,8035
+Pós-graduação e inovação,76,Marlene Nunes Damaceno,IFCE,Campus Limoeiro do Norte,Pesquisador-formador,Doutorado,99.78,4.876650619262652,99.8,2
+Pós-graduação e inovação,77,Wilker Alves Morais,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Pós-doutorado,99.78,5.68259627678176,82.76,6413
+Pós-graduação e inovação,78,Maurilio Lopes Martins,IFSUDESTEMG,Campus Rio Pomba,Pesquisador-formador,Pós-doutorado,99.78,5.5016299466187775,99.15,45
+Pós-graduação e inovação,79,Tarique Da Silveira Cavalcante,IFCE,Reitoria,Pesquisador-formador,Doutorado,99.77,7.268261758139621,83.43,6052
+Pós-graduação e inovação,80,Maria Gláucia Dourado Furquim,IFGOIANO,Campus Iporá,Pesquisador-formador,Doutorado,99.77,6.142317077776881,98.88,75
+Pós-graduação e inovação,81,Paulo César Dos Santos,IFSULDEMINAS,Campus Muzambinho,Pesquisador-formador,Doutorado,99.77,6.453325516656541,93.98,1283
+Pós-graduação e inovação,82,Eduardo Oliveira Teles,IFBA,,Pesquisador-formador,Doutorado,99.76,6.261893649969199,90.8,2530
+Pós-graduação e inovação,83,Rinaldo Dos Santos Araújo,IFCE,Campus Fortaleza,Pesquisador-formador,Doutorado,99.76,6.175365390542519,92.01,2030
+Pós-graduação e inovação,84,Marcio Rodrigues Miranda,IFRO,campus Porto Velho Zona Norte,Pesquisador-formador,Pós-doutorado,99.76,6.939592083046516,83.36,6087
+Pós-graduação e inovação,85,Daniele Maria Alves Teixeira Sá,IFCE,Campus Fortaleza,Pesquisador-formador,Doutorado,99.75,5.887600215266103,95.62,782
+Pós-graduação e inovação,86,Duelci Aparecido De Freitas Vaz,IFG,Campus Goiânia,Pesquisador-formador,Doutorado,99.75,5.42702165222687,96.84,461
+Pós-graduação e inovação,87,Jean Marc Nacife,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Pós-doutorado,99.75,6.593715992644103,97.13,395
+Pós-graduação e inovação,88,Marcos Dos Santos Lima,IFSERTAOPE,Campus Petrolina,Pesquisador-formador,Doutorado,99.75,6.093063450532609,87.2,4180
+Pós-graduação e inovação,89,Bacus De Oliveira Nahime,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Pós-doutorado,99.74,6.157142736773007,81.71,6934
+Pós-graduação e inovação,90,Cleumar Da Silva Moreira,IFPR,Campus Colombo,Pesquisador-formador,Pós-doutorado,99.74,5.906533749097632,87.23,4169
+Pós-graduação e inovação,91,Hugo Leonardo Pereira Rufino,IFTM,Campus Avançado Uberaba Parque Tecnológico,Pesquisador-formador,Pós-doutorado,99.74,5.161478176013547,98.12,176
+Pós-graduação e inovação,92,Jose Elenilson Cruz,IFB,Campus Gama,Pesquisador-formador,Pós-doutorado,99.73,6.204148620934272,86.8,4396
+Pós-graduação e inovação,93,Daywes Pinheiro Neto,IFG,Campus Goiânia,Pesquisador-formador,Pós-doutorado,99.73,6.355138028017439,82.35,6633
+Pós-graduação e inovação,94,Maria Regina Sarkis Peixoto Joele,IFPA,,Pesquisador-formador,Doutorado,99.73,5.85237796686827,95.41,854
+Pós-graduação e inovação,95,João Paulo Queiroz Dos Santos,IFRN,Campus Natal - Zona Leste (EaD),Pesquisador-formador,Doutorado,99.73,7.435190746344777,71.45,12067
+Pós-graduação e inovação,96,Suzana Maria Loures De Oliveira Marcionilio,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Doutorado,99.72,5.366565894713363,87.31,4121
+Pós-graduação e inovação,97,Adebaro Alves Dos Reis,IFPA,Campus Castanhal,Pesquisador-formador,Doutorado,99.72,5.186668413825447,97.61,282
+Pós-graduação e inovação,98,Andrea Huhn,IFSC,Câmpus Florianópolis,Pesquisador-formador,Doutorado,99.72,5.1950120565842965,96.17,620
+Pós-graduação e inovação,99,Marilena Meira,IFBA,,Pesquisador-formador,Pós-doutorado,99.71,6.706683622141896,88.26,3656
+Pós-graduação e inovação,100,Jesiel Souza Silva,IFGOIANO,Campus Rio Verde,Pesquisador-formador,Pós-doutorado,99.71,5.120486330133291,99.26,33

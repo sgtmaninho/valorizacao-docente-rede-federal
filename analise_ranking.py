@@ -38,7 +38,9 @@ import matplotlib.pyplot as plt
 from analise_exploratoria import PESOS_IPA, concordancia, escala100
 
 BASE = Path(__file__).parent
-AN = BASE / "data" / "analise"
+import config as _CFG
+DATA = _CFG.DATA_DIR
+AN = DATA / "analise"
 OUT = AN / "ranking"
 FIG = OUT / "fig"
 AZUL, LARANJA, CINZA = "#2a78d6", "#eb6834", "#8a8f98"
@@ -79,6 +81,12 @@ def salvar(df, nome, index=False):
 
 # ------------------------------------------------------------------ localização
 def classificar_localizacao(b: pd.DataFrame) -> pd.Series:
+    if not (BASE / "data" / "campi_integra.json").exists():
+        # sem a lista de campi do Integra: usa a classificação já validada (data/campus_localizacao.csv)
+        m = pd.read_csv(BASE / "data" / "campus_localizacao.csv")
+        m = {(r.sigla, str(r.campus)): r.localizacao for r in m.itertuples()}
+        return b.apply(lambda r: m.get((r["sigla"], str(r["campus"])),
+                                       "Sem campus" if pd.isna(r["campus"]) else "Interior"), axis=1)
     campi = json.loads((BASE / "data" / "campi_integra.json").read_text(encoding="utf-8"))
     cidade = {}
     for sigla, _id, nome, end in campi:
@@ -114,7 +122,7 @@ def main():
     res = json.loads((AN / "resumo_achados.json").read_text(encoding="utf-8"))
     b = pd.read_csv(AN / "base_docentes.csv", encoding="utf-8-sig", low_memory=False)
     cob = pd.read_csv(AN / "cobertura_extracao.csv", encoding="utf-8-sig")
-    pes = pd.read_csv(BASE / "data" / "processed" / "pessoas_completo.csv", low_memory=False,
+    pes = pd.read_csv(DATA / "processed" / "pessoas_completo.csv", low_memory=False,
                       usecols=["sigla", "pessoa_uid", "tem_cv"])
     import config as CFG
     a = b[b["F1"].notna()].copy()          # amostra analítica (docentes efetivos, IFs incluídos)
@@ -526,7 +534,7 @@ def main():
                "n_perfil", "desloc_IPAT_SP", "desloc_IM_SP", "pts_IPA_T_total"] + pts_cols]
     extra.to_csv(OUT / "score_perfil_docentes.csv", index=False, encoding="utf-8-sig")
     # base enxuta para o painel (dashboard.py)
-    DASH = BASE / "data" / "dashboard"; DASH.mkdir(parents=True, exist_ok=True)
+    DASH = DATA / "dashboard"; DASH.mkdir(parents=True, exist_ok=True)
     keep = ["pessoa_uid", "nome", "numero_lattes", "sigla", "instituicao", "uf", "regiao", "campus", "localizacao",
             "titulacao", "nivel_titulacao", "grande_area", "area", "anos_carreira", "anos_sem_atualizar_lattes",
             "art_qualis_A", "art_A1", "art_A2", "art_A3", "art_A4", "art_qualis_B", "art_qualis_C_sem", "artigos_total",
@@ -540,6 +548,14 @@ def main():
     # coleta do currículo: docentes cujo Lattes não pôde ser lido pelo portal na extração (coleta incompleta)
     a["coleta_cv"] = a["pessoa_uid"].isin(pes.loc[pes["tem_cv"] == True, "pessoa_uid"])  # noqa: E712
     keep += ["coleta_cv"]
+    ing = BASE / "data" / "ingresso_docentes.csv"          # ano de ingresso na Rede (recorte_ingresso.py)
+    if ing.exists():
+        a = a.merge(pd.read_csv(ing)[["pessoa_uid", "ano_ingresso", "fonte_ingresso"]], on="pessoa_uid", how="left")
+        a["anos_na_rede"] = (pd.Timestamp.now().year - a["ano_ingresso"]).clip(lower=0)
+        keep += ["ano_ingresso", "fonte_ingresso", "anos_na_rede"]
+        if _CFG.CENARIO == "ingresso":
+            # sem a coleta do ingresso, o currículo não pôde ser recortado: fica fora do ranking institucional
+            a["coleta_cv"] = a["coleta_cv"] & a["fonte_ingresso"].notna()
     a[keep].to_csv(DASH / "docentes.csv.gz", index=False, compression="gzip")
     print(json.dumps({k: ins[k] for k in ["amostra", "totais_producao"]}, ensure_ascii=False))
     print(funil.to_string(index=False)); print(fp.to_string(index=False)); print(tit.to_string(index=False))

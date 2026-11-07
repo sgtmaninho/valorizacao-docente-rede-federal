@@ -3,7 +3,8 @@
 Fórmula do Score Institucional (SI) da unidade j:
 
     s_i   = Σ_k w_k · P_ik                  (escore do docente i: pilares em percentil 0–100, pesos w_k, Σ w_k = 1)
-    SI_j  = (1 / n_j) · Σ_{i ∈ j} s_i       (média dos docentes efetivos da unidade)
+    SI_j  = (1 / n_j) · Σ_{i ∈ j} s_i       (ranking PROPORCIONAL: média dos docentes efetivos da unidade)
+    SB_j  = Σ_{i ∈ j} s_i / 1000            (ranking BRUTO: soma dos escores, em milhares de pontos; cresce com o tamanho)
     EP_j  = dp(s_i) / √n_j                  (erro-padrão)       IC95%_j = SI_j ± 1,96 · EP_j
 
 Faixas: percorrendo o ranking, uma unidade fica na faixa do líder da faixa enquanto o limite superior do
@@ -47,7 +48,7 @@ def agregar(d: pd.DataFrame, nivel: str = "Instituição", pesos: dict | None = 
     celula = x["titulacao"].astype(str) + "|" + x["grande_area"].astype(str)
     x["_s_esp"] = x.groupby(celula)["_s"].transform("mean")
     g = x.groupby(chaves, dropna=True)
-    a = g.agg(docentes=("_s", "size"), SI=("_s", "mean"), _dp=("_s", "std"), SI_esperado=("_s_esp", "mean"),
+    a = g.agg(docentes=("_s", "size"), SI=("_s", "mean"), SI_total=("_s", "sum"), _dp=("_s", "std"), SI_esperado=("_s_esp", "mean"),
               SP_medio=("SP", "mean"), IPA_T_medio=("IPA_T", "mean"), IPA_R_medio=("IPA_R", "mean"),
               IM_medio=("IM", "mean"),
               pct_doutores=("nivel_titulacao", lambda s: 100 * (s >= 4).mean()),
@@ -71,7 +72,8 @@ def agregar(d: pd.DataFrame, nivel: str = "Instituição", pesos: dict | None = 
     pis = a[[f"PI_{k}" for k in PILARES]]
     a["equilibrio"] = 100 - pis.std(axis=1, ddof=0)          # 100 = pilares iguais
     a["pilar_forte"] = pis.idxmax(axis=1).str[3:].map(PILARES)
-    for c in ["SI", "valor_agregado", "SP_medio", "IPA_T_medio", "IPA_R_medio", "IM_medio"] + [f"PI_{k}" for k in PILARES]:
+    a["SI_total"] = a["SI_total"] / 1000                    # soma dos escores, em milhares de pontos
+    for c in ["SI", "SI_total", "valor_agregado", "SP_medio", "IPA_T_medio", "IPA_R_medio", "IM_medio"] + [f"PI_{k}" for k in PILARES]:
         a[f"pos_{c}"] = a[c].rank(ascending=False, method="min").astype(int)
     a = a.sort_values("SI", ascending=False)
     # faixas de desempenho: a unidade entra na faixa do líder enquanto seu IC95% alcança o IC do líder

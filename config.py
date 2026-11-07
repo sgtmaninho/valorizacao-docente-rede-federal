@@ -9,7 +9,16 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
 RAW_DIR = BASE_DIR / "data" / "raw"
-PROCESSED_DIR = BASE_DIR / "data" / "processed"
+
+# Cenário de análise (variável de ambiente TCC_CENARIO):
+#   integral  -> toda a produção registrada no currículo (saídas em data/)
+#   ingresso  -> só produção e atividades a partir do ano de ingresso na Rede Federal, exceto a
+#                formação acadêmica (pedido do orientador, 06/11/2026); saídas em data/cenario_ingresso/
+import os as _os
+CENARIO = _os.environ.get("TCC_CENARIO", "integral").strip().lower()
+DATA_DIR = (BASE_DIR / "data" if CENARIO == "integral" else
+            BASE_DIR / "data" / "cenario_ingresso" if CENARIO == "ingresso" else BASE_DIR / "data" / f"cenario_{CENARIO}")
+PROCESSED_DIR = DATA_DIR / "processed"
 
 # sigla -> (nome, UF, domínio)
 INSTITUICOES = {

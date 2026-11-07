@@ -47,6 +47,13 @@ def carregar_raw() -> list[dict]:
                     regs.append(json.loads(linha))
                 except ValueError:
                     pass
+    if C.CENARIO == "ingresso":
+        # recorte temporal: só produção/atividades a partir do ingresso na Rede (titulação não muda)
+        import recorte_ingresso as RI
+        info = RI.carregar().set_index("pessoa_uid").to_dict("index")
+        regs = [RI.recortar_registro(r, info.get(r.get("pessoa_uid"), {})) for r in regs]
+        n = sum(1 for r in regs if r.get("ano_ingresso") and not pd.isna(r.get("ano_ingresso")))
+        print(f"Cenário ingresso: {n} pessoas com ano de ingresso identificado (recortadas)")
     return regs
 
 
@@ -58,7 +65,7 @@ def _soma(cont: dict, padrao: str) -> int:
 def achatar(r: dict) -> dict:
     nome, uf, _ = C.INSTITUICOES.get(r["sigla"], (r["sigla"], "", ""))
     linha = {k: r.get(k) for k in ("sigla", "pessoa_uid", "slug", "nome", "campus", "cargo",
-                                   "numero_lattes", "atualizado_em", "extraido_em")}
+                                   "numero_lattes", "atualizado_em", "extraido_em", "ano_ingresso", "fonte_ingresso")}
     linha["instituicao"], linha["uf"] = nome, uf
     linha["campus_completo"] = f"{r['sigla']} – {r.get('campus') or 'Sem campus'}"
 

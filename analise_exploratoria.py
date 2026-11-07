@@ -35,7 +35,7 @@ from sklearn.preprocessing import StandardScaler
 import config as CFG
 
 warnings.filterwarnings("ignore")
-OUT = CFG.BASE_DIR / "data" / "analise"
+OUT = CFG.DATA_DIR / "analise"
 ANO = datetime.now().year
 REGIAO = {**dict.fromkeys(["AC", "AP", "AM", "PA", "RO", "RR", "TO"], "Norte"),
           **dict.fromkeys(["AL", "BA", "CE", "MA", "PB", "PE", "PI", "RN", "SE"], "Nordeste"),
@@ -264,6 +264,9 @@ def cobertura(p: pd.DataFrame) -> pd.DataFrame:
     if log.exists():
         for m in re.finditer(r"\] (\S+): (\d+) pessoas no portal", log.read_text(encoding="utf-8")):
             totais[m.group(1)] = int(m.group(2))
+    ref = CFG.BASE_DIR / "data" / "total_portal.csv"      # totais registrados na coleta de set.–out./2026
+    if ref.exists():
+        totais.update({r.sigla: r.total_portal for r in pd.read_csv(ref).dropna().itertuples()})
     ext = p.groupby("sigla").size()
     cob = pd.DataFrame({"sigla": ext.index, "extraidas": ext.values})
     cob["total_portal"] = cob["sigla"].map(totais)
@@ -333,6 +336,10 @@ def main():
     resumo["bartlett"] = {"chi2": round(chi2, 1), "gl": gl, "p": pv}
     n_fat, eig = parallel_analysis(Z)
     resumo["fatores_retidos_analise_paralela"] = n_fat
+    if CFG.CENARIO != "integral" and n_fat != 4:
+        # cenários alternativos mantêm a especificação do modelo principal (4 pilares) para serem comparáveis
+        resumo["fatores_fixados_em"] = 4
+        n_fat = 4
     resumo["autovalores"] = [round(float(e), 3) for e in eig[:8]]
     # Extração por componentes principais + rotação varimax (implementação própria)
     ev, evec = np.linalg.eigh(R)

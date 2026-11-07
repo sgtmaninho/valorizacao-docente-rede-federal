@@ -1,0 +1,47 @@
+﻿grande_area,area,docentes,doutor,art_qualis_A,artigos_total,livros,orient_mestrado,extensao,gestao,software_patentes,F1,F2,F3,F4,IM,IPA_T,qualisA_obs_esp,grupo_area,grupo_area_nome
+Engenharias,Engenharia Sanitária,244,0.586,2.52,8.061,0.586,1.488,1.643,3.791,0.205,0.286,0.01,0.105,0.295,19.758,29.078,0.968,0,Áreas de produção científica
+Ciencias Agrarias,Recursos Pesqueiros e Engenharia de Pesca,159,0.616,2.931,10.245,0.472,0.648,1.484,2.604,0.252,0.5,-0.029,-0.122,-0.165,16.773,29.01,1.244,0,Áreas de produção científica
+Ciencias Agrarias,Recursos Florestais e Engenharia Florestal,147,0.612,2.939,13.456,0.599,0.81,1.354,4.748,0.068,0.767,-0.131,0.154,-0.139,19.5,31.791,1.274,0,Áreas de produção científica
+Ciencias Biologicas,Ecologia,275,0.724,3.225,8.509,0.524,0.916,2.353,4.771,0.047,0.367,0.129,0.217,-0.06,19.516,31.458,1.04,0,Áreas de produção científica
+Ciencias Biologicas,Zoologia,125,0.728,3.336,9.632,0.424,0.816,2.56,3.28,0.112,0.523,-0.14,0.077,-0.136,17.592,30.067,1.058,0,Áreas de produção científica
+Engenharias,Engenharia de Materiais e Metalúrgica,267,0.704,3.412,8.64,0.682,1.401,0.948,4.397,0.273,0.401,-0.436,0.205,0.404,19.046,29.289,1.069,0,Áreas de produção científica
+Ciencias Agrarias,Zootecnia,394,0.822,3.449,11.137,0.551,0.926,1.657,4.416,0.173,0.67,-0.134,0.204,0.02,20.126,31.539,1.037,0,Áreas de produção científica
+Ciencias Biologicas,Microbiologia,115,0.8,3.452,10.096,0.652,1.357,1.687,5.435,0.304,0.475,0.003,0.382,0.197,21.865,33.405,0.954,0,Áreas de produção científica
+Ciencias Biologicas,Genética,134,0.821,3.634,8.47,0.306,0.828,1.582,2.5,0.284,0.513,-0.31,0.106,-0.033,17.314,30.027,0.986,0,Áreas de produção científica
+Ciencias Exatas E Da Terra,Química,1441,0.711,3.704,8.001,0.426,0.65,1.247,3.36,0.312,0.333,-0.267,0.117,0.079,17.23,28.748,1.281,0,Áreas de produção científica
+Ciencias Exatas E Da Terra,Geociências,318,0.648,3.761,9.733,0.852,0.871,1.34,3.676,0.138,0.405,-0.097,0.026,0.034,17.849,29.675,1.344,0,Áreas de produção científica
+Outros,Ciências Ambientais,221,0.588,3.973,11.05,0.864,1.1,2.154,5.303,0.249,0.37,0.251,0.12,0.074,20.45,31.501,1.633,0,Áreas de produção científica
+Ciencias Biologicas,Botânica,151,0.795,4.0,9.801,0.57,0.993,1.682,3.57,0.066,0.569,-0.022,0.113,-0.015,19.465,31.557,1.095,0,Áreas de produção científica
+Ciencias Agrarias,Medicina Veterinária,228,0.807,4.105,14.614,0.351,1.057,2.535,4.803,0.237,0.821,-0.229,0.326,0.086,21.555,32.317,1.238,0,Áreas de produção científica
+Ciencias Biologicas,Bioquímica,125,0.784,4.632,10.464,0.464,0.816,1.456,2.912,0.416,0.606,-0.252,0.053,0.116,18.751,31.431,1.196,0,Áreas de produção científica
+Ciencias Agrarias,Agronomia,1109,0.838,4.688,14.494,0.479,1.322,1.591,4.521,0.189,0.862,-0.23,0.221,0.114,21.334,33.28,1.393,0,Áreas de produção científica
+Ciencias Agrarias,Ciência e Tecnologia de Alimentos,571,0.757,4.881,13.97,0.606,1.599,2.06,6.995,0.412,0.715,0.153,0.371,0.162,23.863,34.825,1.701,0,Áreas de produção científica
+Ciencias Agrarias,Engenharia Agrícola,181,0.873,5.663,18.978,0.459,1.895,1.21,4.646,0.807,0.936,-0.385,0.241,0.261,21.843,33.662,1.719,0,Áreas de produção científica
+Linguistica Letras E Artes,Artes,744,0.355,0.898,2.441,0.711,0.215,2.864,2.618,0.023,-0.5,0.543,-0.183,-0.219,13.613,23.574,0.567,1,Áreas de difusão e extensão
+Ciencias Sociais Aplicadas,Arquitetura e Urbanismo,332,0.395,1.006,3.048,0.479,0.196,1.431,4.027,0.054,-0.369,0.248,0.216,0.036,16.475,24.876,0.609,1,Áreas de difusão e extensão
+Linguistica Letras E Artes,Letras,2066,0.457,1.341,3.885,1.031,0.188,2.296,3.164,0.009,-0.269,0.482,-0.338,-0.329,13.055,24.726,0.701,1,Áreas de difusão e extensão
+Ciencias Sociais Aplicadas,Turismo,235,0.455,1.443,4.515,0.694,0.26,2.66,5.311,0.03,-0.163,0.553,0.131,-0.232,17.388,27.766,0.802,1,Áreas de difusão e extensão
+Ciencias Humanas,Sociologia,428,0.582,1.514,4.072,0.832,0.39,2.016,4.061,0.007,-0.158,0.366,0.031,-0.251,15.632,27.364,0.61,1,Áreas de difusão e extensão
+Ciencias Humanas,Antropologia,118,0.653,1.653,4.754,1.441,0.237,2.263,4.331,0.008,-0.072,0.559,-0.069,-0.208,16.932,29.211,0.595,1,Áreas de difusão e extensão
+Ciencias Humanas,História,764,0.603,1.708,4.162,1.255,0.305,2.127,3.838,0.007,-0.118,0.555,-0.269,-0.234,15.311,27.859,0.665,1,Áreas de difusão e extensão
+Ciencias Sociais Aplicadas,Administração,1351,0.464,1.831,6.953,0.787,0.286,2.022,5.705,0.164,0.043,0.117,0.202,-0.092,17.277,27.878,0.944,1,Áreas de difusão e extensão
+Ciencias Da Saude,Educação Física,747,0.439,1.909,8.515,0.621,0.312,2.321,3.183,0.032,0.179,0.125,-0.261,-0.416,13.536,25.376,1.028,1,Áreas de difusão e extensão
+Ciencias Humanas,Filosofia,558,0.568,1.959,4.858,1.168,0.4,2.131,3.004,0.005,-0.082,0.195,-0.214,-0.295,13.397,26.229,0.809,1,Áreas de difusão e extensão
+Ciencias Sociais Aplicadas,Direito,188,0.426,2.074,7.319,1.059,0.17,2.452,5.782,0.032,-0.185,0.378,-0.027,-0.309,14.874,26.587,1.152,1,Áreas de difusão e extensão
+Linguistica Letras E Artes,Lingüística,711,0.595,2.242,5.377,1.049,0.415,3.096,3.759,0.02,-0.087,0.649,-0.126,-0.336,16.28,28.894,0.918,1,Áreas de difusão e extensão
+Ciencias Biologicas,Biologia Geral,241,0.51,2.465,6.921,0.523,0.394,1.61,3.328,0.046,0.12,0.108,-0.026,-0.196,15.736,26.663,1.116,1,Áreas de difusão e extensão
+Ciencias Humanas,Geografia,665,0.585,2.844,5.931,0.949,0.367,2.029,3.648,0.012,0.035,0.32,-0.167,-0.171,15.804,27.837,1.253,1,Áreas de difusão e extensão
+Ciencias Sociais Aplicadas,Economia,156,0.545,2.846,9.224,1.038,0.936,1.788,5.846,0.096,0.174,0.205,0.162,0.028,19.016,29.627,1.29,1,Áreas de difusão e extensão
+Ciencias Humanas,Educação,2777,0.539,2.873,6.909,1.238,1.04,2.811,5.354,0.077,-0.014,0.615,0.03,-0.053,19.069,30.566,1.239,1,Áreas de difusão e extensão
+Ciencias Da Saude,Enfermagem,247,0.453,3.502,13.846,0.838,0.134,2.474,3.267,0.093,0.659,0.413,-0.283,-0.636,16.601,30.357,1.792,1,Áreas de difusão e extensão
+Ciencias Humanas,Psicologia,115,0.643,5.2,9.896,1.435,1.139,2.748,7.643,0.061,0.154,0.566,0.198,-0.05,20.755,32.807,1.922,1,Áreas de difusão e extensão
+Outros,"Robótica, Mecatrônica e Automação",143,0.399,0.895,3.161,0.406,0.189,0.881,2.266,0.35,-0.234,-0.235,-0.082,0.284,14.15,22.464,0.518,2,Áreas de pós-graduação e inovação
+Ciencias Exatas E Da Terra,Ciência da Computação,2786,0.398,1.222,3.8,0.412,0.387,1.363,4.753,0.679,-0.261,-0.214,0.364,0.422,17.517,25.189,0.7,2,Áreas de pós-graduação e inovação
+Ciencias Exatas E Da Terra,Matemática,1781,0.343,1.264,3.702,0.47,0.23,1.593,3.268,0.049,-0.302,-0.206,0.074,-0.144,12.329,22.19,0.821,2,Áreas de pós-graduação e inovação
+Engenharias,Engenharia Elétrica,1638,0.49,1.335,3.909,0.331,0.51,1.071,3.086,0.48,-0.166,-0.472,0.079,0.411,14.837,23.17,0.662,2,Áreas de pós-graduação e inovação
+Engenharias,Engenharia de Produção,354,0.503,1.475,6.61,0.472,0.548,1.028,4.87,0.356,0.009,-0.184,0.177,0.136,16.501,26.304,0.706,2,Áreas de pós-graduação e inovação
+Engenharias,Engenharia Civil,893,0.393,1.521,4.976,0.45,0.493,0.915,2.671,0.205,-0.102,-0.294,-0.047,0.196,14.269,22.676,0.913,2,Áreas de pós-graduação e inovação
+Engenharias,Engenharia Mecânica,759,0.535,1.61,5.033,0.311,0.518,0.822,2.343,0.458,-0.066,-0.475,0.026,0.328,14.612,23.679,0.74,2,Áreas de pós-graduação e inovação
+Ciencias Exatas E Da Terra,Probabilidade e Estatística,108,0.463,2.028,6.583,0.5,0.417,1.454,3.194,0.611,0.011,-0.328,0.138,0.114,15.323,25.838,1.111,2,Áreas de pós-graduação e inovação
+Ciencias Exatas E Da Terra,Física,1145,0.617,2.878,6.253,0.376,0.563,1.361,3.064,0.173,0.085,-0.377,0.148,-0.06,14.515,26.16,1.079,2,Áreas de pós-graduação e inovação
+Engenharias,Engenharia Química,215,0.716,3.312,7.386,0.284,1.042,1.381,3.879,0.4,0.23,-0.33,0.182,0.452,18.812,28.378,1.169,2,Áreas de pós-graduação e inovação

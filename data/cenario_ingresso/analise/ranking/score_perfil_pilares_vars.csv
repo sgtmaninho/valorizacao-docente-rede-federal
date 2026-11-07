@@ -1,0 +1,5 @@
+﻿pilar,nome,variaveis,cargas
+F1,Produção científica,"art_qualis_A, art_qualis_B, art_qualis_C_sem, trab_completos_eventos, resumos_eventos, bancas_trabalhos","0.81, 0.77, 0.83, 0.47, 0.60, 0.45"
+F2,Difusão e extensão,"livros, capitulos, trab_tecnicos, orient_IC_grad_outras, bancas_julgadoras, projetos, extensao, material_didatico_cursos, difusao_eventos, participacao_eventos","0.58, 0.55, 0.56, 0.43, 0.58, 0.50, 0.43, 0.68, 0.74, 0.71"
+F3,Gestão e ensino,"atividades_ensino, gestao","0.79, 0.78"
+F4,Pós-graduação e inovação,"software_patentes, orient_mestrado, orient_em_andamento","0.73, 0.61, 0.50"

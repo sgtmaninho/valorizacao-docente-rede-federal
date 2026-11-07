@@ -28,16 +28,16 @@ import ranking_institucional as RI
 RI = importlib.reload(RI)  # garante a versão atual do módulo mesmo com o servidor já aberto
 
 BASE = Path(__file__).parent
-DASH = BASE / "data" / "dashboard"
-RK = BASE / "data" / "analise" / "ranking"
-SER = BASE / "data" / "analise" / "series"
+CENARIOS = {"ingresso": ("Desde o ingresso na Rede Federal", BASE / "data" / "cenario_ingresso"),
+            "integral": ("Currículo completo", BASE / "data")}
+CENARIOS = {k: v for k, v in CENARIOS.items() if (v[1] / "dashboard" / "docentes.csv.gz").exists()}
 AZUL, LARANJA, VERDE, ROXO, CINZA = "#2a78d6", "#eb6834", "#4fa36b", "#8e5bc4", "#8a8f98"
 PILARES = RI.PILARES
 COR_PERFIL = {"Pesquisador-formador": ROXO, "Pesquisador acadêmico": AZUL, "Gestor-formador": VERDE,
               "Extensionista-difusor": LARANJA, "Baixo registro": CINZA}
 INDICES = {"SP": "Score por Perfil", "IPA_T": "IPA-T (tabela UTFPR adaptada)", "IPA_R": "IPA-R (tabelas RSC IFMG/IFPE)",
            "IM": "IM (índice multidimensional)", "indice_PC1": "PC1 (pesos dos dados)"}
-IND_INST = {"SI": "Score Institucional (SI)", "valor_agregado": "Valor agregado (SI − esperado)", "SP_medio": "Score por Perfil médio", "IPA_T_medio": "IPA-T médio",
+IND_INST = {"SI": "Score Institucional (SI)", "SI_total": "Score bruto (soma, mil pontos)", "valor_agregado": "Valor agregado (SI − esperado)", "SP_medio": "Score por Perfil médio", "IPA_T_medio": "IPA-T médio",
             "IPA_R_medio": "IPA-R médio", "IM_medio": "IM médio"}
 ROT_ITEM = {"nivel_titulacao": "Titulação", "art_qualis_A": "Artigos Qualis A", "art_qualis_B": "Artigos Qualis B",
             "art_qualis_C_sem": "Artigos C/sem Qualis", "livros": "Livros", "capitulos": "Capítulos",
@@ -54,7 +54,11 @@ st.set_page_config(page_title="Valorização Docente – Rede Federal", page_ico
 
 # ------------------------------------------------------------------ dados
 @st.cache_data
-def carregar():
+def carregar(cenario: str):
+    raiz = CENARIOS[cenario][1]
+    DASH, RK, SER = raiz / "dashboard", raiz / "analise" / "ranking", raiz / "analise" / "series"
+    if not (SER / "serie_rede.csv").exists():                 # séries só existem no cenário integral
+        SER = BASE / "data" / "analise" / "series"
     d = pd.read_csv(DASH / "docentes.csv.gz", low_memory=False)
     ler = lambda n: pd.read_csv(RK / n, encoding="utf-8-sig") if (RK / n).exists() else pd.DataFrame()
     t = {n.replace(".csv", ""): ler(n) for n in [
@@ -72,10 +76,29 @@ def carregar():
     return d, t, ins, ser
 
 
-d0, T, INS, SERIES = carregar()
+# ------------------------------------------------------------------ menu superior (acima do título)
+st.markdown("""<style>
+div[data-testid="stSegmentedControl"] button, div[data-testid="stButtonGroup"] button {font-size:1.15rem; padding:.55rem 1.6rem;}
+.block-container {padding-top: 3.6rem;}
+</style>""", unsafe_allow_html=True)
+opcoes = ["🏛️ Instituição", "👩‍🏫 Docente"]
+if hasattr(st, "segmented_control"):
+    seg = st.segmented_control("Segmento", opcoes, default=opcoes[0], label_visibility="collapsed", key="seg") or opcoes[0]
+else:
+    seg = st.radio("Segmento", opcoes, horizontal=True, label_visibility="collapsed", key="seg")
+
+st.sidebar.header("🗓️ Período da produção")
+cen = st.sidebar.radio("Considerar", list(CENARIOS), format_func=lambda k: CENARIOS[k][0], label_visibility="collapsed",
+                       help="Desde o ingresso: só publicações e atividades a partir do ano de entrada do docente na Rede "
+                            "Federal (a titulação conta inteira). Currículo completo: toda a produção registrada no Lattes.")
+d0, T, INS, SERIES = carregar(cen)
+RECORTE = cen == "ingresso"
+fmt_int = lambda v: f"{int(v):,}".replace(",", ".")
+_exc = d0.loc[~d0["coleta_cv"].astype(bool), "sigla"].value_counts() if "coleta_cv" in d0 else pd.Series(dtype=int)
+TXT_EXCL = (f"{fmt_int(_exc.sum())} docentes ({', '.join(f'{k}: {fmt_int(v)}' for k, v in _exc.head(4).items())}"
+            + (" e outros" if len(_exc) > 4 else "") + ")") if _exc.sum() else "nenhum docente"
 N_REDE = len(d0)
 PTS = [c for c in d0.columns if c.startswith("pts_") and c != "pts_IPA_T_total"]
-fmt_int = lambda v: f"{int(v):,}".replace(",", ".")
 
 
 def score_perfil(d: pd.DataFrame, peso_perfil: float, complemento: str) -> pd.Series:
@@ -156,15 +179,16 @@ if reposicionar:
 filtrado = len(d) < N_REDE
 
 # ------------------------------------------------------------------ cabeçalho e menu superior
-st.title("🎓 Valorização Docente na Rede Federal")
+st.title("🎓 Ranking de docentes e instituições da Rede Federal por perfis de atuação")
 st.caption("Dados públicos do Portal Integra (currículos Lattes) · docentes efetivos de "
-           f"{d0['sigla'].nunique()} instituições · ranking multidimensional de instituições e docentes")
+           f"{d0['sigla'].nunique()} instituições · período: **{CENARIOS[cen][0][0].lower() + CENARIOS[cen][0][1:]}**"
+           + (" (exceto formação acadêmica)" if RECORTE else ""))
 c = st.columns(5)
 c[0].metric("Docentes no filtro", fmt_int(len(d)))
 c[1].metric("Instituições", d["sigla"].nunique())
 c[2].metric("Campi", d[["sigla", "campus"]].dropna().drop_duplicates().shape[0])
 c[3].metric("Artigos registrados", fmt_int(d["artigos_total"].sum()))
-c[4].metric("% doutores", f"{100 * (d['nivel_titulacao'] >= 4).mean():.1f}%" if len(d) else "—")
+c[4].metric("% doutores", f"{100 * (d['nivel_titulacao'] >= 4).mean():.1f}%".replace(".", ",") if len(d) else "—")
 if d.empty:
     st.warning("Nenhum docente com esses filtros.")
     st.stop()
@@ -172,11 +196,6 @@ if filtrado:
     st.info("Filtros ativos: os rankings institucionais são recalculados só com os docentes filtrados "
             "(por exemplo, só doutores ou só uma área).")
 
-opcoes = ["🏛️ Instituição", "👩‍🏫 Docente"]
-if hasattr(st, "segmented_control"):
-    seg = st.segmented_control("Segmento", opcoes, default=opcoes[0], label_visibility="collapsed") or opcoes[0]
-else:
-    seg = st.radio("Segmento", opcoes, horizontal=True, label_visibility="collapsed")
 
 
 # ================================================================== INSTITUIÇÃO
@@ -187,10 +206,18 @@ def segmento_instituicao():
     # ---------- ranking institucional
     with abas[0]:
         st.subheader("🏆 Ranking institucional")
+        tipo = st.radio("Tipo de ranking", ["⚖️ Proporcional ao nº de docentes (média)", "📦 Quantitativo bruto (soma dos scores)"],
+                        horizontal=True, help="Proporcional: SI = média do escore dos docentes (intensidade por docente). "
+                                              "Bruto: soma dos escores de todos os docentes (volume total; favorece unidades grandes).")
+        bruto = tipo.startswith("📦")
         c1, c2, c3 = st.columns([1.2, 1.6, 1.2])
         nivel = c1.radio("Nível de agregação", ["Instituição", "Campus", "Região"], horizontal=True)
-        idx = c2.selectbox("Ordenar por", list(IND_INST) + [f"PI_{k}" for k in PILARES],
-                           format_func=lambda k: IND_INST.get(k, f"Pilar: {PILARES.get(k[3:], k)}"))
+        if bruto:
+            idx = "SI_total"
+            c2.markdown("**Ordenado por:** soma dos escores dos docentes (mil pontos)")
+        else:
+            opc = [k for k in IND_INST if k != "SI_total"] + [f"PI_{k}" for k in PILARES]
+            idx = c2.selectbox("Ordenar por", opc, format_func=lambda k: IND_INST.get(k, f"Pilar: {PILARES.get(k[3:], k)}"))
         min_n = c3.number_input("Mínimo de docentes na unidade", 1, 500, 20 if nivel == "Campus" else 1)
         with st.expander("⚖️ Pesos dos pilares no Score Institucional (padrão: 25% cada)"):
             cp = st.columns(4)
@@ -208,8 +235,8 @@ def segmento_instituicao():
         mc = st.columns(3)
         for i, (_, x) in enumerate(top.iterrows()):
             mc[i].markdown(f"### {['🥇', '🥈', '🥉'][i]} {x['unidade']}")
-            mc[i].metric(IND_INST.get(idx, idx), f"{x[idx]:.1f}",
-                         f"{fmt_int(x['docentes'])} docentes · faixa {int(x['faixa'])}", delta_color="off")
+            mc[i].metric(IND_INST.get(idx, idx), f"{x[idx]:.1f}".replace(".", ","),
+                         f"{fmt_int(x['docentes'])} docentes" + ("" if bruto else f" · faixa {int(x['faixa'])}"), delta_color="off")
         n_show = min(len(a), 40)
         fig = go.Figure(go.Bar(
             x=a[idx].head(n_show)[::-1], y=a["unidade"].head(n_show)[::-1], orientation="h", marker_color=AZUL,
@@ -218,13 +245,26 @@ def segmento_instituicao():
         fig.update_layout(height=max(380, 22 * n_show), margin=dict(l=10, r=10, t=40, b=10),
                           title=f"{IND_INST.get(idx, idx)} — {nivel.lower()}" + (" (barras: IC 95%)" if idx == "SI" else ""))
         st.plotly_chart(fig, **W)
-        cols = (["posição", "unidade", "docentes", "faixa", "SI", "IC_inf", "IC_sup", "SI_esperado", "valor_agregado", "pos_valor_agregado"] + [f"PI_{k}" for k in PILARES] +
+        cols = (["posição", "unidade", "docentes"] + (["SI_total", "pos_SI_total", "pos_SI"] if bruto else []) + ["faixa", "SI", "IC_inf", "IC_sup", "SI_esperado", "valor_agregado", "pos_valor_agregado"] + [f"PI_{k}" for k in PILARES] +
                 ["pilar_forte", "perfil_predominante", "SP_medio", "IPA_T_medio", "IM_medio", "pos_SI", "pos_SP_medio",
                  "pos_IPA_T_medio", "pos_IM_medio", "pct_doutores", "qualisA_por_docente", "orient_mestrado_por_docente",
                  "extensao_por_docente", "gestao_por_docente"])
         cols = [c for c in cols if c in a.columns]
-        st.dataframe(a[cols].rename(columns={f"PI_{k}": f"pilar {PILARES[k].lower()}" for k in PILARES}), hide_index=True, **W,
+        cols = list(dict.fromkeys(cols))
+        st.dataframe(a[cols].rename(columns={f"PI_{k}": f"pilar {PILARES[k].lower()}" for k in PILARES} |
+                                    {"SI_total": "score bruto (mil)", "pos_SI_total": "posição bruto", "pos_SI": "posição proporcional"}),
+                     hide_index=True, **W,
                      column_config={"SI": st.column_config.ProgressColumn("SI", min_value=0, max_value=100, format="%.1f")})
+        if len(a) > 2:
+            st.markdown("**Bruto × proporcional:** quem sobe e quem desce quando o tamanho da unidade entra na conta")
+            fig = px.scatter(a, x="pos_SI", y="pos_SI_total", text="unidade" if len(a) <= 60 else None, size="docentes", height=480,
+                             labels={"pos_SI": "posição no ranking proporcional (SI médio)", "pos_SI_total": "posição no ranking bruto (soma)"})
+            fig.add_shape(type="line", x0=1, y0=1, x1=len(a), y1=len(a), line=dict(dash="dash", color=CINZA))
+            fig.update_traces(textposition="top center", marker_color=AZUL)
+            fig.update_yaxes(autorange="reversed"); fig.update_xaxes(autorange="reversed")
+            st.plotly_chart(fig, **W)
+            st.caption("Acima da diagonal: a unidade fica melhor no ranking bruto (tem muitos docentes); abaixo: fica melhor "
+                       "no proporcional (rende mais por docente). Tamanho do ponto = nº de docentes.")
         como_ler(f"""
 **Score Institucional (SI).** Cada docente efetivo recebe um escore $s_i = \\sum_k w_k P_{{ik}}$, em que $P_{{ik}}$ é o seu
 pilar *k* em percentil na Rede (0 a 100) e $w_k$ são os pesos acima (padrão: 25% para cada pilar). O SI da unidade é a média
@@ -238,10 +278,14 @@ deve ser lida com cautela.
 (o "esperado"); o valor agregado é o SI observado menos a média desses esperados. Positivo: a unidade rende acima do que a
 formação e a área dos seus docentes fariam esperar.
 
-**Coleta incompleta.** Docentes cujo currículo não pôde ser lido na coleta ficam fora do ranking institucional (hoje, 475 do IFSP).
+**Período.** {"Só entram publicações e atividades a partir do ano de ingresso do docente na Rede Federal (a titulação conta inteira)." if RECORTE else "Toda a produção registrada no currículo."}
 
-**Por que média e não soma.** A média mede a intensidade da atuação por docente e não favorece instituições grandes.
-Os totais estão na aba *Dados agregados*.
+**Coleta incompleta.** Docentes cujo currículo não pôde ser lido na coleta ficam fora do ranking institucional (hoje, {TXT_EXCL}).
+
+**Dois rankings.** O **proporcional** (SI, média) mede a intensidade da atuação por docente e não favorece instituições
+grandes. O **bruto** soma os escores de todos os docentes, $SB_j = \\sum_{{i \\in j}} s_i$ (em milhares de pontos): mede o volume
+total de atuação da unidade e cresce com o número de docentes. Os dois juntos separam "rende muito por docente" de
+"tem muita gente atuando".
 
 **Exemplo ({a.iloc[0]['unidade']}).** {fmt_int(a.iloc[0]['docentes'])} docentes; pilares institucionais
 {', '.join(f"{PILARES[k].lower()} = {a.iloc[0][f'PI_{k}']:.1f}" for k in PILARES)}; SI = {a.iloc[0]['SI']:.1f}
@@ -325,8 +369,8 @@ Os totais estão na aba *Dados agregados*.
                                         pct_lattes_mais_2anos=("anos_sem_atualizar_lattes", lambda s: round(100 * (s > 2).mean(), 1)),
                                         pct_baixo_registro=("perfil", lambda s: round(100 * (s == "Baixo registro").mean(), 1))).reset_index()
             st.dataframe(ql.sort_values("pct_baixo_registro", ascending=False), hide_index=True, **W)
-            st.warning("Cuidados: 475 docentes do IFSP não tiveram o currículo lido na coleta (ficam fora do ranking institucional "
-                       "até a nova coleta). A data de atualização do Lattes parece incorreta no portal do IFRN (99,7% \"desatualizados\") "
+            st.warning(f"Cuidados: {TXT_EXCL} ficam fora do ranking institucional porque o currículo"
+                       + (" ou o ano de ingresso" if RECORTE else "") + " não pôde ser lido na coleta. A data de atualização do Lattes parece incorreta no portal do IFRN (99,7% \"desatualizados\") "
                        "e ausente no do IFMS; por isso essa coluna não deve ser comparada entre instituições.")
 
     # ---------- comparar instituições
@@ -556,6 +600,9 @@ quatro dimensões; **PC1** usa os pesos estatísticos do primeiro componente pri
                                        "Valor (0–100)": [round(x[k], 1) for k in INDICES],
                                        "Posição na Rede": [int(x[f"rank_{k}"]) for k in INDICES]}), hide_index=True, **W)
             st.markdown(f"Posição dentro do perfil: **{int(x['rank_SP_no_perfil'])}º de {int(x['n_perfil'])}**")
+            if "ano_ingresso" in x and pd.notna(x["ano_ingresso"]):
+                st.caption(f"Ingresso na Rede Federal: {int(x['ano_ingresso'])} (pelo Lattes)"
+                           + (" · produção contada a partir desse ano" if RECORTE else ""))
             pes = T["score_perfil_pesos"].set_index("perfil").loc[x["perfil"]]
             comp = pd.DataFrame({"Pilar": list(PILARES.values()), "Pilar (0–100)": [x[f"P_{k}"] for k in PILARES],
                                  "Peso no perfil": [pes[f"peso_{k}"] for k in PILARES]})

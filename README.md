@@ -1,6 +1,6 @@
 # Valorização Docente na Rede Federal
 
-Painel e pipeline de análise do TCC **"A dimensão multidimensional da valorização docente: ranking por perfis de atuação e o efeito da escolha de pesos na Rede Federal de Educação Profissional, Científica e Tecnológica"**.
+Painel e pipeline de análise do TCC **"Ranking de docentes e instituições da Rede Federal por perfis de atuação"**.
 
 - **Autor:** Edvaldo Pinto Maninho Júnior – Tecnologia em Sistemas para Internet, Instituto Federal de Brasília (IFB)
 - **Orientador:** Prof. Gustavo Henrique Dornelas de Deus
@@ -23,10 +23,14 @@ pip install -r requirements.txt
 streamlit run dashboard.py
 ```
 
-O painel tem dois segmentos no menu superior; os filtros da barra lateral valem para os dois.
+O painel tem dois segmentos no menu do topo, acima do título; os filtros da barra lateral valem para os dois.
 
-**🏛️ Instituição** – ranking institucional (região, instituição ou campus) pelo **Score Institucional (SI)**, com
-intervalo de confiança de 95% e faixas de empate estatístico; comparação de 2 a 4 instituições; regiões e
+**Período da produção** (barra lateral): *desde o ingresso na Rede Federal* (padrão: só publicações e atividades a partir do
+ano de entrada do docente na Rede, exceto a formação acadêmica) ou *currículo completo*.
+
+**🏛️ Instituição** – dois rankings institucionais (região, instituição ou campus): **proporcional** ao número de
+docentes (Score Institucional, SI = média, com intervalo de confiança de 95% e faixas de empate estatístico) e
+**quantitativo bruto** (soma dos escores dos docentes); comparação de 2 a 4 instituições; regiões e
 localização (capital × interior); funil e cobertura; séries temporais; dados agregados; sobre.
 
 **👩‍🏫 Docente** – ranking de docentes pelo **Score por Perfil (SP)** e pelos índices de comparação, com ficha do
@@ -37,8 +41,11 @@ docente; comparação de professores; perfis (K-Means); áreas; publicações; q
 - Pilar do docente *i* na dimensão *k*: `P_ik = 100 × (nº de docentes com escala k menor) / (N − 1)`.
 - **Score por Perfil:** `SP_i = Σ_k w_pk · P_ik`, com 80% do peso nos pilares dominantes do perfil *p*
   (centróide > 0,25 dp, proporcional ao centróide) e 20% igual entre os quatro pilares.
-- **Score Institucional:** `SI_j = média_i∈j ( Σ_k w_k · P_ik )`, pesos padrão de 25% por pilar;
-  `IC95% = SI_j ± 1,96 · dp/√n_j`. Implementação em `ranking_institucional.py`.
+- **Score Institucional (proporcional):** `SI_j = média_i∈j ( Σ_k w_k · P_ik )`, pesos padrão de 25% por pilar;
+  `IC95% = SI_j ± 1,96 · dp/√n_j`.
+- **Score bruto:** `SB_j = Σ_i∈j ( Σ_k w_k · P_ik ) / 1000` (milhares de pontos). Implementação em `ranking_institucional.py`.
+- **Recorte por ingresso:** ano de ingresso = 1º ano de vínculo empregatício numa instituição da Rede (Lattes);
+  cada contagem é multiplicada pela fração dos itens datados a partir desse ano (`recorte_ingresso.py`).
 
 ## Pipeline completo (regenera os dados)
 
@@ -49,6 +56,8 @@ docente; comparação de professores; perfis (K-Means); áreas; publicações; q
 | Análise fatorial, perfis, índices | `analise_exploratoria.py` | `data/analise/` |
 | Séries temporais | `analise_series.py` | `data/analise/series/` |
 | Ranking e Score por Perfil | `analise_ranking.py` | `data/analise/ranking/`, `data/dashboard/` |
+| Ano de ingresso na Rede (coleta) | `extrair_ingresso.py` | `data/raw_ingresso/` |
+| Recorte por ingresso | `recorte_ingresso.py` + `TCC_CENARIO=ingresso` nas etapas acima | `data/cenario_ingresso/` |
 
 No macOS, `rodar_extracao.command`, `atualizar_dados.command` e `abrir_dashboard.command` fazem tudo com dois cliques.
 

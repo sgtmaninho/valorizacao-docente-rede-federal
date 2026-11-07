@@ -15,7 +15,8 @@ from sklearn.preprocessing import StandardScaler
 from analise_exploratoria import VARS_MULTI, CONTAGENS, varimax
 
 BASE = Path(__file__).parent
-AN = BASE / "data" / "analise"
+import config as _CFG
+AN = _CFG.DATA_DIR / "analise"
 OUT = AN / "doc"; OUT.mkdir(parents=True, exist_ok=True)
 AZUL, LARANJA, VERDE, ROXO, CINZA = "#2a78d6", "#eb6834", "#4fa36b", "#8e5bc4", "#8a8f98"
 plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 9, "axes.spines.top": False,
