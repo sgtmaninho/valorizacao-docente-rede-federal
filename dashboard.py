@@ -137,12 +137,12 @@ def como_ler(texto):
 
 # ------------------------------------------------------------------ barra lateral (filtros comuns)
 st.sidebar.header("🔍 Filtros (valem para Instituição e Docente)")
-sel = lambda rot, col: st.sidebar.multiselect(rot, sorted(d0[col].dropna().unique()))
+sel = lambda rot, col: st.sidebar.multiselect(rot, sorted(d0[col].dropna().unique()), placeholder="Todas")
 f_reg = sel("Região", "regiao")
 base_if = d0[d0["regiao"].isin(f_reg)] if f_reg else d0
-f_if = st.sidebar.multiselect("Instituição", sorted(base_if["sigla"].dropna().unique()))
+f_if = st.sidebar.multiselect("Instituição", sorted(base_if["sigla"].dropna().unique()), placeholder="Todas")
 base_campus = base_if[base_if["sigla"].isin(f_if)] if f_if else base_if
-f_campus = st.sidebar.multiselect("Campus", sorted(base_campus["campus"].dropna().unique()))
+f_campus = st.sidebar.multiselect("Campus", sorted(base_campus["campus"].dropna().unique()), placeholder="Todos")
 f_loc = sel("Localização do campus", "localizacao")
 f_area = sel("Grande área CNPq", "grande_area")
 f_tit = sel("Titulação", "titulacao")
