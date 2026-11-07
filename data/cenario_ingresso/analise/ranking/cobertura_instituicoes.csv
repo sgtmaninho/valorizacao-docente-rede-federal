@@ -1,34 +1,34 @@
 ﻿sigla,instituicao,uf,regiao,servidores_portal,docentes_efetivos,campi,pct_doutores,artigos_total,qualis_A_total,artigos_por_docente,pct_sem_producao,pct_lattes_mais_2anos,pct_baixo_registro,registros_producao,posicao_volume_dados
-IFSP,Instituto Federal de São Paulo,SP,Sudeste,5049,2744.0,37.0,53.24,15459.0,5430.0,5.63,24.82,17.49,37.57,56637.0,1
+IFSP,Instituto Federal de São Paulo,SP,Sudeste,5049,2744.0,37.0,53.24,13872.0,4881.0,5.06,27.77,17.49,41.73,49721.0,1
 IFSC,Instituto Federal de Santa Catarina,SC,Sul,2796,1520.0,23.0,62.43,11332.0,4321.0,7.46,7.89,24.28,24.54,37835.0,2
-IFGOIANO,Instituto Federal Goiano,GO,Centro-Oeste,1567,806.0,14.0,69.98,12628.0,4830.0,15.67,12.03,17.74,26.55,34937.0,3
+IFGOIANO,Instituto Federal Goiano,GO,Centro-Oeste,1567,806.0,14.0,69.98,12628.0,4830.0,15.67,12.03,17.74,25.43,34937.0,3
 IFRS,Instituto Federal do Rio Grande do Sul,RS,Sul,2417,1243.0,20.0,69.67,7843.0,3371.0,6.31,12.95,10.38,26.95,34481.0,4
-IFCE,Instituto Federal do Ceará,CE,Nordeste,4407,1460.0,33.0,51.92,10922.0,4165.0,7.48,17.95,41.92,40.96,33212.0,5
-IFPR,Instituto Federal do Paraná,PR,Sul,2539,1536.0,27.0,57.62,9483.0,3416.0,6.17,14.06,23.57,34.96,33032.0,6
-IFMA,Instituto Federal do Maranhão,MA,Nordeste,3242,1839.0,32.0,39.1,9202.0,3159.0,5.0,23.6,24.36,44.48,30321.0,7
-IFPB,Instituto Federal da Paraíba,PB,Nordeste,2408,1361.0,17.0,52.02,7477.0,2248.0,5.49,17.05,40.78,42.69,26636.0,8
-IFRN,Instituto Federal do Rio Grande do Norte,RN,Nordeste,2644,1518.0,23.0,41.63,6521.0,2523.0,4.3,19.3,99.67,50.13,25112.0,9
-IFSULDEMINAS,Instituto Federal do Sul de Minas Gerais,MG,Sudeste,1213,653.0,10.0,69.37,7293.0,2137.0,11.17,8.73,23.12,16.69,25076.0,10
-IFPA,Instituto Federal do Pará,PA,Norte,2471,1454.0,19.0,41.54,9427.0,2874.0,6.48,16.51,18.23,40.37,24705.0,11
-IFRJ,Instituto Federal do Rio de Janeiro,RJ,Sudeste,1795,1060.0,16.0,67.74,8236.0,3773.0,7.77,16.89,24.06,30.19,24670.0,12
-IFFAR,Instituto Federal Farroupilha,RS,Sul,1684,788.0,12.0,65.61,5076.0,2047.0,6.44,10.03,26.65,22.72,23132.0,13
-IFBA,Instituto Federal da Bahia,BA,Nordeste,3434,1782.0,2.0,44.78,7110.0,2438.0,3.99,24.58,32.49,46.13,23062.0,14
-IFG,Instituto Federal de Goiás,GO,Centro-Oeste,2074,1146.0,16.0,63.09,6882.0,2609.0,6.01,14.83,20.33,31.94,22620.0,15
-IFPE,Instituto Federal de Pernambuco,PE,Nordeste,2021,1189.0,17.0,46.01,6221.0,1998.0,5.23,25.4,36.33,48.28,19237.0,16
-IFC,Instituto Federal Catarinense,SC,Sul,2244,698.0,16.0,65.62,5273.0,2078.0,7.55,15.19,21.2,32.52,17973.0,17
-IFTM,Instituto Federal do Triângulo Mineiro,MG,Sudeste,1320,638.0,9.0,60.82,4498.0,1389.0,7.05,14.73,20.53,27.12,17651.0,18
-IFMG,Instituto Federal de Minas Gerais,MG,Sudeste,2023,1064.0,20.0,60.62,6500.0,2155.0,6.11,18.33,22.37,34.68,17452.0,19
-IFRO,Instituto Federal de Rondônia,RO,Norte,2536,943.0,11.0,40.3,6127.0,1765.0,6.5,20.15,19.62,41.15,16589.0,20
-IFAL,Instituto Federal de Alagoas,AL,Nordeste,1969,1028.0,17.0,48.64,5019.0,1721.0,4.88,20.91,30.06,43.77,14393.0,21
-IFSUDESTEMG,Instituto Federal do Sudeste de Minas Gerais,MG,Sudeste,1601,625.0,11.0,58.72,4524.0,1465.0,7.24,14.88,24.96,29.76,14370.0,22
-IFF,Instituto Federal Fluminense,RJ,Sudeste,1697,993.0,14.0,48.14,4872.0,1655.0,4.91,26.89,32.43,51.36,13991.0,23
-IFTO,Instituto Federal do Tocantins,TO,Norte,1257,687.0,11.0,46.87,4718.0,1582.0,6.87,15.72,25.47,39.16,13856.0,24
-IFNMG,Instituto Federal do Norte de Minas Gerais,MG,Sudeste,1456,727.0,12.0,47.18,4266.0,1353.0,5.87,20.08,31.22,38.65,13758.0,25
-IFAM,Instituto Federal do Amazonas,AM,Norte,2082,981.0,18.0,32.52,5569.0,1981.0,5.68,22.12,24.67,49.44,13634.0,26
+IFCE,Instituto Federal do Ceará,CE,Nordeste,4407,1460.0,33.0,51.92,10922.0,4165.0,7.48,17.95,41.92,40.62,33212.0,5
+IFPR,Instituto Federal do Paraná,PR,Sul,2539,1536.0,27.0,57.62,9483.0,3416.0,6.17,14.06,23.57,34.77,33032.0,6
+IFMA,Instituto Federal do Maranhão,MA,Nordeste,3242,1839.0,32.0,39.1,9202.0,3159.0,5.0,23.6,24.36,43.94,30321.0,7
+IFPB,Instituto Federal da Paraíba,PB,Nordeste,2408,1361.0,17.0,52.02,7477.0,2248.0,5.49,17.05,40.78,42.03,26636.0,8
+IFRN,Instituto Federal do Rio Grande do Norte,RN,Nordeste,2644,1518.0,23.0,41.63,6521.0,2523.0,4.3,19.3,99.67,49.6,25112.0,9
+IFSULDEMINAS,Instituto Federal do Sul de Minas Gerais,MG,Sudeste,1213,653.0,10.0,69.37,7293.0,2137.0,11.17,8.73,23.12,16.08,25076.0,10
+IFPA,Instituto Federal do Pará,PA,Norte,2471,1454.0,19.0,41.54,9427.0,2874.0,6.48,16.51,18.23,39.13,24705.0,11
+IFRJ,Instituto Federal do Rio de Janeiro,RJ,Sudeste,1795,1060.0,16.0,67.74,8236.0,3773.0,7.77,16.89,24.06,30.09,24670.0,12
+IFFAR,Instituto Federal Farroupilha,RS,Sul,1684,788.0,12.0,65.61,5076.0,2047.0,6.44,10.03,26.65,22.46,23132.0,13
+IFBA,Instituto Federal da Bahia,BA,Nordeste,3434,1782.0,2.0,44.78,7110.0,2438.0,3.99,24.58,32.49,45.23,23062.0,14
+IFG,Instituto Federal de Goiás,GO,Centro-Oeste,2074,1146.0,16.0,63.09,6882.0,2609.0,6.01,14.83,20.33,31.59,22620.0,15
+IFPE,Instituto Federal de Pernambuco,PE,Nordeste,2021,1189.0,17.0,46.01,6221.0,1998.0,5.23,25.4,36.33,47.43,19237.0,16
+IFC,Instituto Federal Catarinense,SC,Sul,2244,698.0,16.0,65.62,5273.0,2078.0,7.55,15.19,21.2,32.81,17973.0,17
+IFTM,Instituto Federal do Triângulo Mineiro,MG,Sudeste,1320,638.0,9.0,60.82,4498.0,1389.0,7.05,14.73,20.53,26.96,17651.0,18
+IFMG,Instituto Federal de Minas Gerais,MG,Sudeste,2023,1064.0,20.0,60.62,6500.0,2155.0,6.11,18.33,22.37,33.93,17452.0,19
+IFRO,Instituto Federal de Rondônia,RO,Norte,2536,943.0,11.0,40.3,6127.0,1765.0,6.5,20.15,19.62,40.83,16589.0,20
+IFAL,Instituto Federal de Alagoas,AL,Nordeste,1969,1028.0,17.0,48.64,5019.0,1721.0,4.88,20.91,30.06,43.19,14393.0,21
+IFSUDESTEMG,Instituto Federal do Sudeste de Minas Gerais,MG,Sudeste,1601,625.0,11.0,58.72,4524.0,1465.0,7.24,14.88,24.96,29.6,14370.0,22
+IFF,Instituto Federal Fluminense,RJ,Sudeste,1697,993.0,14.0,48.14,4872.0,1655.0,4.91,26.89,32.43,50.86,13991.0,23
+IFTO,Instituto Federal do Tocantins,TO,Norte,1257,687.0,11.0,46.87,4718.0,1582.0,6.87,15.72,25.47,38.43,13856.0,24
+IFNMG,Instituto Federal do Norte de Minas Gerais,MG,Sudeste,1456,727.0,12.0,47.18,4266.0,1353.0,5.87,20.08,31.22,38.1,13758.0,25
+IFAM,Instituto Federal do Amazonas,AM,Norte,2082,981.0,18.0,32.52,5569.0,1981.0,5.68,22.12,24.67,49.13,13634.0,26
 IFSERTAOPE,Instituto Federal do Sertão Pernambucano,PE,Nordeste,1260,640.0,8.0,42.66,4100.0,1476.0,6.41,26.25,23.28,43.75,12049.0,27
-IFB,Instituto Federal de Brasília,DF,Centro-Oeste,1262,717.0,10.0,54.11,3287.0,1424.0,4.58,21.2,24.27,42.82,10666.0,28
-IFS,Instituto Federal de Sergipe,SE,Nordeste,1520,700.0,9.0,50.71,3016.0,1029.0,4.31,24.43,17.57,50.0,9598.0,29
-IFMS,Instituto Federal de Mato Grosso do Sul,MS,Centro-Oeste,1147,603.0,11.0,44.78,2779.0,850.0,4.61,21.56,0.0,44.44,9438.0,30
-IFAP,Instituto Federal do Amapá,AP,Norte,810,361.0,6.0,33.52,2747.0,731.0,7.61,15.79,13.85,30.75,7986.0,31
-IFAC,Instituto Federal do Acre,AC,Norte,805,479.0,6.0,32.99,2408.0,741.0,5.03,27.77,17.54,49.9,6399.0,32
-IFRR,Instituto Federal de Roraima,RR,Norte,666,299.0,6.0,33.11,1046.0,253.0,3.5,24.75,25.08,50.17,3650.0,33
+IFB,Instituto Federal de Brasília,DF,Centro-Oeste,1262,717.0,10.0,54.11,3287.0,1424.0,4.58,21.2,24.27,42.12,10666.0,28
+IFS,Instituto Federal de Sergipe,SE,Nordeste,1520,700.0,9.0,50.71,3016.0,1029.0,4.31,24.43,17.57,49.71,9598.0,29
+IFMS,Instituto Federal de Mato Grosso do Sul,MS,Centro-Oeste,1147,603.0,11.0,44.78,2779.0,850.0,4.61,21.56,0.0,43.28,9438.0,30
+IFAP,Instituto Federal do Amapá,AP,Norte,810,361.0,6.0,33.52,2747.0,731.0,7.61,15.79,13.85,29.64,7986.0,31
+IFAC,Instituto Federal do Acre,AC,Norte,805,479.0,6.0,32.99,2408.0,741.0,5.03,27.77,17.54,49.48,6399.0,32
+IFRR,Instituto Federal de Roraima,RR,Norte,666,299.0,6.0,33.11,1046.0,253.0,3.5,24.75,25.08,50.5,3650.0,33

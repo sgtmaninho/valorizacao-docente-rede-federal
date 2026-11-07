@@ -1,30 +1,30 @@
 ﻿dimensao,grupo,docentes,desloc_mediano_IPAT_para_SP,desloc_mediano_IPAT_para_IM,pct_no_top10_IPA_T,pct_no_top10_IM,pct_no_top10_SP,pct_sobe_mais_10pct,pct_cai_mais_10pct
-perfil,Baixo registro,13248,-352.5,20.0,0.0,0.0,0.0,9.9,19.2
-perfil,Extensionista-difusor,5603,262.0,-467.0,16.0,11.4,14.4,19.0,12.4
-perfil,Gestor-formador,6841,2043.0,1809.0,9.3,13.0,12.9,36.1,5.6
-perfil,Pesquisador acadêmico,6683,-975.0,-3408.0,12.4,6.4,12.2,8.1,25.8
-perfil,Pesquisador-formador,1907,-264.0,1116.0,56.0,77.6,48.5,6.8,9.9
-regiao,Centro-Oeste,3272,-228.5,-31.5,12.5,13.1,12.1,15.4,17.8
-regiao,Nordeste,11517,168.0,212.0,7.5,8.7,7.6,16.9,15.3
-regiao,Norte,5204,256.5,-119.5,7.5,6.3,7.3,18.0,15.2
-regiao,Sudeste,8504,208.0,6.0,11.2,11.3,11.6,15.7,14.7
-regiao,Sul,5785,-356.0,-480.0,14.1,12.4,13.6,13.7,19.9
-titulacao,Doutorado,14803,-1008.0,-1031.0,13.9,14.7,14.7,5.2,25.3
-titulacao,Especialização,1893,2730.0,2435.0,0.0,0.1,0.1,42.2,0.1
-titulacao,Graduação,382,1328.0,64.0,0.0,0.0,0.0,27.0,0.0
-titulacao,Mestrado,13671,1032.0,1051.0,0.6,1.5,2.0,27.9,5.2
-titulacao,Pós-doutorado,2963,-1814.0,-1350.0,43.1,35.6,32.7,0.5,36.3
-titulacao,Sem informação,80,1058.0,6.0,0.0,0.0,0.0,2.5,0.0
-localizacao,Capital,6942,67.5,194.0,11.2,11.9,10.9,15.7,14.9
-localizacao,Interior,23032,42.5,-38.0,9.7,9.6,9.9,16.0,16.7
-localizacao,Reitoria,873,301.0,75.0,18.1,17.8,17.1,17.6,14.4
-localizacao,Sem campus,3435,148.0,-55.0,7.2,7.3,6.9,16.9,15.4
-grande_area,Ciencias Agrarias,2799,1.0,-92.0,19.0,20.2,20.8,11.3,16.3
-grande_area,Ciencias Biologicas,1374,-662.5,-564.5,15.8,14.1,13.3,10.9,22.8
-grande_area,Ciencias Da Saude,1364,299.5,-575.5,12.4,9.9,12.8,16.4,13.8
-grande_area,Ciencias Exatas E Da Terra,7630,102.0,344.5,8.0,10.0,8.3,19.3,16.1
-grande_area,Ciencias Humanas,5545,-176.0,-371.0,15.0,11.7,13.5,15.3,17.7
-grande_area,Ciencias Sociais Aplicadas,2543,423.0,344.0,10.7,10.8,11.7,20.9,13.2
-grande_area,Engenharias,4615,199.0,788.0,6.9,10.3,7.2,16.0,14.8
-grande_area,Linguistica Letras E Artes,3533,-21.0,-487.0,8.0,5.4,8.0,17.0,17.1
-grande_area,Outros,449,239.0,422.0,11.8,12.9,11.8,14.5,12.0
+perfil,Baixo registro,13210,-403.5,19.0,0.0,0.0,0.0,9.7,19.8
+perfil,Extensionista-difusor,5731,405.0,-417.0,15.0,10.4,14.1,20.8,11.6
+perfil,Gestor-formador,6830,2024.5,1831.5,9.3,13.3,12.9,36.2,5.8
+perfil,Pesquisador acadêmico,6589,-1056.0,-3438.0,13.1,6.6,12.4,7.6,26.5
+perfil,Pesquisador-formador,1922,-276.5,1125.5,55.5,77.6,48.0,6.9,10.1
+regiao,Centro-Oeste,3272,-208.0,-31.5,12.7,13.3,12.3,15.7,17.7
+regiao,Nordeste,11517,185.0,222.0,7.6,8.7,7.8,17.3,15.5
+regiao,Norte,5204,292.0,-111.5,7.6,6.2,7.5,18.3,15.2
+regiao,Sudeste,8504,203.0,7.0,10.8,11.0,11.1,15.6,15.4
+regiao,Sul,5785,-364.0,-436.0,14.2,12.6,13.8,13.7,19.8
+titulacao,Doutorado,14803,-1023.0,-1012.0,14.0,14.7,14.8,5.2,25.7
+titulacao,Especialização,1893,2798.0,2421.0,0.0,0.1,0.1,43.1,0.1
+titulacao,Graduação,382,1351.0,61.0,0.0,0.0,0.0,27.2,0.0
+titulacao,Mestrado,13671,1052.0,1075.0,0.7,1.5,2.1,28.1,5.2
+titulacao,Pós-doutorado,2963,-1847.0,-1373.0,42.9,35.6,32.3,0.4,36.8
+titulacao,Sem informação,80,1079.0,7.0,0.0,0.0,0.0,2.5,0.0
+localizacao,Capital,6942,77.0,199.5,11.3,11.9,11.1,15.8,15.0
+localizacao,Interior,23032,38.0,-27.5,9.7,9.6,9.8,16.2,17.0
+localizacao,Reitoria,873,285.0,71.0,17.8,17.5,17.0,17.9,14.5
+localizacao,Sem campus,3435,169.0,-32.0,7.3,7.3,7.0,17.5,15.3
+grande_area,Ciencias Agrarias,2799,-16.0,-47.0,19.3,20.4,20.9,11.1,16.5
+grande_area,Ciencias Biologicas,1374,-655.5,-534.5,15.8,14.3,13.2,11.0,23.1
+grande_area,Ciencias Da Saude,1364,281.5,-594.0,12.5,9.9,12.8,16.4,14.2
+grande_area,Ciencias Exatas E Da Terra,7630,85.5,381.0,8.0,10.1,8.3,19.3,16.4
+grande_area,Ciencias Humanas,5545,-163.0,-410.0,15.0,11.7,13.8,15.6,17.6
+grande_area,Ciencias Sociais Aplicadas,2543,435.0,343.0,10.6,10.5,11.6,21.4,13.4
+grande_area,Engenharias,4615,179.0,832.0,6.8,10.3,7.0,16.1,15.4
+grande_area,Linguistica Letras E Artes,3533,10.0,-580.0,7.9,5.2,7.9,17.7,17.1
+grande_area,Outros,449,255.0,411.0,11.8,13.1,12.0,14.5,12.2
